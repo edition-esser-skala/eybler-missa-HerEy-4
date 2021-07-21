@@ -682,6 +682,7 @@ tocLabelLong = #(define-music-function
   )
 )
 
+perd = \markup \remark  "perd."
 
 
 tempoKyrie = \tempoMarkup "Andante"

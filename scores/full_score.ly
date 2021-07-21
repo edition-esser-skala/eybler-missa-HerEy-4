@@ -42,20 +42,12 @@
             }
           >>
         >>
-        \new StaffGroup \with { \smallGroupDistance } <<
+        \new StaffGroup <<
           \new Staff <<
             \set Staff.instrumentName = \markup \center-column { "Corno I, II" "in C" }
             \partCombine \KyrieCornoI \KyrieCornoII
           >>
-          \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "Clarino I, II" "in C" }
-            \partCombine \KyrieClarinoI \KyrieClarinoII
-          >>
         >>
-        \new Staff {
-          \set Staff.instrumentName = \markup \center-column { "Timpani" "in C–G" }
-          \KyrieTimpani
-        }
         \new StaffGroup <<
           \new GrandStaff \with { \smallGroupDistance } <<
             \set GrandStaff.instrumentName = "Violino"
@@ -107,14 +99,14 @@
         \new StaffGroup <<
           \new Staff {
             \set Staff.instrumentName = \markup \center-column { "Organo" "e Bassi" }
-            % \transpose c c,
+            \transpose c c,
             \KyrieOrgano
           }
         >>
         \new FiguredBass { \KyrieBassFigures }
       >>
-      \layout { }
-      \midi { \tempo 4 = 80 }
+      % \layout { }
+      \midi { \tempo 4 = 70 }
     }
   }
 }
