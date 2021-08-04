@@ -686,6 +686,7 @@ perd = \markup \remark  "perd."
 
 
 tempoKyrie = \tempoMarkup "Andante"
+tempoGloria = \tempoMarkup "Allegro con spirito"
 
 
 \include "notes/ob1.ly"
