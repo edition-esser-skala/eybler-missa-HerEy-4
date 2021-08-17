@@ -237,3 +237,29 @@ CredoClarinoI = {
     c4 r r2\fermata \bar "|." %294 finis
   }
 }
+
+SanctusClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoSanctus
+    R2.*14 \noBreak %14
+    r4 r\fermata \bar "||" %15
+    \twofourtime \time 2/4 \tempoPleni
+      \partial 4 r4 \noBreak R2*7 %22
+    g'4\f r8 g16 g
+    g4 g
+    g r %25
+    R2
+    g4 r8 g16 g
+    g4 g
+    g r
+    R2*19 %48
+    e2\f
+    g %50
+    e4 r
+    R2
+    c'
+    d
+    e4\fermata \bar "|." %55 finis
+  }
+}

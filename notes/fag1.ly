@@ -507,3 +507,56 @@ CredoFagottoI = {
     c,4 r r2\fermata \bar "|." %294 finis
   }
 }
+
+SanctusFagottoI = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoSanctus
+    R2.*8 %8
+    r4 h'(\pp d)
+    f2 e4\trill
+    d h( d)
+    f2 e4\trill
+    d8 r r4 r
+    R2. \noBreak
+    r4 r\fermata \bar "||" %15
+    \twofourtime \time 2/4 \tempoPleni
+      \partial 4 r4 \noBreak r8 g\f fis f \noBreak
+    e d c e
+    a,2~
+    a
+    g~ %20
+    g
+    a
+    g4 g~
+    g g
+    g g~ %25
+    g g
+    g g~
+    g g
+    g g~
+    g g %30
+    g r
+    R2*4 %35
+    r4 \mvTr g\pE-\dolce-\solo
+    c2
+    h8( c e g)
+    g4( h,)
+    h g %40
+    g'2
+    e
+    f
+    d
+    e4 f %45
+    d2
+    e4 r
+    R2
+    g,~\f
+    g %50
+    e4 r
+    e8( g c e)
+    g2~
+    g
+    c,4\fermata \bar "|." %55 finis
+  }
+}

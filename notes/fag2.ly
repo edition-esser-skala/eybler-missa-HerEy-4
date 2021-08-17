@@ -493,3 +493,51 @@ CredoFagottoII = {
     c,4 r r2\fermata \bar "|." %294 finis
   }
 }
+
+SanctusFagottoII = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoSanctus
+    R2.*8 %8
+    r4 g'(\pp h)
+    d2 c4\trill
+    h g( h)
+    d2 c4\trill
+    h8 r r4 r
+    R2. \noBreak
+    r4 r\fermata \bar "||" %15
+    \twofourtime \time 2/4 \tempoPleni
+      \partial 4 r4 \noBreak r4 r8 g~\f \noBreak
+    g f e d
+    cis2
+    d
+    h %20
+    c!
+    f4 fis
+    g g~
+    g e8 c
+    h4 g'~ %25
+    g e'8 c
+    h4 g~
+    g e8 c
+    h4 g'~
+    g e'8 c %30
+    g4 r
+    R2*9 %40
+    e'2\p
+    cis
+    d
+    h
+    c!4 f, %45
+    g2
+    c4 r
+    R2
+    \once \tieDashed g,~\f^\critnote
+    g %50
+    c4 r
+    c8( e g c)
+    g2~
+    g
+    c,4\fermata \bar "|."
+  }
+}

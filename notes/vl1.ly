@@ -562,3 +562,66 @@ CredoViolinoI = {
     c4 r r2\fermata \bar "|." %294 finis
   }
 }
+
+SanctusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoSanctus
+    c8(\pp e g c e c)
+    h4( d) r
+    c,8( e g c e g)
+    g4( h,) r
+    e,8( g c e g c) %5
+    c2-\dolce d16( c h\trill a)
+    g4~ g8 a16( g a g e c)
+    h8.([ d16 c8. e16 g8. e16)]
+    d8( h d h g d)
+    h( d f h c e,) %10
+    d( h d g h d)
+    f( d g, f' e c')
+    h( fis g cis, d h)
+    g r r4 r \noBreak
+    r r\fermata \bar "||" %15
+    \twofourtime \time 2/4 \tempoPleni
+      \partial 4 r8 g16\f g \noBreak a a h h c c d d \noBreak
+    e e f f g g b, b
+    a a cis cis e e a a
+    f f d d a a f f
+    d  d h' h d d g g %20
+    e e c c g g e e
+    a a f f d d d' d
+    h h g, g h h d d
+    f f d d e e c c
+    h h g' g h h d d %25
+    f f d d e e c c
+    h h g, g h h d d
+    f f d d e e c c
+    h h g' g h h d d
+    f f d d e e c c %30
+    h h g' g d d h h
+    g g d d h h d d
+    \mvTr g,8(\p-\dolce c e g)
+    h( c e c)
+    h( f' d h) %35
+    g( f d h)
+    g( c e g)
+    h( c e g)
+    g( f d h)
+    g( f d h) %40
+    g( e'' g e)
+    cis( a g e)
+    f( d' f d)
+    h( g f d)
+    e( c' a a') %45
+    g( h, d f,)
+    e16\f e c c e e g g
+    c c e, e g g c c
+    e e c c g g e' e
+    d d h h g g h h %50
+    c c e, e g g c c
+    e e g, g c c e e
+    g g e e g g c c
+    h h g g h h d d
+    c4\fermata \bar "|." %55 finis
+  }
+}

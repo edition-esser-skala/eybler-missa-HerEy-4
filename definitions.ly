@@ -689,6 +689,7 @@ sulG = #(make-music
   'span-type 'text
   'span-text (markup (#:normal-text #:small "sul G"))
 )
+partialQuarter = \set Timing.measurePosition = #(ly:make-moment -1/4)
 
 
 tempoKyrie = \tempoMarkup "Andante"
@@ -698,6 +699,8 @@ tempoCredo = \tempoMarkup "Allegro"
   tempoPassus = \tempoMarkup "Stringendo"
   tempoEtSepultus = \tempoMarkup "Adagio"
   tempoEtResurrexit = \tempoMarkup "Vivace molto"
+tempoSanctus = \tempoMarkup "Adagio"
+  tempoPleni = \tempoMarkup "Allegro vivace"
 
 
 \include "notes/ob1.ly"

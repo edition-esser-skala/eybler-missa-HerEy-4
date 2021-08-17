@@ -1101,3 +1101,124 @@ CredoBassFigures = \figuremode {
   r
   r %294 finis
 }
+
+SanctusOrgano = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoSanctus
+    \mvTrr c8\pp-\pizz-\tuttiE r e r c r
+    g r g' r r4
+    c,8 r e r c r
+    g r g' r r4
+    c,8 r e r c r %5
+    f, r f' r r4
+    c8 r c' r r4
+    g8 r e r c r
+    g' r r4 r
+    r g8 r c r %10
+    g r r4 r
+    r h,8 r c r
+    g r \clef "treble_8" r cis'(-\arco-\unisonoE d h)
+    g r \clef bass r cis,( d h) \noBreak
+    g2\fermata \bar "||" %15
+    \twofourtime \time 2/4 \tempoPleni
+      \partial 4 r4 \noBreak r r8 \mvTr g'~\f-\soloE \noBreak
+    g f e d
+    cis-\tutti e a cis,
+    d a' f d
+    h d g h, %20
+    c! g' e c
+    f f, fis fis'
+    g g, h d
+    f d e c
+    h g' h d %25
+    f d e c
+    h g, h d
+    f d e c
+    h g' h d
+    f d e c %30
+    g g, h d
+    g h d f,
+    \mvTr e4\p-\solo g
+    e c
+    g h %35
+    d f
+    e g
+    e c
+    g h
+    d f %40
+    e e,
+    a a'
+    d, d,
+    g g'
+    c,! f %45
+    g g,
+    \mvTr c8\f-\tutti c' g e
+    c g' e c
+    g c e g
+    g, h d g %50
+    c, g'' e c
+    g c g e
+    c g' e c
+    g' d' h g
+    c4\fermata \bar "|." %55 finis
+  }
+}
+
+SanctusBassFigures = \figuremode {
+  r2.
+  r
+  r
+  r
+  r %5
+  r
+  r
+  r4 \bo <[6 \l]>2
+  r2.
+  r4 <7>2 %10
+  r2.
+  r4 \bc <[6 5]>2
+  r2.
+  r
+  r %15
+  r4. \bo <[7 5 3]>8
+  <6 4> <8 6> <10 8> \bc <[6- 4 2]>
+  <6 5>2
+  r
+  <6 5> %20
+  r
+  <6>4 <\t>
+  <3>2 \bassFigureExtendersOn
+  q8 q <6> r
+  <6>2 %25
+  q8 q <6\!> r
+  <6>2
+  q8 q <6\!> r
+  <6>2
+  q8 q <6\!>4 \bassFigureExtendersOff %30
+  r2
+  r
+  \bo <[6]>
+  r
+  <7> %35
+  r
+  <6>
+  r
+  <7>
+  r %40
+  <5>
+  \bc <[_+]>
+  r
+  r
+  r %45
+  r
+  r
+  r
+  <6 4>
+  <5 3> %50
+  r
+  <6 4>
+  r
+  r
+  r4 %55 finis
+}

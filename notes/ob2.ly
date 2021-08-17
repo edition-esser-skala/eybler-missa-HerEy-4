@@ -488,3 +488,49 @@ CredoOboeII = {
     c4 r r2\fermata \bar "|." %294
   }
 }
+
+SanctusOboeII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \tempoSanctus
+    R2.*10 %10
+    r4 g'(\pp h)
+    d2 c4\trill
+    h8 r r4 r
+    R2. \noBreak
+    r4 r\fermata \bar "||" %15
+    \twofourtime \time 2/4 \tempoPleni
+      \partial 4 r4 \noBreak r8 g\f a h \noBreak
+    c d e4~
+    e e,
+    d d'~
+    d d, %20
+    c c'
+    d c
+    h h~
+    h c
+    d h~ %25
+    h c
+    d h~
+    h c
+    d h~
+    h c %30
+    h r
+    R2*9 %40
+    r4 e\p
+    r cis
+    r d
+    r h
+    c!8( g a d) %45
+    h2\trill
+    c4 r
+    c,8(\f e g c)
+    c2
+    h %50
+    c4 r
+    c,8( e g c)
+    e2
+    h
+    c4\fermata \bar "|." %55 finis
+  }
+}

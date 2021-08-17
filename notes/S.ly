@@ -1034,3 +1034,137 @@ CredoSopranoLyrics = \lyricmode {
   a --
   men. %294 finis
 }
+
+SanctusSoprano = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 3/4 \autoBeamOff \tempoSanctus
+    R2.
+    \mvTrr d2(\pp^\tuttiE f8.[ e16)]
+    e4 r r
+    g2~ g16[ f e f]
+    e4 r r %5
+    a2 a4
+    g c e
+    g2 e4
+    d8. h16 g4 r
+    r h c %10
+    d4. h8 g4
+    f'2 e4
+    d r r
+    R2. \noBreak
+    r4 r\fermata \bar "||" %15
+    \twofourtime \time 2/4 \tempoPleni
+      \partial 4 r4 \noBreak R2 \noBreak
+    g2\f
+    a,4 a
+    f'2
+    g,4 g %20
+    e'2
+    a,4 d
+    h g
+    R2
+    g' %25
+    g4 g
+    g g,
+    R2
+    g'4 g
+    g g8 g %30
+    g4 g,
+    r g\p
+    c2
+    h8([ c)] e([ g)]
+    g4( h,) %35
+    h g
+    c4. c8
+    h([ c)] e([ g)]
+    g4( h,)
+    h g %40
+    g'2
+    e4 e
+    f2
+    d
+    e8([ g)] f([ a)] %45
+    h,2
+    c4 r
+    c,8([\f e)] g([ c)]
+    e2(
+    d) %50
+    c4 r
+    c,8([ e)] g([ c)]
+    e2(
+    d)
+    c4\fermata \bar "|." %55 finis
+  }
+}
+
+SanctusSopranoLyrics = \lyricmode {
+  San -- %2
+  ctus,
+  san --
+  ctus, %5
+  san -- ctus
+  Do -- mi -- nus
+  De -- us
+  Sa -- ba -- oth,
+  san -- ctus %10
+  Do -- mi -- nus
+  \xE Sa -- ba --
+  oth. \x
+
+  Ple -- %17
+  ni sunt
+  coe --
+  li, sunt %20
+  coe --
+  li et
+  ter -- ra
+
+  glo -- %25
+  ri -- a
+  tu -- a,
+
+  ple -- ni
+  glo -- ri -- a %30
+  tu -- a.
+  O --
+  san --
+  na, o --
+  san -- %35
+  na, o --
+  san -- na
+  in __ ex --
+  cel --
+  sis, o -- %40
+  san --
+  na, o --
+  san --
+  na
+  in __ ex -- %45
+  cel --
+  sis,
+  in __ ex --
+  cel --
+  %50
+  sis,
+  in __ ex --
+  cel --
+
+  sis. %55 finis
+}
+
+
+% ## Benedictus
+%
+% Be -- ne -- di -- ctus, qui ve -- nit in no -- mi -- ne Do -- mi -- ni.
+% O -- san -- na in ex -- cel -- sis.
+%
+%
+% ## Agnus Dei
+%
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Mi -- se -- re -- re no -- bis.
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Mi -- se -- re -- re no -- bis.
+% A -- gnus De -- i, qui tol -- lis pec -- ca -- ta mun -- di:
+% Do -- na no -- bis pa -- cem.

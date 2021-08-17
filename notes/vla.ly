@@ -577,3 +577,77 @@ CredoViola = {
     <c e, g, c,> r r2\fermata \bar "|." %294 finis
   }
 }
+
+SanctusViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 3/4 \tempoSanctus
+    c,8(\pp e g c e c)
+    g4 r r
+    c,8( e g c e g)
+    g,4 r r
+    e8( g c e g e) %5
+    << {
+      a2.
+      g2 e4
+      d( g, c)
+      h g' g
+      g2.~ %10
+      g4 h,( d)
+      f2 e4\trill
+      d r r
+    } \\ {
+      f2.
+      e2 c4
+      h( c e)
+      d g, g
+      g2.~ %10
+      g4 g( h)
+      d2 c4\trill
+      h r r
+    } >>
+    r8 fis( g cis, d h') \noBreak
+    g2\fermata \bar "||" %15
+    \twofourtime \time 2/4 \tempoPleni
+      \partial 4 r4 \noBreak r8 g'16\f g fis fis f f \noBreak
+    e e d d c c e e
+    e,8 g a cis
+    d a' f d
+    h d g h, %20
+    c! g' e c
+    f f, a a'
+    g g, h d
+    f d e c
+    h g h d %25
+    f d e c
+    h g h d
+    f d e c
+    h g h d
+    f d e c %30
+    d h d g
+    d h g h
+    c4\p <g e>~
+    q q
+    <d g> q~ %35
+    q q
+    <e g> q~
+    q q
+    <d g> q~
+    q q %40
+    <e g> e'~
+    e cis
+    r d~
+    d h
+    c! f, %45
+    g2
+    c8\f e, g c
+    e g, c e
+    g e c g
+    g' d h g %50
+    c g c e
+    g c, e g
+    c g c e
+    d h g h
+    c4\fermata \bar "|." %55 finis
+  }
+}

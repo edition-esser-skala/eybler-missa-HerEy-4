@@ -234,3 +234,39 @@ CredoTimpani = {
     c4 r r2\fermata \bar "|." %294 finis
   }
 }
+
+SanctusTimpani = {
+  \relative c {
+    \clef bass
+    \key c \major \time 3/4 \tempoSanctus
+    R2.
+    \mvTrr g2.\pp\startTrillSpan-\solo
+    c8\stopTrillSpan r r4 r
+    g2.\startTrillSpan
+    c8\stopTrillSpan r r4 r %5
+    r c~\startTrillSpan c8\stopTrillSpan r
+    r4 c~\startTrillSpan c8\stopTrillSpan r
+    R2.*4 %11
+    g2\startTrillSpan c4\stopTrillSpan
+    g8 r r4 r
+    R2.
+    r4 r\fermata \bar "||" %15
+    \twofourtime \time 2/4 \tempoPleni
+      \partial 4 r4 \noBreak R2*7 %22
+    g4\f r8 \tuplet 3/2 8 { g16 g g }
+    g4 g
+    g r %25
+    R2
+    g4 r8 \tuplet 3/2 8 { g16 g g }
+    g4 g
+    g r
+    R2*19 %48
+    c4\f r
+    g r %50
+    c r
+    R2
+    c4 r
+    g r
+    c\fermata \bar "|." %55 finis
+  }
+}
