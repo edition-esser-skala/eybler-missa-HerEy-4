@@ -179,3 +179,168 @@ GloriaCornoII = {
     r2 r4 r8\fermata \bar "|." %187 finis
   }
 }
+
+CredoCornoII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredo
+    c'1\f
+    d
+    d4 c2 g4
+    c, c8. c16 c4 c
+    c2 g' %5
+    c4 c,8. c16 c4 c
+    c1~
+    c4 c8. c16 e4 c
+    g'1
+    c4 r r2 %10
+    R1*2
+    g1\f
+    c4. g8 e4 e'~
+    e d2 c4 %15
+    g r r2
+    g4 r r2
+    g2. d'4
+    c1
+    g %20
+    g2 c
+    d1
+    g,4 g8. g16 g4 g
+    c1
+    g4 g8. g16 g4 g %25
+    e2 c'
+    g4 g8. g16 g4 g
+    d'2 cis
+    d r
+    R1*5 %34
+    r2 g, %35
+    c4 e2 c4
+    c r r2
+    b\fz r
+    r4 c2 c4
+    c r r2 %40
+    R1*3
+    r4 g2 g4
+    g1 %45
+    c
+    g
+    c4 c, e g
+    c1
+    c2~\fz c4 r %50
+    R1
+    e,2 e
+    c'2. g4 \noBreak
+    e r r2\fermata \bar "||"
+    \time 6/8 \tempoEtIncarnatus \newSpacingSection
+      R2.*27 %81
+    c4.\p\crescE c'\f
+    \tempoPassus es2.\ff
+    \tempoEtSepultus es4.\p d
+    c h! %85
+    c4 r8 r4 r8
+    R2.*2 \noBreak
+    R2.\fermata \bar "||"
+    \time 2/2 \tempoEtResurrexit \newSpacingSection R1*18 %107
+    c,1\ff
+    g'2 e
+    c4 r r2 %110
+    r e4.-! e8-!
+    c'2_\tenuto r
+    r c4.-! c8-!
+    c2_\tenuto r
+    R1*3 %117
+    c4-! r r2
+    g4-! r r2
+    e4-! r r2 %120
+    R1*11 %131
+    g1~\f
+    g~
+    g~
+    g~ %135
+    g4 r r2
+    R1*17 %153
+    c1\f
+    c %155
+    d
+    g,
+    e'
+    c
+    d %160
+    g,
+    c2 e~
+    e d
+    c \once \tieDashed c~
+    c g %165
+    c r
+    R1*3
+    g1 %170
+    cis
+    d2 r
+    R1
+    g,
+    c %175
+    R1*2
+    g1
+    c
+    R1*6 %185
+    e,1\f
+    c2 r
+    R1*2
+    r2 e~ %190
+    e e
+    c'1
+    c
+    R1*2 %195
+    e,2 e4. e8
+    e2 e
+    c' r
+    R1*13 %211
+    g1~\ff
+    g
+    c2 r
+    R1*23 %237
+    r2 g~
+    g g
+    e'1 %240
+    c
+    d
+    g,
+    c2 d~
+    d c %245
+    g r
+    R1*11 %257
+    g1
+    c
+    R1*3 %262
+    r2 e~
+    e e
+    r d~ %265
+    d g,
+    r c~
+    c d
+    g, e'
+    c f~ %270
+    f e4 d
+    c2 c~
+    c g
+    e r
+    r g %275
+    c1
+    g2 g
+    c r
+    R1*3 %281
+    g1
+    e
+    c'2\cresc cis
+    d cis %285
+    d1~
+    d
+    c!\ff
+    g
+    e2 e %290
+    r g
+    r c
+    r g
+    e4 r r2\fermata \bar "|." %294 finis
+  }
+}

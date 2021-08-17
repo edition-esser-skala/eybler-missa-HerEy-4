@@ -275,3 +275,305 @@ GloriaViola = {
     r2 r4 r8\fermata \bar "|."
   }
 }
+
+CredoViola = {
+  \relative c' {
+    \clef alto
+    \key c \major \time 4/4 \tempoCredo
+    c8\f d e c f g a f
+    d e f d g a h g
+    h, h' c c, g' f g g,
+    c c' e c g e c c'
+    c, c' a f g d h h' %5
+    c g e c g e c c'
+    a a' f c a c f a
+    c g e g c, e g c
+    g g, h d g d h d
+    c c, e g c r r4 %10
+    R1
+    e,8\f g c e g c g e
+    g d h g h g d d'
+    c e g h, c e g e
+    c c' g g, c g c e %15
+    d h g a h a g c
+    h d g d h g' d h
+    g a h c d g, h d
+    c g e g c, c' e c
+    h d g d h g d g %20
+    h g h e c e a, c
+    d, d' h g d d' d c
+    h d g, h d g d h
+    g c e g c g e c
+    g h d g h g d h %25
+    g e g c e e, g e'
+    d g d h g h d h
+    a d a f g e' cis g
+    a f' d a f d f g
+    a d f, a d b g g' %30
+    e cis a e f f' f, e
+    d f g a b c d b
+    g g' g, f e e' e, d
+    c e f g a b c b
+    a c f d g fis g g, %35
+    c c' g e c g' e c
+    f a f c a f' c a
+    f d b' f d f b d
+    c a f a c h c b'
+    a c a f c a c a %40
+    f f' f, g a g a f'
+    e a, cis e a e cis e
+    a, a' g g, a d f a
+    g, g' g, h d h g h
+    d g d h g h d h %45
+    g g' e c g e' c g
+    d' g d h g h d h
+    c g' e c g c g e
+    c e a c e c e a
+    c a f a c, f a f %50
+    d g d g, h d g, f'
+    e e, g c e c g e
+    c e' c e a, a' d, f \noBreak
+    e4 <c c,> r2\fermata \bar "||"
+    \key a \major \time 6/8 \tempoEtIncarnatus \newSpacingSection
+      R2.*2 %56
+    r4 r8 r \mvTr a\p-\pizz a
+    gis r gis a r r
+    R2.
+    r4 a8 gis r gis %60
+    a r r r gis gis
+    h r r r a a
+    cis r r r4 r8
+    r gis a cis a d
+    gis, r r r a a %65
+    gis r r r e a
+    cis e a cis e cis
+    g\cresc e cis d\! r r
+    r4 r8 r r \mvTr his,(\p-\arco
+    cis) r cis( h') r h( %70
+    a) r16 fis'8-\markup \remark "sempre legato e piano" e! d cis h16~
+    h a8 gis fis eis gis h16~
+    h d8 cis h ais cis e!16~
+    e g8 fis e dis fis a,16~
+    a c8 h a gis! h d16~ %75
+    d f8 e d c a a'16~
+    a gis8 e fis g b g16~
+    g fis!8 d e f as f16~
+    f e8 c d es c d16~
+    d es8\decresc d des c h! b16 %80
+    a!4.:64\pp a:
+    fis!8:\cresc a: c: es:\f fis!: a:
+    \tempoPassus \mvTrr c16[\ff-\markup \remark "staccato assai" r32. c64 c16 r32. c,64 c16 r32. c64] as16[ r32. as64 as16 r32. as64 as16 r32. as64]
+    \tempoEtSepultus g16 r r8 r r4 r8
+    R2. %85
+    \mvTr <g es>8(\pE-\markup \remark "con sordino" <f d> <g es>) <as f>4.->
+    <g es>8( <fis d> <g es>) <as f>4.->
+    <es g>8 r r es\pp r r \noBreak
+    es4.~ es8 r r\fermata \bar "||"
+    \key c \major \time 2/2 \newSpacingSection \tempoEtResurrexit
+      r2 r4 \mvTr g(\f-\markup \remark "senza sordino" %90
+    \scriptOut d8-!) r h'4( \scriptOut g8-!) r d'4(
+    \scriptOut h8-!) r g'4( \scriptOut d8-!) r h'4\fz
+    c d e e,
+    fis g a2(
+    \scriptOut d,8-!) r g,4( \scriptOut d8-!) r h'4( %95
+    \scriptOut g8-!) r d'4( \scriptOut h8-!) r h'4\fz
+    c d e e,
+    fis g a2(
+    \scriptOut d,8-!) r d'4( \scriptOut h8-!) r g4(
+    \scriptOut e8-!) r g4( \scriptOut d8-!) r g4( %100
+    \scriptOut h,8-!) r d'4( \scriptOut h8-!) r g4(
+    \scriptOut c,8-!) r g'4( \scriptOut h,8-!) r h'4(
+    \scriptOut g8-!) r d,4 g h
+    d g, h d
+    g h, d g %105
+    h8-! r r4 r2
+    R1
+    \appoggiatura { g,16[ a h] } c2.\ff h8-! a-!
+    g( a) g-! f-! e( f) e-! d-!
+    c4 r r2 %110
+    r <c' e>4.-! q8-!
+    q2^\tenuto r
+    r q4.-! q8-!
+    <c a'>2^\tenuto r
+    R1 %115
+    <c f>4-! r r2
+    <f a>4-! r r2
+    <g g,>4-! r r2
+    <h d, g,>4-! r r2
+    <c e, g, c,>4-! r r2 %120
+    r \mvTr <c, c,>4.-!\f-\markup \remark "staccato" q8-!
+    q4-! r r2
+    r q4.-! q8-!
+    q4-! r r2
+    r q4.-! q8-! %125
+    as1(\fz
+    \scriptOut g4-!) r f4.-! f8-!
+    des'1(\fz
+    \scriptOut c4-!) r h!4.-! h8-!
+    c2 g %130
+    es2.\trill d8 c
+    g'4 r r g16( a h c)
+    d2 r4 h16( c d es)
+    f2.\fz d'4
+    h g d h %135
+    \mvTr g\p-\markup \remark "staccato" r8 g g4 r8 g
+    g4 r8 g g4 r8 g
+    g4 r8 g g4 r8 g
+    g4 r8 g g4 r8 g
+    g4 r8 g g4 r8 g %140
+    g4 r8 g g4 r8 g
+    g4 r8 g g4 r8 g
+    g4 r8 g g4 r8 g
+    g4 r8 g h!4\cresc r8 h
+    d4\f r8 d f4 r8 f %145
+    h,!4 r8 h as'4 r8 as
+    f4 r8 f d'4 r8 d
+    h!4 r8 h f'4 r8 f
+    d4 r8 d h!4 r8 h
+    as4 r8 as f4 r8 f %150
+    d4 r8 d h!4 r8 h
+    c4 r r2
+    R1
+    c,4\f d e! c
+    f g a f %155
+    d e f d
+    g a h g
+    e f g e
+    a h c a
+    d e f d %160
+    g g, g' f
+    e g c, e
+    c, c' d h
+    g c e g
+    c e d d, %165
+    c c' h h,
+    a a' g g,
+    a g fis g
+    a h c a'
+    d, h g g' %170
+    e g a g
+    fis a d, fis
+    a, d fis, a
+    d, g h d
+    e, g c e %175
+    fis, a d fis
+    g d h g
+    d'' h g d
+    e g c, e
+    a, d fis a %180
+    d, g, h dis,
+    e\p g h g
+    c, c' a e
+    fis dis' h fis
+    h dis e a %185
+    g\f e h e
+    c a a' e
+    fis h fis dis
+    h fis' dis fis
+    h g g, h %190
+    e g, h e
+    g g, c e
+    g e c e
+    g h, c e
+    dis h dis fis? %195
+    h g e h
+    g e' h g
+    a h c a
+    d d, d' c
+    h c d h %200
+    e e, e' d
+    c e' d c
+    h a g f!
+    e c' h a
+    g f e d %205
+    c a' g f
+    e d c h
+    a e' d c
+    h a g f
+    e gis h e %210
+    a, c e a
+    g,! h d g
+    h d h g
+    c c, e g
+    c c, h h' %215
+    a a, c e
+    a e c a
+    f a c f
+    a c a f
+    e g c g %220
+    e g e c
+    f f, a c
+    f f, e e'
+    d, f a d
+    f a f d %225
+    cis e a e
+    cis e cis a
+    d d, d' c
+    b g' d b
+    a cis e a %230
+    f a f d
+    g g, b d
+    g g, g' f
+    e a, a' e
+    f e d cis %235
+    d f g e
+    a a, a a'
+    e h! g h
+    d g, h g
+    g' g, c e %240
+    g e c g
+    g' g, h d
+    g d h d
+    g, g' h, g'
+    g, d' e c %245
+    d g, h d
+    g, f' e g
+    c, a' g g,
+    f' d e c
+    d g, h d %250
+    g, c e g
+    c e, d h
+    c a h g
+    a d fis a
+    d, h g g' %255
+    c, a' g g,
+    f h c e,
+    g d' h d
+    c e g e
+    c e d g %260
+    c c, e g
+    a d, fis a
+    g g, h' g
+    e cis a a'~
+    a g f! e %265
+    d h g g'~
+    g f e g
+    c, a a' f
+    d h h' g
+    e c c' a %270
+    f d h g'~
+    g g, c e
+    a, a' d, g
+    e c g e
+    d g h d %275
+    e c g e
+    d g h d
+    e c g e
+    f f' g e
+    c f c a %280
+    c fis a c
+    h g d h
+    d gis h d
+    c\cresc a e a
+    f a g a %285
+    f a d a
+    f a d a
+    g\ff e c g
+    g' d h g
+    c r <c' e, g, c,> r %290
+    r2 <h d, g,>4 r
+    r2 <c e, g, c,>4 r
+    r2 <h d, g,>4 r
+    <c e, g, c,> r r2\fermata \bar "|." %294 finis
+  }
+}

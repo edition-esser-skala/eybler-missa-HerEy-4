@@ -224,3 +224,265 @@ GloriaOboeI = {
     r2 r4 r8\fermata \bar "|." %187 finis
   }
 }
+
+CredoOboeI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredo
+    c'2\f a
+    d h4 f'~
+    f e d2
+    e4 e8. e16 e4 e
+    f1 %5
+    e4 e8. e16 e4 e
+    f2 a
+    g4 g,2 c8 e
+    d4 g2 f4
+    e r r2 %10
+    R1
+    r2 r4 g,\fE
+    g h d f
+    e4. d8 c4 \once \tieDashed g'~
+    g f2 e4 %15
+    d g,~ g8 a h c
+    d4 h~ h8 c d e
+    f4 d2 f4
+    e1
+    d4 g, h d %20
+    g2 e
+    d2. fis4
+    g d8. d16 d4 d
+    e2 c
+    d4 g8. g16 g4 g %25
+    g2 e
+    d4 d2 d4
+    d2 e
+    f d4 a
+    f f g2 %30
+    a4 r r \tieDashed d~
+    d8 c b4. a8 g4~
+    g g' r c,~
+    c8 b a4. g8 f4~
+    f f' h,2 \tieSolid %35
+    c4 g'2 b,4
+    a4. c8 f4 r
+    f2 e8 d c b
+    a4 c2 g4
+    f2. a4 %40
+    f'2 d
+    cis1
+    d4 e g8 f e d
+    c!4 h2 c4
+    f1 %45
+    e2 c
+    d f
+    e4 e, g c
+    e1
+    a\fzE %50
+    h,4 r r2
+    g c
+    e d\trill \noBreak
+    c4 r r2 \bar "||"
+    \key a \major \time 6/8 \tempoEtIncarnatus \newSpacingSection
+      a2.~\p \noBreak %55
+    a
+    h4. a4 r8
+    r4 r8 r cis d
+    e4 cis8 d4 fis8
+    e4( cis8) r4 r8 %60
+    r cis cis cis16( d) h8 r
+    d8. fis16( e d) cis( fis) e8 r
+    r cis cis \appoggiatura { cis16[ d] } e4 d16 cis
+    h8 r r r4 r8
+    r h h cis( e) r %65
+    r h d cis( e) r
+    e, a cis e4.
+    g\cresc fis8 r r
+    R2.*4 %72
+    r4 r8 e4.(\fz
+    cis8) r r r4 r8
+    r4 r8 f4.(\fzE %75
+    d8) r r r4 r8
+    h'4. b
+    a as
+    g~^\critnote g8 r r
+    R2.*2 %81
+    r4 r8 c,4.\f
+    \tempoPassus es\ff fis,!
+    \tempoEtSepultus g16 r r8 r r4 r8
+    R2.*4 \noBreak %88
+    R2.\fermata \bar "||"
+    \key c \major \time 2/2 \tempoEtResurrexit \newSpacingSection
+      r2 r4 g(\f %90
+    \scriptOut d8)-! r h'4( \scriptOut g8)-! r d'4(
+    \scriptOut h8)-! r g'4( \scriptOut d8)-! r d'4\fz
+    c h a g
+    fis e d c
+    h8 r g4( \scriptOut d8)-! r \scriptOut h'4( %95
+    g8)-! r d'4( \scriptOut h8)-! r d'4\fz
+    c h a g
+    fis e d c
+    h r r2
+    r h4.( d8) %100
+    g8-! r r4 r2
+    r d4.( g8)
+    h8-! r r4 r2
+    R1*4 %107
+    \appoggiatura { g16[ a h] } c2.\ff h8-! a-!
+    g( a) g-! f-! e( f) e-! d-!
+    c4 r r2 %110
+    r c4.-! c8-!
+    e2^\tenuto r
+    r e4.-! e8-!
+    a2^\tenuto r
+    R1 %115
+    f4-! r r2
+    a4-! r r2
+    g4-! r r2
+    h,4-! r r2
+    c4-! r r2 %120
+    R1*5 %125
+    \once \slurDashed as1(\fz
+    \scriptOut g4)-! r r2
+    \once \slurDashed des'1(\fz
+    \scriptOut c4)-! r r2
+    R1*2 %131
+    d1~\f
+    d~
+    d~
+    d~ %135
+    d4 r r2
+    R1*11 %147
+    r2 h!4\f r
+    d r f r
+    as1~\fz %150
+    as4 r r2
+    R1*2
+    e!2\f c
+    a1 %155
+    f'2 d
+    h1
+    g'2 e
+    c1
+    f2 d %160
+    h1
+    c2 g'~
+    g f
+    e e~
+    e g %165
+    c, e
+    a, c
+    fis,4 g a h
+    c d e fis
+    g1 %170
+    cis,
+    d
+    fis
+    g
+    e %175
+    d2. c4
+    h2 d
+    g1
+    e
+    d2. c4 %180
+    h2 r
+    R1*4 %185
+    g'1\f
+    fis2 e
+    dis2. e4
+    fis2 dis
+    e e~ %190
+    e e
+    g1
+    e~
+    e2 e
+    dis1 %195
+    e2 e4. e8
+    e2^\critnote e
+    c r
+    R1*2 %200
+    r2 g
+    e'1~\fz
+    e~
+    e~
+    e~ %205
+    e~
+    e~
+    e~
+    e~
+    e~ %210
+    e
+    g!~\ff
+    g
+    e2 e~
+    e e %215
+    c1~
+    c~
+    c~
+    c~
+    c~ %220
+    c
+    a2 a~
+    a a
+    a1~
+    a~ %225
+    a~
+    a~
+    a
+    d
+    cis2 a %230
+    a a
+    b1
+    h
+    c2 cis
+    d e %235
+    f e
+    d c!
+    h \once \tieDashed g~
+    g g
+    g'1 %240
+    e
+    f
+    d
+    c2 g'
+    f e %245
+    d r
+    R1*12 %258
+    r2 c
+    e g %260
+    fis e
+    d2. c4
+    h2 g'~
+    g e
+    r f~ %265
+    f d
+    r e
+    c f
+    d g
+    e \once \tieDashed a~ %270
+    a g4 f
+    e2 e
+    d1
+    c2 c
+    g'1 %275
+    e2 c
+    g'1
+    e2 c
+    d e
+    f1 %280
+    fis
+    g
+    gis
+    a2\crescE cis,
+    d e %285
+    f1
+    d
+    c!\ffE
+    h
+    c2 c %290
+    r d
+    r e
+    r d
+    c4 r r2\fermata \bar "|." %294 finis
+  }
+}

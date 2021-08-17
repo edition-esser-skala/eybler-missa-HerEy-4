@@ -215,3 +215,276 @@ GloriaOboeII = {
     r2 r4 r8\fermata \bar "|." %187 finis
   }
 }
+
+CredoOboeII = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredo
+    e2\f f
+    f g4 d'~
+    d c2 h4
+    c g8. g16 g4 g
+    a2 g %5
+    g4 g8. g16 g4 g
+    f1
+    e
+    g2 d'
+    c4 r r2 %10
+    R1*2
+    r4 g2\f d'4
+    c4. h8 c4 e~
+    e d2 c4 %15
+    h g~ g8 fis g a
+    h4 g~ g8 a h c
+    d4 h2 d4
+    c1
+    h4 g2 g4 %20
+    g2 a
+    h4 d2 c4
+    h g8. g16 g4 g
+    g1
+    g4 h8. h16 h4 h %25
+    c2 c
+    h4 h2 h4
+    a2 cis
+    d a
+    f g %30
+    a4 a4. g8 f4~
+    f8 e d2 d'4
+    r g,4. f8 e4~
+    e8 d c2 c'4
+    a2 f %35
+    e4 b'2 e,4
+    f4. a8 c4 r
+    b2. f4~
+    f a2 g4
+    f1 %40
+    a~
+    a~
+    a
+    g
+    h2 d %45
+    c g~
+    g h
+    c4 c, e g
+    c1
+    c\fz %50
+    f,4 r r2
+    e g
+    c2. h4 \noBreak
+    c r r2 \bar "||"
+    \key a \major \time 6/8 \tempoEtIncarnatus \newSpacingSection
+      e,2.~\p \noBreak %55
+    e
+    gis4. a4 r8
+    r4 r8 r a a
+    a2.
+    a4. r4 r8 %60
+    r a a a16( h) gis8 r
+    h8. d16( cis h) a( d) cis8 r
+    r a a \appoggiatura { a16[ h] } cis4 h16 a
+    gis8 r r r4 r8
+    r gis gis a( cis) r %65
+    r gis gis a( cis) r
+    r a a a4.
+    cis\cresc d8 r r
+    R2.*4 %72
+    r4 r8 cis4.(\fz
+    ais8) r r r4 r8
+    r4 r8 d4.(\fz %75
+    h8) r r r4 r8
+    h4. b
+    a as
+    g2.~
+    g8 r r r4 r8 %80
+    R2.
+    r4 r8 fis!4.\f
+    \tempoPassus fis!\ff es~
+    \tempoEtSepultus es16 r r8 r r4 r8
+    R2.*4 \noBreak %88
+    R2.\fermata \bar "||"
+    \key c \major \time 2/2 \tempoEtResurrexit \newSpacingSection
+      r2 r4 g(\f %90
+    \scriptOut d8)-! r h'4( \scriptOut g8)-! r d'4(
+    \scriptOut h8)-! r g'4( \scriptOut d8)-! r h'4\fz
+    a g2 e4
+    d c a2
+    g8 r g4( \scriptOut d8)-! r \scriptOut h'4( %95
+    g8)-! r d'4( \scriptOut h8)-! r h'4\fz
+    a g e2
+    a,4 r d2~
+    d4 r r2
+    r g,4.( h8) %100
+    d-! r r4 r2
+    r d,4.( g8)
+    h-! r r4 r2
+    R1*4 %107
+    \appoggiatura { g16[ a h] } c2.\ff h8-! a-!
+    g( a) g-! f-! e( f) e-! d-!
+    c4 r r2 %110
+    r g'4.-! g8-!
+    c2^\tenuto r
+    r c4.-! c8-!
+    f2^\tenuto r
+    R1 %115
+    c4-! r r2
+    f4-! r r2
+    e4-! r r2
+    d,4-! r r2
+    e4-! r r2 %120
+    R1*5 %125
+    as1(\fz
+    \scriptOut g4)-! r r2
+    des'1(\fz
+    \scriptOut c4)-! r r2
+    R1*2 %131
+    h1~\f
+    h~
+    h~
+    h~ %135
+    h4 r r2
+    R1*11 %147
+    r2 as4\f r
+    h! r d r
+    h!1~\fz %150
+    h4 r r2
+    R1*2
+    g2\f e!
+    c1 %155
+    a'2 f
+    d1
+    h'2 g
+    e1
+    a2 f %160
+    d1
+    e2 e'~
+    e d
+    c g~
+    g d' %165
+    c h
+    a g
+    a1~
+    a
+    d,2 h' %170
+    g e
+    fis fis~
+    fis a
+    g1~
+    g %175
+    fis
+    g~
+    g~
+    g2 a
+    d, a' %180
+    g r
+    R1*4 %185
+    h1\f
+    c2 a
+    h1~
+    h~
+    h2 h~ %190
+    h h
+    e1
+    c
+    g2 a
+    h1 %195
+    h2 h4. h8
+    h2 h
+    a r
+    R1*2 %200
+    r2 g
+    g1~\fz
+    g~
+    g~
+    g %205
+    a~\fz
+    a~
+    a~
+    a
+    gis %210
+    a
+    h~\ff
+    h
+    c2 g~
+    g e %215
+    e1~
+    e
+    f~
+    f
+    e~ %220
+    e
+    f2 f~
+    f g
+    f1~
+    f %225
+    g~
+    g
+    f
+    d
+    a'2 e %230
+    f f
+    g1~
+    g
+    g2 a
+    a a~ %235
+    a a~
+    a a
+    g g~
+    g g
+    e'1 %240
+    c
+    d
+    h
+    c2 d~
+    d c %245
+    h r
+    r g
+    a c
+    h a
+    g2. f4 %250
+    e2 r
+    r d4 e
+    fis g a h
+    c2 d,~
+    d e %255
+    R1
+    r2 c
+    d1
+    c2 r
+    r g' %260
+    c h
+    a1
+    g2 e'~
+    e cis
+    r d~ %265
+    d h
+    r c~
+    c d~
+    d e~
+    e f~ %270
+    f e4 d
+    c2 c~
+    c h
+    c c
+    d1 %275
+    c2 c
+    d1
+    c2 g~
+    g g
+    a1~ %280
+    a
+    h~
+    h
+    c2\cresc e,
+    f g %285
+    a1
+    f
+    e\ff
+    d
+    c2 e %290
+    r h'
+    r c
+    r h
+    c4 r r2\fermata \bar "|." %294
+  }
+}

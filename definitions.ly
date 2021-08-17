@@ -683,10 +683,21 @@ tocLabelLong = #(define-music-function
 )
 
 perd = \markup \remark  "perd."
+sulG = #(make-music
+  'CrescendoEvent
+  'span-direction START
+  'span-type 'text
+  'span-text (markup (#:normal-text #:small "sul G"))
+)
 
 
 tempoKyrie = \tempoMarkup "Andante"
 tempoGloria = \tempoMarkup "Allegro con spirito"
+tempoCredo = \tempoMarkup "Allegro"
+  tempoEtIncarnatus = \tempoMarkup "Andante sostenuto"
+  tempoPassus = \tempoMarkup "Stringendo"
+  tempoEtSepultus = \tempoMarkup "Adagio"
+  tempoEtResurrexit = \tempoMarkup "Vivace molto"
 
 
 \include "notes/ob1.ly"

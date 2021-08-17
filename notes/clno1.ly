@@ -110,3 +110,130 @@ GloriaClarinoI = {
     r2 r4 r8\fermata \bar "|." %187 finis
   }
 }
+
+CredoClarinoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoCredo
+    c'4\f r r2
+    r r4 d~
+    d e d2
+    c4 c8. c16 c4 c
+    c r r2 %5
+    c4 c8. c16 c4 c
+    c r r2
+    c4 c8. c16 e4 c
+    d1
+    e4 r r2 %10
+    R1*2
+    g,4\f r r2
+    c4 r r2
+    r4 d2 e4 %15
+    d r r2
+    g,4 r r2
+    g4 r r g8. g16
+    c4 g e c
+    g' r r2 %20
+    g2 e4 r
+    R1
+    g4 g8. g16 g4 g
+    c2 \once \partCombineChords e
+    d4 g,8. g16 g4 g %25
+    \once \partCombineChords e'2 c
+    d4 r r2
+    R1*7 %34
+    r2 d %35
+    e4 c8. c16 c4 c
+    c r r2
+    R1
+    r4 c8. c16 c4 c
+    c r r2 %40
+    R1*4
+    g4 r r2 %45
+    g4 r r2
+    d'1
+    e4 r r2
+    e,4. e16 e e4 e
+    c'2~\fz c4 r %50
+    R1
+    c4 r c r
+    r e d2\trill \noBreak
+    c4 r r2\fermata \bar "||"
+    \time 6/8 \tempoEtIncarnatus \newSpacingSection
+      R2.*27 %81
+    r4 r8 c4.\f
+    \tempoPassus \mvTrr c,16[\ff-\markup \remark "staccato [assai]" r32. c64 c16 r32. c64 c16 r32. c64] c16[ r32. c64 c16 r32. c64 c16 r32. c64]
+    \tempoEtSepultus g'16 r r8 r r4 r8
+    R2.*4 \noBreak %88
+    R2.\fermata \bar "||"
+    \time 2/2 \tempoEtResurrexit \newSpacingSection R1*18 %107
+    c1\ff
+    \pa g2 e
+    c4 \pd r r2 %110
+    r c'4.-! c8-!
+    c4-! r r2
+    r c4.-! c8-!
+    c4-! r r2
+    R1*3 %117
+    e4-! r r2
+    d4-! r r2
+    c4-! r r2 %120
+    R1*11 %131
+    g2\f r4 g8 g
+    g4 r g r
+    g r r2
+    R1*19 %153
+    c4\f r r2
+    R1*3 %157
+    g1
+    e2 r
+    R1*4 %163
+    r2 \pa c
+    e g \pd %165
+    c r
+    R1*7 %173
+    g2 r
+    R1*3 %177
+    d'1
+    e2 r
+    R1*6 %185
+    g,1\f
+    c2 r
+    R1*4 %191
+    g1
+    e2 r
+    R1*18 %211
+    d'1~\ff
+    d
+    e2 r
+    R1*25 %239
+    g,1 %240
+    c2 \once \partCombineChords e
+    d1~
+    d
+    c2 d~
+    d e %245
+    d r
+    R1*12 %258
+    r2 \pa c,
+    e g %260
+    c \pd r
+    R1*4 %265
+    d1
+    e2 r
+    R1*6 %273
+    r2 c
+    d1 %275
+    e2 c
+    d1
+    e2 r
+    R1*9 %287
+    e1\ff
+    d
+    c4 r r2 %290
+    d4 r r2
+    e4 r r2
+    d4 r r2
+    c4 r r2\fermata \bar "|." %294 finis
+  }
+}

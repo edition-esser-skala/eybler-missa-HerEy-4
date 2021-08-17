@@ -11,7 +11,7 @@ TenoreIncipit = \markup {
   } \hspace #-1.8
 }
 
-KyrieTenoreNotes = {
+KyrieTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 3/4 \autoBeamOff \tempoKyrie
@@ -131,7 +131,7 @@ KyrieTenoreLyrics = \lyricmode {
   son. %56 finis
 }
 
-GloriaTenoreNotes = {
+GloriaTenore = {
   \relative c' {
     \clef "treble_8"
     \key c \major \time 4/4 \autoBeamOff \tempoGloria
@@ -498,13 +498,563 @@ GloriaTenoreLyrics = \lyricmode {
   men. %187 finis
 }
 
-% TenoreNotes = {
-%   \relative c' {
-%     \clef "treble_8"
-%
-%   }
-% }
-%
-% TenoreLyrics = \lyricmode {
-%
-% }
+CredoTenore = {
+  \relative c' {
+    \clef "treble_8"
+    \key c \major \time 4/4 \autoBeamOff \tempoCredo
+    \mvTr c2\f^\tuttiE a4 r
+    d2 h4 g
+    d' c c( h)
+    c r r2
+    c4 c d d8 d %5
+    g,4 e' r e
+    c f f,8([ a)] c f
+    e4 c r e8 g
+    g4 g8 g g4. g8
+    g4 r g,\p g %10
+    f g g4. f8
+    e4 r r2
+    d'4\f d d d
+    c4. f8 e4 e~
+    e d d( c) %15
+    h r r2
+    g8([ a)] h c d4 h
+    h8([ c)] d[( e)] f4. f8
+    e4 e2 g4
+    g h, d g, %20
+    g g c c8 c
+    h4( d2) c4
+    h r r2
+    c c4 c
+    h h r2 %25
+    c c4 c
+    h4. h8 h4 r
+    a2 cis
+    d4( f) a, a
+    f f g2 %30
+    a4 r d4. c!8
+    b4. a8 g2
+    g'4 r c,4. b8
+    a4. g8 f2
+    f'4 r d2 %35
+    c4 r r2
+    r4 es2 a,4
+    b( d) f f
+    f( c2) b4
+    a r r c %40
+    d2 d4 d
+    cis4. cis8 cis4 e
+    d cis d a8 f'
+    e4 d r g,
+    g'1 %45
+    g,4 r r g'
+    f( d) h f
+    e( g) c r
+    r2 r4 e
+    f2\fz c4 r %50
+    r g g2
+    e4 r r2
+    R1 \noBreak
+    R\fermata \bar "||"
+    \key a \major \time 6/8 \tempoEtIncarnatus \newSpacingSection
+      R2.*2 %56
+    r4 r8 r cis'\p e
+    gis,8.([ h16)] d8 cis4 r8
+    R2.
+    r8 r cis e8. d16 h8 %60
+    a16([ cis)] e8 r r h h
+    h16([ d)] d8 r r r16 cis cis d
+    e16. d32 cis8 r r4 r8
+    r h a16([ cis)] e8.([ cis16)] fis([ d)]
+    h4 r8 r cis e %65
+    gis,16([ h)] d8 r a8. h16 cis d
+    e8 cis a e a cis
+    e4.\cresc d8 r r
+    r r a\p c4 a8
+    a8([ gis!)] fis eis([ gis)] h %70
+    a4 r8 r4 r8
+    R2.
+    r4 r8 e'!4-> cis8
+    ais r cis fis4.
+    a,8 h c h gis! r %75
+    r4 r8 c4.
+    h e
+    a, d
+    g,4 r8 r4 r8
+    R2.*3 %82
+    \tempoPassus R2.
+    \tempoEtSepultus r4 r8 r g\pp g
+    g4.( as4->) g8 %85
+    c,4 r8 r4 r8
+    R2.*2 \noBreak
+    R2.\fermata \bar "||"
+    \key c \major \time 2/2 \tempoEtResurrexit \newSpacingSection
+      R1*5 %94
+    g'2\f h4. g8 %95
+    d'2 d
+    c a4 a
+    fis2 d
+    r h'
+    c d %100
+    r h
+    c d
+    h h
+    d h4 d
+    g2 g,4 h %105
+    d1~
+    d
+    c2 r
+    R1
+    r2 e~ %110
+    e e
+    r c~
+    c c
+    r a
+    c c4 c %115
+    c1
+    f
+    e(^\critnote
+    d1)
+    c4 r r2 %120
+    R1*4
+    r2 c, %125
+    as'2. as4
+    g2 f
+    des'1
+    c2 h!
+    c g %130
+    es' c
+    g'1~
+    g2. g,4
+    g2 r
+    R1*2 %136
+    g2\p g
+    g'1
+    g,2 r
+    h1\cresc %140
+    d2 g
+    c,1\p
+    es,
+    d2 d'~\f
+    d d %145
+    d1
+    f
+    h,!2 r
+    d r
+    f1 %150
+    r2 d
+    c es
+    g1
+    c,2 r
+    R1*2 %156
+    g2\f g
+    h h4 h
+    c2 e
+    d2. d4 %160
+    d2 h(
+    c4) e g e
+    e2( d)
+    c r
+    c d %165
+    e h
+    c c
+    c1
+    c2 a
+    g1 %170
+    g2 g
+    a d
+    R1
+    d
+    r2 c %175
+    a( d)
+    d h
+    d1
+    e2 c
+    a d %180
+    d r
+    g,\p g
+    fis e
+    dis2.( e4)
+    fis2 h\f %185
+    e e
+    e fis
+    fis2.( e4)
+    dis2 r
+    e1 %190
+    r2 g
+    e2. c4
+    c2 r
+    g a
+    h1 %195
+    e,2 r
+    R1
+    a
+    a2 r
+    h1 %200
+    h2 r
+    e1
+    e2 e
+    e1
+    e2 e %205
+    e2. e4
+    e2 r
+    r e
+    e e
+    e2. e4 %210
+    e2 e
+    g!1~\ffE
+    g2 g
+    e r
+    r e %215
+    c1
+    c2 c
+    c1
+    c2 c
+    c1~ %220
+    c
+    c2 r
+    r a~
+    a a
+    a a %225
+    a1
+    a
+    f2 f
+    g1
+    a2 r %230
+    d d
+    d1
+    d
+    e2 e
+    a, a %235
+    a cis
+    d d
+    d h
+    r g
+    e'1 %240
+    c2 g
+    d'1
+    h2 d
+    g, d'
+    d( c4) c %245
+    h2 r
+    R1*4 %250
+    r2 c
+    e g
+    fis e
+    d2.( c4)
+    h2 r %255
+    r g4 a
+    h c d e
+    f!2 g,~
+    g g'~
+    g d %260
+    R1*2
+    r2 e~
+    e cis
+    r d~ %265
+    d h
+    r c~
+    c d~
+    d e~
+    e f~ %270
+    f e4 d
+    c2 c
+    c( h)
+    c e
+    d1 %275
+    e2 e
+    d1
+    e2 e
+    f g
+    c,1 %280
+    d~
+    d
+    e~
+    e2\cresc cis
+    d e %285
+    f( a)
+    d, f
+    e1\ff(
+    d)
+    c2 r %290
+    h1
+    c2 r
+    d1
+    c2 r\fermata \bar "|." %294 finis
+  }
+}
+
+CredoTenoreLyrics = \lyricmode {
+  Cre -- do,
+  cre -- do in
+  u -- num De --
+  um,
+  Pa -- trem o -- mni -- po -- %5
+  ten -- tem, fa --
+  cto -- rem coe -- li et
+  ter -- rae, vi -- si --
+  bi -- li -- um o -- mni --
+  um et in -- %10
+  vi -- si -- bi -- li --
+  um.
+  Et in u -- num
+  Do -- mi -- num Je --
+  sum Chri -- %15
+  stum,
+  Fi -- li -- um De -- i
+  u -- ni -- ge -- ni --
+  tum, et ex Pa -- tre
+  na -- tum an -- te %20
+  o -- mni -- a
+  sae -- cu --
+  la.
+  De -- um de
+  De -- o, %25
+  lu -- men de
+  lu -- mi -- ne,
+  De -- um
+  ve -- rum de
+  De -- o ve -- %30
+  ro, ge -- ni --
+  tum non fa --
+  ctum, con -- sub --
+  stan -- ti -- a --
+  lem Pa -- %35
+  tri,
+  per quem
+  o -- mni -- a
+  fa -- cta
+  sunt. Qui %40
+  pro -- pter nos
+  ho -- mi -- nes et
+  pro -- pter no -- stram sa --
+  lu -- tem de --
+  scen -- %45
+  dit, de --
+  scen -- dit de
+  coe -- lis,
+  de
+  coe -- lis %50
+  de -- scen --
+  dit.
+
+  In -- car -- %57
+  na -- tus est
+
+  de Spi -- ri -- tu %60
+  San -- cto ex Ma --
+  ri -- a, Ma -- ri -- a
+  Vir -- gi -- ne,
+  in -- car -- na -- tus
+  est, ex Ma -- %65
+  ri -- a, Vir -- gi -- ne Ma --
+  ri -- a de Spi -- ri -- tu
+  San -- cto,
+  et ho -- mo,
+  ho -- mo fa -- ctus %70
+  est.
+
+  E -- ti --
+  am pro no --
+  bis, cru -- ci -- fi -- xus, %75
+  pas --
+  sus, pas --
+  sus, pas --
+  sus
+
+  et se -- %84
+  pul -- tus %85
+  est.
+
+  Et re -- sur -- %95
+  re -- xit
+  ter -- ti -- a
+  di -- e
+  se --
+  cun -- dum %100
+  Scri --
+  ptu -- ras,
+  et a --
+  scen -- dit, a --
+  scen -- dit in %105
+  coe --
+
+  lum,
+
+  se -- %110
+  det,
+  se --
+  det
+  ad
+  dex -- te -- ram %115
+  De --
+  i
+  Pa --
+
+  tris. %120
+
+  Et %125
+  i -- te --
+  rum ven --
+  tu --
+  rus, ven --
+  tu -- rus %130
+  est cum
+  glo --
+  ri --
+  a
+
+  iu -- di -- %137
+  ca --
+  re
+  vi -- %140
+  vos et
+  mor --
+  tu --
+  os, cu --
+  ius %145
+  re --
+  gni
+  non,
+  non,
+  non, %150
+  non
+  e -- rit
+  fi --
+  nis.
+
+  Et in %157
+  Spi -- ri -- tum
+  San -- ctum,
+  Do -- mi -- %160
+  num et __
+  vi -- vi -- fi --
+  can --
+  tem,
+  qui ex %165
+  Pa -- tre
+  Fi -- li --
+  o --
+  que pro --
+  ce -- %170
+  dit, pro --
+  ce -- dit.
+
+  Qui
+  cum %175
+  Pa --
+  tre, cum
+  Pa --
+  tre et
+  Fi -- li -- %180
+  o
+  si -- mul
+  ad -- o --
+  ra --
+  tur et %185
+  con -- glo --
+  ri -- fi --
+  ca --
+  tur:
+  qui %190
+  lo --
+  cu -- tus
+  est
+  per Pro --
+  phe -- %195
+  tas.
+
+  Cre --
+  do,
+  cre -- %200
+  do.
+  Et
+  u -- nam
+  san --
+  ctam ca -- %205
+  tho -- li --
+  cam
+  et
+  a -- po --
+  sto -- li -- %210
+  cam Ec --
+  cle --
+  si --
+  am.
+  Con -- %215
+  fi --
+  te -- or
+  u --
+  num ba --
+  ptis -- %220
+
+  ma
+  in __
+  re --
+  mis -- si -- %225
+  o --
+  nem
+  pec -- ca --
+  to --
+  rum. %230
+  Et ex --
+  pe --
+  cto
+  re -- sur --
+  re -- cti -- %235
+  o -- nem
+  mor -- tu --
+  o -- rum,
+  et
+  vi -- %240
+  tam ven --
+  tu --
+  ri, ven --
+  tu -- ri
+  sae -- cu -- %245
+  li,
+
+  a -- %251
+  _ _
+  _ men,
+  a --
+  men, %255
+  a -- _
+  _ _ _ _
+  men, a --
+  _
+  men, %260
+
+  a -- %263
+  men,
+  a -- %265
+  men,
+  a --
+  _
+  _
+  _ %270
+  _ _
+  _ men,
+  a --
+  men, et
+  vi -- %275
+  tam \xE ven --
+  tu --
+  ri, \x ven --
+  tu -- ri
+  sae -- %280
+  _
+
+  _
+  _
+  cu -- li, %285
+  sae --
+  cu -- li,
+  a --
+
+  men, %290
+  a --
+  men,
+  a --
+  men. %294 finis
+}

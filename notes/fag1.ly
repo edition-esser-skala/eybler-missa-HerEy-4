@@ -234,3 +234,276 @@ GloriaFagottoI = {
     r2 r4 r8\fermata \bar "|." %187 finis
   }
 }
+
+CredoFagottoI = {
+  \relative c {
+    \clef bass
+    \key c \major \time 4/4 \tempoCredo
+    g'2\f a~
+    a h
+    g4 g2 g4
+    g c8. c16 c4 c
+    c2 h %5
+    c4 c8. c16 c4 c
+    a2 f
+    c c'
+    g4 d' h g
+    c r r2 %10
+    R1*2
+    r4 d2\f g,4~
+    g g'2 g4
+    c, d g,2 %15
+    g4 r r g~
+    g8 a h c d4 h~
+    h8 c d e f!4 h,
+    c g e' c
+    g h2 h4 %20
+    h2 c
+    g4 h2 a4
+    g h8. h16 h4 h
+    c1
+    h4 d8. d16 d4 d %25
+    g,2 g
+    g4 g2 g4
+    a1
+    a~
+    a2 d %30
+    cis4 r d4. c8
+    b4. a8 g2
+    g'4 r c,4. b8
+    a4. g8 f2
+    f'4 r d2 %35
+    c4 r r2
+    r4 es2 a,4
+    b d f f~
+    f c2 b4
+    a c2 c4 %40
+    d1
+    e
+    f4 cis d8 f, a f'
+    e4 d2 h4
+    g1~ %45
+    g~
+    g~
+    g4 g2 g4
+    a1
+    f\fz %50
+    g4 r r2
+    c e
+    c a4 g \noBreak
+    c, r r2\fermata \bar "||"
+    \key a \major \time 6/8 \tempoEtIncarnatus \newSpacingSection
+      cis'2.~\p \noBreak %55
+    cis
+    e4. cis4 r8
+    r4 r8 r e fis
+    cis4 e8 fis4 d8
+    cis4( e8) r4 r8 %60
+    r e e e4 r8
+    e4.~ e4 r8
+    r e e e4.~
+    e8 r r r4 r8
+    r h h cis( e) r %65
+    r h h cis( a) r
+    r cis e a,4.
+    e'\cresc d8 r r
+    R2.*3 %71
+    r4 r8 h4.(\fz
+    gis8) r r r4 r8
+    r4 r8 \clef "treble_8" a'4.(\fz
+    fis8) r r r4 r8 %75
+    R2.
+    \clef bass e4. cis!
+    d h
+    c~ c8 r r
+    R2.*2 %81
+    c4.\pE\crescE es\f
+    \tempoPassus es\ff as,
+    \tempoEtSepultus g16 r r8 r r4 r8
+    R2. %85
+    g8(\p f g) as4.->
+    g8( fis g) as4.->
+    g8 r r r4 r8 \noBreak
+    R2.\fermata \bar "||"
+    \key c \major \time 2/2 \tempoEtResurrexit
+      r2 r4 g(\f %90
+    \scriptOut d8-!) r h'4( \scriptOut g8-!) r d'4(
+    \scriptOut h8-!) r g'4( \scriptOut d8-!) r h4\fz
+    c d e e,
+    fis? g a d~
+    d8 r g,4( \scriptOut d8-!) r h'4( %95
+    \scriptOut g8-!) r d'4( \scriptOut h8-!) r h4\fz
+    c d e e,
+    fis g a2\trill
+    h4 r r2
+    r h4.( d8) %100
+    g-! r r4 r2
+    r g,4.( h8)
+    d-! r r4 r2
+    R1*4 %107
+    \appoggiatura { g,16[ a h] } c2.\ff h8-! a-!
+    g( a) g-! f-! e( f) e-! d-!
+    c4 r r2 %110
+    r e'4.-! c8-!
+    a2^\tenuto r
+    r a4.-! a8-!
+    f2^\tenuto r
+    R1 %115
+    a4-! r r2
+    d,4-! r r2
+    g4-! r r2
+    g4-! r r2
+    c,4-! r r2 %120
+    R1*5 %125
+    as'1(\fz
+    \scriptOut g4)-! r r2
+    des'1(\fz
+    \scriptOut c4)-! r r2
+    R1*2 %131
+    d1~\f
+    d~
+    d~
+    d~ %135
+    d4 r r2
+    R1*11 %147
+    r2 f4\f r
+    d r h! r
+    d1~\fz %150
+    d4 r r2
+    R1*2
+    c,1\f
+    f %155
+    d
+    g
+    e
+    a
+    d, %160
+    g
+    e2 c
+    a' h
+    c c~
+    c h %165
+    a g
+    fis e
+    d fis
+    a c
+    h g %170
+    e a
+    d, d'~
+    d c
+    h1
+    c %175
+    a
+    h
+    d
+    e2 c
+    a d %180
+    d r
+    R1*4 %185
+    e1~\f
+    e2 fis
+    fis2. e4
+    dis2 fis
+    e g~ %190
+    g e
+    c1~
+    c
+    h2 c
+    fis,1 %195
+    g2 g4. g8
+    g2 g
+    a r
+    R1*2 %200
+    r2 g
+    c1~\fz
+    c~
+    c~
+    c~ %205
+    c~
+    c~
+    c~
+    c
+    h %210
+    c
+    d~\ff
+    d
+    c2 c~
+    c h %215
+    a1~
+    a~
+    a~
+    a
+    g~ %220
+    g
+    a2 c~
+    c cis
+    d1~
+    d %225
+    e~
+    e
+    d
+    b
+    a2 cis %230
+    d d
+    d1~
+    d
+    e
+    a,2 g' %235
+    f cis
+    d1
+    d2 h!~
+    h h
+    g1~ %240
+    g~
+    g~
+    g~
+    g2 g~
+    g g %245
+    g r
+    R1*4 %250
+    r2 c
+    e g
+    fis e
+    d2. c4
+    h2 r %255
+    r g4 a
+    h c d e
+    f!2 g,~
+    g g'~
+    g d %260
+    R1
+    r2 d~
+    d g,
+    r a~
+    a d %265
+    r g,~
+    g c
+    a1
+    h
+    c %270
+    d2 g~
+    g c,
+    a g
+    e c'
+    h1 %275
+    c2 c
+    h1
+    c2 e
+    f g
+    c,1 %280
+    d~
+    d
+    e~
+    e2\cresc a,~
+    a a %285
+    a1
+    a
+    g\ff
+    f'
+    e2 c %290
+    r g
+    r c
+    r g
+    c,4 r r2\fermata \bar "|." %294 finis
+  }
+}
