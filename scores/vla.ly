@@ -38,7 +38,7 @@
 \layout {
   \context {
     \Staff
-    instrumentName = "vla"
+    instrumentName = \markup \center-column { "vla" "1, 2" }
   }
 }
 
@@ -52,7 +52,7 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Viola"
+          \set Staff.instrumentName = \markup \center-column { "Viola" "I, II" }
           \KyrieViola
         }
       >>
