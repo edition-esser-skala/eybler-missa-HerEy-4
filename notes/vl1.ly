@@ -625,3 +625,125 @@ SanctusViolinoI = {
     c4\fermata \bar "|." %55 finis
   }
 }
+
+BenedictusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 6/8 \tempoBenedictus
+    \partial 8 a'8\p c4( b8) \appoggiatura b16 a8( g f)
+    g8.( \tuplet 3/2 16 { a32 g fis } g16 a) f( c a c f a,)
+    b( d f b d f) c( a' g f e d)
+    c( e, f c' g b) a( f a f c a')
+    f( g e f g a) b( g e g b d) %5
+    b( a f g a b) c( a f a c f)
+    f(\sfp d b f b d) d( c b a g f)
+    g( e c b' a f) e4 r8
+    r16 g'( f e d c) c8( h) r
+    r16 d( g f e d) f8( e) g~ %10
+    g16 a,( h c d e) f4.~
+    f16 g,( a h c d) e4.
+    d16( h g h c e) g(\sfp g, d' f e c)
+    a(\cresc d f a g32[ f e d]) c8( h) r
+    r16 d(\p cis d h g) r g'( fis g e c) %15
+    cis( d e d h g) fis'( g a g e c)
+    b( b'! g e b g) a( f c a c f)
+    a( c' a fis c a) h( g, h d g h)
+    d( h e\cresc c f d) g( e c g a d)
+    e,(\p g c e, d h') d( f e g, c\f e) %20
+    f( c g' c, a' c,) a'( g f e d c)
+    e8 r r r16 c,( e g c e)
+    g4( f8) \appoggiatura f16 e8( d c)
+    a d( e) e( f) f(
+    a4)\fz g8 h4(\fz c8) %25
+    d,8.(\p a'16 g h,) c8( e g)
+    b,!4( a8) a( g) a'16([-> f)]
+    c4( b8) b( a16 c f a)
+    fis( g e c f a) b( g e b a f')
+    g,( b d g b d) f,8( e) r %30
+    h16(\< c d e f fis)\! a(\> g f e d c)\!
+    h( c d e f h,) c8 r c,\fE
+    c'4( b8) \appoggiatura b16 a8( g\p f)
+    g8.( \tuplet 3/2 16 { a32 g fis } g16 a) f( c a c f a,)
+    b( d f b d f) c( a' g f e d) %35
+    c( b g' b, a f') e8 r r
+    r16 g( b a g f) f8( e) r
+    r16 g( c b a g) b8( a) c~
+    c16 d,( e f g a) b4.~
+    b16 c,( d e f g) a4. %40
+    g16( e c e f a) c(\sfp c, g' b a f)
+    d(\cresc g b d c32[ b a g]) f8( e) r
+    r16 g,8\p e c a' f c16
+    r4 r8 c''8.( d32 c b[ a g f])
+    es16( c' a f es c) d( b, d f b d) %45
+    f( d' h g f d) e( c, e g b e)
+    g( c, d\cresc f e g) f(\trill e f c d b)
+    g(\p e g b a g) f( c a c f\fE a)
+    c( a, c f a c) f( c, f a c f)
+    <a c, f,>8\fzE r r r16 f,( a c f a) %50
+    c4( b8) \appoggiatura b16 a8( g f)
+    d g( a) a( b) b(
+    d4)\fz c8 b4(\fz a8)
+    g8.( a16 b e,) f( a, c f a c,)
+    f(\decresc a c f, a c) f4.~ %55
+    f~\p f8 r\fermata \bar "|." %56 finis
+  }
+}
+
+AgnusViolinoI = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoAgnus
+    c8.\p d16 es8-! f-! fis4( g8) r
+    r2 r4 r8 g(
+    es'4) f16( es d c) c4( h8) f'(
+    as4) g16( f es d) f4( es16) r32 c\f c16.([\trill h64 c)]
+    es4 c8-! g-! es16.-! g32-! d16.-! g32-! c,16.-! g'32-! b,!16.-! g'32-! %5
+    as,16.-! h'32-! c16.-! d32-! es16.-! h32-! c16.-! fis,32-! g8 <g' h, d, g,> r4
+    d4\p cis16( d cis d) es4(-> d8) r
+    d,4 cis16( d cis d) es4(-\parenthesize-> d8) r
+    d'4 e16(\cresc fis g a) b8.(\fz g16) e(\decresc cis b g)
+    f8\p ges4->( f16 es) d!4 r %10
+    R1
+    b8. c16 des8-! es-! e4( f8) r
+    r2 r4 r8 f(
+    des'4) es16( des c b) b4( a8) es'(
+    ges4) f16( es des c) es4( des16) r32 b\f b16.([\trill a64 b)] %15
+    des4 b8-! f-! des16.-! f32-! c16.-! f32-! b,16.-! f'32-! as,!16.-! f'32-!
+    e16.-! a32-! b16.-! c32-! des16.-! a32-! b16.-! e,32-! f8 <f c' f> r4
+    c'4\p h16( c h c) des4(-> c8) r
+    c,4 h16( c h c) des4(-> c8) r
+    c'4 d!16(\cresc e f g) as8.(\fz f16) d(\decresc h as f) %20
+    es8\p fes4(-> es16 des) c!4 r
+    R1
+    as8. b16 c8-! des-! d4( es8) r
+    r2 r4 r8 as(
+    c4) b16( as g f) f4( e8) b'( %25
+    des4) c16(\crescE b as g) b4( as8) f'(\f
+    as4) g16( f es d) g4 f16( es d c) \noBreak
+    h( c es d) f( es d c) h g(\p fis g) fis( g a f) \bar "||"
+    \key c \major \time 3/4 \tempoDona \newSpacingSection
+      e8 g4 c8( e g) \noBreak
+    g f4 d8( h f) %30
+    e g4 c8( e g)
+    g f4 d8( h f)
+    e g4 c8( e c)
+    a a,4 a'' cis,8
+    d a4 d8( cis e) %35
+    g a,4 f'8( e d)
+    c!( e, d g h d)
+    f\f d4 g, f'8
+    e g4 e c8
+    g\p g,4 d' f8 %40
+    e g4\cresc c e8
+    g\f b4 g8( e b)
+    a( cis d e f a)
+    a( g e f d h)
+    c-! e(\mf h c e, a) %45
+    g4 r r
+    r8 e'(\p h c e, a)
+    g4 r r
+    r8 g,\< c e g c\!
+    e4.\> c8( g e)\! %50
+    c4 r r\fermata \bar "|." %51 FINIS
+  }
+}

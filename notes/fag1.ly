@@ -560,3 +560,117 @@ SanctusFagottoI = {
     c,4\fermata \bar "|." %55 finis
   }
 }
+
+BenedictusFagottoI = {
+  \relative c {
+    \clef bass
+    \key f \major \time 6/8 \tempoBenedictus
+    \partial 8 r8 R2.*2
+    \clef "treble_8" r4 f'8~\p f16 a( g f e d)
+    c4 b8\trill a r r
+    \clef bass r c c c r r %5
+    r c c c r r
+    b,4.\sfp f'8 r r
+    r4 r8 r h16( c e c)
+    g4.~ g8 cis16( d f d)
+    g,4.~ g8 r c %10
+    c4. d
+    h c
+    h8. d16 c8 d4\sfp c8~
+    c\crescE f f e( d) r
+    d4.\p e %15
+    d e8 r r
+    r \appoggiatura c32 b!16( a b c) a8 r r
+    r \appoggiatura d32 c16( h c d) h8 r d~
+    d( e\cresc f) g r r
+    r4 r8 r4 \once \slurDashed g16(\f e) %20
+    c4.~ c4 a'8
+    g r r r16 c,,( e g c e)
+    \once \slurDashed g4( f8) \appoggiatura f16 e8( d c)
+    a d( e) e( f) f(
+    a4)\fz g8 f4(\fz e8) %25
+    f4\p d8 c r g'16( e)
+    c4.~ c4 a'16( f)
+    c4.~ c4 c8
+    c2.
+    d4 d8 c4 r8 %30
+    R2.
+    r4 r8 r4 c,8\f
+    c'( e g) f( e\p f)
+    e4.( f8) r r
+    \clef "treble_8" r4 f8~ f16 a( g f e d) %35
+    c4 c8 c dis16( e g e)
+    c4.~ c8 dis16( e g e)
+    c4.~ c8 c f
+    f4. g
+    e f4 a8 %40
+    g4 f8 c4.\sfp
+    \clef bass b4\cresc d8 c c, r
+    b'4.\p a
+    b a
+    \clef "treble_8" r8 \appoggiatura f'32 es16( d es f) d8 r r %45
+    r \appoggiatura g32 f16( e f g) e8 r e
+    e( f\cresc g) a r r
+    \clef bass r4 r8 r4 a,8\f
+    f'4. f,
+    c'8\fzE r r r16 f,( a c f a) %50
+    c,8( e g) f( e f)
+    d4 fis8 fis( g) b,(
+    d4)\fz c8 e4(\fz f8)
+    g4 e8 f r r
+    r4 r8 c4.~\p %55
+    c~ c8 r\fermata \bar "|." %56 finis
+  }
+}
+
+AgnusFagottoI = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \tempoAgnus
+    R1
+    r2 r4 r8 \mvTr g'\pE-\dolce(
+    es'4) f16( es d c) c4( h8) f'(
+    as4) g16( f es d) f4( es8) r
+    R1 %5
+    c2\fz d4 r
+    d4\p cis16( d cis d) es4(-> d8) r
+    r4 r8 r16 d a'8.(\fp g16 fis es! d c)
+    c4( b8) r b4.\fz r8
+    r2 d!4\pE b~ %10
+    b8 h~-> h16 c( d es) d8 b a c
+    b r r4 r2
+    r r4 r8 f(
+    des'4) es16( des c b ) b4( a8) es'(
+    ges4) f16( es des c) es4( des8) r %15
+    R1
+    b2\fz c4 r
+    \mvTr c4\pE-\dolce h16( c h c) des4(-> c8) r
+    r4 r8 r16 c g'8.(\fp f16 e des c b)
+    b4( as8) r as4.\fz r8 %20
+    r2 c!4\pE es
+    des8 f,4 des'8 c4 b8 g
+    as r r4 r2
+    r r4 r8 as(
+    c4) b16( as g f) f4( e8) b'( %25
+    des4) c16(\cresc b as g) b4( as8) r
+    d2\f es~ \noBreak
+    es4 c g r \bar "||"
+    \key c \major \time 3/4 \tempoDona \newSpacingSection
+      R2.*8 %36
+    r4 d'\p h
+    g2.\f
+    g4 r r
+    R2. %40
+    r4 e'\pE\crescE c
+    g2\f g'4
+    f a, d
+    f2 h,4
+    c r r %45
+    R2.
+    r8 e(\pE h c e, a)
+    g4 r r
+    R2.
+    r4 g g %50
+    g r r\fermata \bar "|." %51 FINIS
+  }
+}

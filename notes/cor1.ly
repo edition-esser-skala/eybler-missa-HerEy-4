@@ -376,3 +376,82 @@ SanctusCornoI = {
     e4\fermata \bar "|." %55 finis
   }
 }
+
+BenedictusCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 6/8 \tempoBenedictus
+    \partial 8 r8 R2.
+    r4 r8 r c'\p c
+    \once \tieDashed c4.~ c8 r r
+    R2.*3 %6
+    c4.~\sfp c8 r r
+    r d e d r r
+    R2.*5 %13
+    r4 r8 r d\p d
+    d2.~ %15
+    d4.~ d4 r8
+    r4 r8 r g, c
+    e4 r8 r4 r8
+    r4 r8 g,4\mf r8
+    R2. %20
+    g4.~\f g8 r r
+    R2.
+    d'4.~ d8 r r
+    R2.
+    e4(\fzE d8) r4 r8 %25
+    R2.
+    d4\p e8 e( d) r
+    c4 d8 d( e) r
+    r4 r8 d4 e8
+    r4 f8 e( d) r %30
+    R2.*2
+    d4.(\f e8) r r
+    d4.(\p c8) c c
+    c4.~ c8 r r %35
+    r d( e) d r r
+    R2.*4 %40
+    r4 r8 d4(\sfp e8)
+    r4 r8 r g,\p g
+    g2.~
+    g4.~ g4 r8
+    r4 r8 r c c %45
+    c4 r8 r4 r8
+    r4 r8 c4\f r8
+    R2.
+    c2.\fz
+    e4\fz d8 c r r %50
+    d4. e8 r r
+    R2.
+    r4 \pao g,8 f'4(\fz e8)
+    \pao d r r r4 r8
+    r4 r8 c4.~\p %55
+    c~ c8 r\fermata \bar "|." %56 finis
+  }
+}
+
+AgnusCornoI = {
+  \relative c' {
+    \clef treble
+    \key c \major \time 4/4 \tempoAgnus
+    R1*5 %5
+    c'2\fz d4 r
+    R1*10 %16
+    \pao b2\fz f'4 r
+    R1*10 \noBreak %27
+    c2\f d4 r \bar "||"
+    \time 3/4 \tempoDona \newSpacingSection
+      R2.*9 %37
+    d2.\f
+    e4 r r
+    R2.*2 %41
+    g2.\f
+    f4 r r
+    d2.
+    c4 r r %45
+    R2.*3 %48
+    r4 c\p c
+    c2.~ %50
+    c4 r r\fermata \bar "|." %51 finis
+  }
+}

@@ -651,3 +651,125 @@ SanctusViola = {
     c4\fermata \bar "|." %55 finis
   }
 }
+
+BenedictusViola = {
+  \relative c' {
+    \clef alto
+    \key f \major \time 6/8 \tempoBenedictus
+    \partial 8 c8\p c4 c8 c4 a8
+    c4 c8 a4 c8
+    f,( b d) f4.
+    r8 c c c4.~
+    c8 c, c c'4 r8 %5
+    r f, f f'4.~
+    f\sfp~ f8 f, a
+    c4 c8 c r r
+    r g' e e( d) r
+    r d g g4 c,8 %10
+    c4. d
+    h c
+    g8 g' g g4.\sfp
+    r8 a\cresc a g4 r8
+    r h,(\p d) r c( e) %15
+    r h( d) r c( e)
+    g e g c, f a~
+    a c, a' d, g g
+    << { \oneVoice g4.~ g4 f8 } \\ { s8 s4\cresc s4 s8\! } >>
+    r e\p g g4 g8\f %20
+    c, e f c c' c
+    c r r r16 c,,( e g c e)
+    g8( h, d) c( f e)
+    a, a'( g) g( f) <d f>(
+    <f a>4\fz) <e g>8 <d h'>4(\fz <c c'>8) %25
+    a'8.(\p f16 d f) e8 r r
+    r c c c4 r8
+    r c c c4 c8
+    c2.
+    r8 d d c4 r8 %30
+    r4 r8 r c( e)
+    f16( e d c h d) c( d e\cresc f g a)
+    b!(\f g e c g' e) c( f e\pE g d a)
+    c( g c e g e) f8 c a
+    f4.~ f8 f' f %35
+    c c c c r r
+    r g' a a( g) r
+    r c, e g( f) f
+    f4. g
+    e f %40
+    c8 c' c c4.\sfp
+    r8 d,\cresc d c4 r8
+    r e(\p g) r f( a)
+    r e( g) r f( a)
+    c c, f~ f b, d'~ %45
+    d d, g~ g c, c~
+    c g'\cresc c c4 b8
+    r e,\p e f4 f8\f
+    c a c f c f
+    <a f c>\fzE r r r16 f,( a c f a) %50
+    g8 e g c, b' a
+    r \once \slurDashed d,( c') c( b) <g b>(
+    <b d>4)\fz <a c>8 <g b>4(\fz <f a>8)
+    d4 e16 g f4.~
+    f~ f16 a,(\decresc c f a c,) %55
+    f(\p a c f, a c) f8 r\fermata \bar "|." %56 finis
+  }
+}
+
+AgnusViola = {
+  \relative c' {
+    \clef alto
+    \key c \minor \time 4/4 \tempoAgnus
+    c,8.\p d16 es8-! f-! fis4( g8) r
+    R1
+    r8 g( g') g as8.( f16 d8) r
+    r f( g) g \once \slurDashed g8.( h,16 c) r32 c'\f c16.([\trill h64 c)]
+    es4 c8-! g-! es16.-! g32-! d16.-! g32-! c,16.-! g'32-! b,!16.-! g'32-! %5
+    as,8 as4 as8 g g' r4
+    r8 d,(\p c' b) a8.(-> b16 c8) r
+    r a( g b) a4(-> c8) r
+    r c( b\cresc a) g8.(\fzE b16 des8) r
+    r c4->\p a8 b4 r %10
+    R1
+    b8. c16 des8-! es-! e4( f8) r
+    R1
+    r8 \slurDashed f,( f') f ges8.( es16 c8) r
+    r es( f) f f8.( a,16 b) \slurSolid r32 b'\f b16.([\trill a64 b)] %15
+    des4 b8-! f-! des16.-! f32-! c16.-! f32-! b,16.-! f'32-! as,!16.-! f'32-!
+    ges,8 ges4 ges8 f f' r4
+    r8 c,(\p b' as) g8.(-> b16 g8) r
+    r b( as f) b8.->( g16 b8) r
+    r b( as\cresc g) f8.(\fz as16 ces8) r %20
+    r b4->\p g8 as4 r
+    R1
+    as8. b16 c8-! des-! d4( es8) r
+    R1
+    r8 f, f f g4. r8 %25
+    r g'\cresc g g e4( f8) r
+    r d!\f f as r c, es g \noBreak
+    r c,, c' c, d4 r \bar "||"
+    \key c \major \time 3/4 \tempoDona \newSpacingSection
+      e'4(\p c g) \noBreak
+    d'( h g) %30
+    e'( c g)
+    d'( h g)
+    e'( c g)
+    a( c e)
+    f d a'~ %35
+    a a, a'
+    g g, g'
+    g,\f g' g,~
+    g c e
+    g\p d g,~ %40
+    g g'\cresc e
+    c\f e g
+    f a, a'
+    h, d f
+    e r r %45
+    r h\mf h
+    c r r
+    r h\p h
+    c <c c,> q
+    q2.~ %50
+    q4 r r\fermata \bar "|." %51 FINIS
+  }
+}

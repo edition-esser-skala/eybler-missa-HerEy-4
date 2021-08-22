@@ -624,3 +624,125 @@ SanctusViolinoII = {
     c4\fermata \bar "|." %55 finis
   }
 }
+
+BenedictusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key f \major \time 6/8 \tempoBenedictus
+    \partial 8 f8\p g( e g) f( e f)
+    e4 e8 f( c a)
+    b16( d f b f d') c( f e d c b)
+    a( e f a c, g') f( a, c f a, f')
+    a( b g d e f) g( e g e g b) %5
+    d( c a e f g) a( f c f a f)
+    d(\sfp b d f b d) a,( c f a c, f)
+    e( c g' c, f a) g( c h c e c)
+    g4.~ g16 d'( cis d f d)
+    g,4.~ g16 h,( c g' e' c) %10
+    a4.~ a16 h( cis d e f)
+    g,4.~ g16 a( h c d e)
+    h( d h g e' c) d(\sfpE h g d c e)
+    a(\cresc a, d f a f) e8( d) r
+    r16 d(\p cis d h g) r g'( fis g e c) %15
+    cis( d e d h g) fis'( g a g e c)
+    b!( g' e g b g) a( f c a c f)
+    c( a' fis a c a) h( g, h d g d)
+    h( d c\crescE e d f) g( e c e f a)
+    g(\pE e g c h d,) h( d c e e\f g) %20
+    f( c g' c, a' c,) a'( g f e a, a')
+    g8 r r r4 c,16( e)
+    g4.~ g8( h c)
+    r a( cis) cis( d) d(
+    f,4)\fz e8 f'4(\fz e8) %25
+    d,4(\p h16 d) c8( e g)
+    b,( g' f) f( e) a16([-> f)]
+    c4( g'8) g( f16 c f a)
+    fis( g e c f a) b( g c, g' a f)
+    d8.( g16 b d) a8( g) r %30
+    h,16(\< c d e f fis)\! a(\> g f e d c)\!
+    h( c d e f g) e( f g\crescE a b a)
+    g(\f e g e c g') f( a, c\p e a, f')
+    e( c e g e c) f( c a c f a,)
+    b( d f b f d') c( f e d c b) %35
+    a( g b g f a) g( e' dis e g e)
+    c4.~ c16 g'( fis g b g)
+    c,4.~ c16 e,( f a f c)
+    d4.~ d16 e( fis g a b)
+    c,4.~ c16 d( e f g a) %40
+    e( g e g a f) g(\sfp e c g' f a)
+    b(\crescE d, g b d b) a8( g) r
+    r16 g'8\p e c a' f c16
+    g'8.( a32 g f[ e d c)] a'8( f) c~
+    c16( a c a c es) d( b f d f b) %45
+    d( h g h d f) e( c g e g c)
+    e( e, f\cresc d g e) f(\trill e f c d g)
+    e(\p g b d c b) a8 r16 a,(\f c f
+    a8) r16 a( f c a8) r16 f'( a c)
+    <f a,>8\fzE r r r4 f,16( a) %50
+    c4( b8) \appoggiatura b16 a8( g f)
+    d d'( fis,) fis( g) g'(
+    b,4)\fz a8 e'4(\fz f8)
+    g,8.( a16 b g) a( a, c f a c,)
+    f(\decresc a c f, a c) <f a,>4.~ %55
+    q4.~\p q8 r\fermata \bar "|." %56 finis
+  }
+}
+
+AgnusViolinoII = {
+  \relative c' {
+    \clef treble
+    \key c \minor \time 4/4 \tempoAgnus
+    c8.\p d16 es8-! f-! fis4( g8) r
+    R1
+    r8 g h,16( c f es) d8.( f16 as8) r
+    r d, h16( d es f) d4( es16) r32 c'\f c16.([\trill h64 c)]
+    es4 c8-! g-! es16.-! g32-! d16.-! g32-! c,16.-! g'32-! b,!16.-! g'32-! %5
+    as,8-! r16. h32-! c16.-! d32-! es16.-! c32-! h8 <g'' h, d, g,> r4
+    d,4\p cis16( d cis d) es4(-> d8) r
+    r c( b g) c8.(-> a16 a'8) r
+    d,4 e16(\cresc fis g a) b4(\fz g8) r
+    r a,4->\p c8 b4 r %10
+    R1
+    b8. c16 des8-! es-! e4( f8) r
+    R1
+    r8 f a,16( b es des) c8.( es16 ges8) r
+    r c, a16( c des es) c4( des16) r32 b'\f b16.([\trill a64 b)] %15
+    des4 b8-! f-! des16.-! f32-! c16.-! f32-! b,16.-! f'32-! as,!16.-! f'32-!
+    e8-! r16. a,32-! b16.-! c32-! des16.-! b32-! a8 <c f a> r4
+    r8 f(\p g as) b8.(-\parenthesize-> g16 b8) r
+    r c,4( as8) g4(-\parenthesize-> g'8) r
+    c,4 d!16(\cresc e f g) as4(\fz f8) r %20
+    r g,4->\p b8 as4 r
+    R1
+    as8. b16 c8-! des-! d4( es8) r
+    R1
+    r8 c c c b4. r8 %25
+    r b\cresc b b g4( as8) \once \slurDashed f'(\fE
+    as4) g16( f es d!) g4 f16( es d c) \noBreak
+    h( c es d) f( es d c) h g'(\p fis g) fis( g a f) \bar "||"
+    \key c \major \time 3/4 \tempoDona \newSpacingSection
+      e8 g4 c8( e g) \noBreak
+    g f4 d8( h f) %30
+    e g4 c8( e g)
+    g f4 d8( h f)
+    e g4 c8( e c)
+    a a,4 a' cis8
+    d a4 d8( cis e) %35
+    g a,4 a8( g f)
+    e( c'! h g h d)
+    f\f d4 g, f'8
+    e g,4 e c8
+    d\p g,4 d' f8 %40
+    e c4\cresc e g8
+    g\f b4 g8( e b)
+    a( cis d e f a)
+    a( g e f d h)
+    c4 r r %45
+    r <d g,>\mf q
+    <e g,> r r
+    r <d g,>\p q
+    <e g,> q q
+    q2.~ %50
+    q4 r r\fermata \bar "|." %51 FINIS
+  }
+}

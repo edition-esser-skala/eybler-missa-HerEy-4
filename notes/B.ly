@@ -1153,3 +1153,224 @@ SanctusBassoLyrics = \lyricmode {
   cel --
   sis. %55 finis8
 }
+
+BenedictusBasso = {
+  \relative c {
+    \clef bass
+    \key f \major \time 6/8 \autoBeamOff \tempoBenedictus
+    \partial 8 r8 r4 r8 r \mvTr c\p^\tuttiE d
+    c4. f8 r es
+    d d' b a a, b
+    c([ d)] e f f f
+    f16([ g)] c,8 r r g' b %5
+    b16([ a)] f8 r r r f
+    b,\sfp b b f' f a
+    c,([ e)] f c r r
+    r c e g g, r
+    r h' g c c, e %10
+    f4.~ f8 a d,
+    e4.~ e8 g c,
+    f8. f16 e8 h'8.\fz h16 c8
+    f,4\cresc d8 g4 r8
+    f4.\p e %15
+    f4.( e8) g e
+    c4. f8 r f
+    d4. g8 r g
+    g g\cresc f e c' f,
+    g4\pE g8 c,4 b'!8\f %20
+    a g f e a fis
+    g4 g8 c,4 r8
+    R2.*4 %26
+    r8 e\p f c' c, r
+    r a' e f f a
+    b b a e e f
+    b,4 g8 c4 c'8 %30
+    g4. c8 r c,
+    g'4. c,8 r r
+    r4 r8 r c\p d
+    c4. f8 r es
+    d d' b a a, b %35
+    c([ e)] f c r r
+    r e16([ f)] g([ a)] a8 g r
+    r a16([ g)] f([ e)] g8 f a
+    b4.~ b8 d g,
+    a4.~ a8 c f, %40
+    b8. b16 a8 e8.\fz e16 f8
+    b4\cresc g8 c4 r8
+    e,([\p g)] c f,([ a)] c
+    e,([ g)] c f, a c
+    a4. b8 r b %45
+    h4. c8 r c,
+    c' h\cresc b a a, b
+    c([\p e)] g f r a\f
+    f c f a f a
+    c4\fzE c,8 f4 r8 %50
+    R2.
+    r8 r d' d8.([ b16)] g8
+    r e f cis'4\fz d8
+    r b c f,4.~
+    f f8 r r %55
+    r4 r8 r4\fermata \bar "|." %56 finis
+  }
+}
+
+BenedictusBassoLyrics = \lyricmode {
+  Be -- ne --
+  di -- ctus, qui
+  ve -- nit in no -- mi -- ne
+  Do -- mi -- ni, be -- ne --
+  di -- ctus, be -- ne --  %5
+  di -- ctus, qui
+  ve -- nit in no -- mi -- ne
+  Do -- mi -- ni,
+  be -- ne -- di -- ctus,
+  be -- ne -- di -- ctus, qui %10
+  ve -- nit, qui
+  ve -- nit in
+  no -- mi -- ne, no -- mi -- ne
+  Do -- mi -- ni,
+  be -- ne -- %15
+  di -- ctus, qui
+  ve -- nit, qui
+  ve -- nit, qui
+  ve -- nit in no -- mi -- ne
+  Do -- mi -- ni, qui %20
+  ve -- nit in no -- mi -- ne
+  Do -- mi -- ni.
+
+  Be -- ne -- di -- ctus,
+  be -- ne -- di -- ctus, qui
+  ve -- nit in no -- mi -- ne
+  Do -- mi -- ni, qui %30
+  ve -- nit, qui
+  ve -- nit,
+  be -- ne --
+  di -- ctus, qui
+  ve -- nit in no -- mi -- ne %35
+  Do -- mi -- ni,
+  be -- ne -- di -- ctus,
+  be -- ne -- di -- ctus, qui
+  ve -- nit, qui
+  ve -- nit in %40
+  no -- mi -- ne, no -- mi -- ne
+  Do -- mi -- ni,
+  be -- ne -- di -- ctus,
+  be -- ne -- di -- ctus, qui
+  ve -- nit, qui
+  ve -- nit, qui
+  ve -- nit in no -- mi -- ne
+  Do -- mi -- ni, qui
+  ve -- nit in no -- mi -- ne
+  Do -- mi -- ni. %50
+
+  O -- san -- na
+  in ex -- cel -- sis,
+  in ex -- cel --
+  sis. %55 finis
+}
+
+AgnusBasso = {
+  \relative c {
+    \clef bass
+    \key c \minor \time 4/4 \autoBeamOff \tempoAgnus
+    R1
+    \mvTrr h'4\mf^\tuttiE c g c,
+    r r8 es\pE f4 f8 r
+    r4 r8 g c4 c,8 r
+    r4 r8 g'\f es4 c %5
+    as2 g4 r
+    r2 fis'8.\p fis16 fis8 fis
+    g4 g8 r fis8. fis16 fis8 fis
+    g4 g8 r r e4-> e8
+    f\p f f4 b, r %10
+    R1*2
+    a'4\mf b f b,
+    r r8 des\pE es4 es8 r
+    r4 r8 f b4 b,8 r %15
+    r4 r8 f'\f des4 b
+    ges'2 f4 r
+    r2 e8.\p e16 e8 e
+    f4 f8 r e8. e16 e8 e
+    f4 f8 r r d!4-> d8 %20
+    es\p es es4 as, r
+    R1*2
+    g'4\mf as es as,
+    r r8 c\pE des4 c8 r %25
+    r4 r8 c des4\cresc c8 r
+    r \mvTr h\f^\critnote d f r es! g c \noBreak
+    as,2 g4 r \bar "||"
+    \key c \major \time 3/4 \tempoDona \newSpacingSection
+      R2. \noBreak
+    h2\p h4 %30
+    c2 c4
+    h2.
+    c4 r r
+    f2 g4
+    f2 e4 %35
+    d2 f4
+    g g r
+    h2.\f
+    c4 r r
+    h,2.\pE %40
+    c4 r r
+    e2\fE e4
+    f2 d4
+    g2.
+    c,4 r r %45
+    h'2.\mfE
+    c4 r r
+    g,2.\p
+    c4 r r
+    R2. %50
+    R\fermata \bar "|." %51 FINIS
+  }
+}
+
+AgnusBassoLyrics = \lyricmode {
+  A -- gnus De -- i, %2
+  qui tol -- lis,
+  qui tol -- lis
+  pec -- ca -- ta %5
+  mun -- di:
+  Mi -- se -- re -- re
+  no -- bis, mi -- se -- re -- re
+  no -- bis, mi -- se --
+  re -- re no -- bis. %10
+
+  A -- gnus De -- i, %13
+  qui tol -- lis,
+  qui tol -- lis %15
+  pec -- ca -- ta
+  mun -- di:
+  Mi -- se -- re -- re
+  no -- bis, mi -- se -- re -- re
+  no -- bis, mi -- se -- %20
+  re -- re no -- bis.
+
+  A -- gnus De -- i, %24
+  qui tol -- lis, %25
+  qui tol -- lis
+  pec -- ca -- ta, pec -- ca -- ta
+  mun -- di:
+
+  Do -- na %30
+  no -- bis
+  pa --
+  cem,
+  do -- na,
+  \xE do -- na \x %35
+  no -- bis
+  pa -- cem,
+  do --
+  na
+  no -- %40
+  bis,
+  do -- na
+  no -- bis
+  pa --
+  cem, %45
+  no --
+  bis
+  pa --
+  cem. %49 FINIS
+}
