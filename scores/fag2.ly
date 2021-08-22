@@ -38,7 +38,7 @@
 \layout {
   \context {
     \Staff
-    instrumentName = "vl 1"
+    instrumentName = "fag 2"
   }
 }
 
@@ -48,12 +48,12 @@
       number = "1"
       title = "K Y R I E"
     }
-    \paper { indent = 2\cm }
+    \paper { indent = 2\cm systems-per-page = #6 }
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \KyrieViolinoI
+          \set Staff.instrumentName = "Fagotto II"
+          \KyrieFagottoII
         }
       >>
     }
@@ -65,7 +65,7 @@
     }
     \score {
       <<
-        \new Staff { \GloriaViolinoI }
+        \new Staff { \GloriaFagottoII }
       >>
     }
   }
@@ -76,7 +76,7 @@
     }
     \score {
       <<
-        \new Staff { \CredoViolinoI }
+        \new Staff { \CredoFagottoII }
       >>
     }
   }
@@ -85,10 +85,10 @@
       number = "4"
       title = "S A N C T U S"
     }
-    \paper { page-count = #1 }
+    \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \SanctusViolinoI }
+        \new Staff { \SanctusFagottoII }
       >>
     }
   }
@@ -99,7 +99,7 @@
     }
     \score {
       <<
-        \new Staff { \BenedictusViolinoI }
+        \new Staff { \BenedictusFagottoII }
       >>
     }
   }
@@ -108,9 +108,10 @@
       number = "6"
       title = "A G N U S   D E I"
     }
+    \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \AgnusViolinoI }
+        \new Staff { \AgnusFagottoII }
       >>
     }
   }

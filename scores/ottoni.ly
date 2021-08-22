@@ -67,8 +67,8 @@
 \book {
   \bookpart {
     \header {
-      number = "1"
-      title = "F I R S T"
+      number = "2"
+      title = "G L O R I A"
     }
     \paper { indent = 2\cm }
     \score {
@@ -78,18 +78,64 @@
             \set GrandStaff.instrumentName = \markup \center-column { "Clarino" "in C" }
             \new Staff {
               \set Staff.instrumentName = "I"
-              \xxxClarinoI
+              \GloriaClarinoI
             }
             \new Staff {
               \set Staff.instrumentName = "II"
-              \xxxClarinoII
+              \GloriaClarinoII
             }
           >>
         >>
         \new Staff {
           \set Staff.instrumentName = \markup \center-column { "Timpani" "in C–G" }
-          \xxxTimpani
+          \GloriaTimpani
         }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      number = "3"
+      title = "C R E D O"
+    }
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \CredoClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \CredoClarinoII
+            }
+          >>
+        >>
+        \new Staff { \CredoTimpani }
+      >>
+    }
+  }
+  \bookpart {
+    \header {
+      number = "4"
+      title = "S A N C T U S"
+    }
+    \score {
+      <<
+        \new StaffGroup <<
+          \new GrandStaff <<
+            \new Staff {
+              \set Staff.instrumentName = "1"
+              \SanctusClarinoI
+            }
+            \new Staff {
+              \set Staff.instrumentName = "2"
+              \SanctusClarinoII
+            }
+          >>
+        >>
+        \new Staff { \SanctusTimpani }
       >>
     }
   }

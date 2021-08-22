@@ -38,7 +38,7 @@
 \layout {
   \context {
     \Staff
-    instrumentName = "vl 1"
+    instrumentName = "fag 1"
   }
 }
 
@@ -52,8 +52,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \KyrieViolinoI
+          \set Staff.instrumentName = "Fagotto I"
+          \KyrieFagottoI
         }
       >>
     }
@@ -65,7 +65,7 @@
     }
     \score {
       <<
-        \new Staff { \GloriaViolinoI }
+        \new Staff { \GloriaFagottoI }
       >>
     }
   }
@@ -76,7 +76,7 @@
     }
     \score {
       <<
-        \new Staff { \CredoViolinoI }
+        \new Staff { \CredoFagottoI }
       >>
     }
   }
@@ -85,10 +85,10 @@
       number = "4"
       title = "S A N C T U S"
     }
-    \paper { page-count = #1 }
+    \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \SanctusViolinoI }
+        \new Staff { \SanctusFagottoI }
       >>
     }
   }
@@ -99,7 +99,7 @@
     }
     \score {
       <<
-        \new Staff { \BenedictusViolinoI }
+        \new Staff { \BenedictusFagottoI }
       >>
     }
   }
@@ -110,7 +110,7 @@
     }
     \score {
       <<
-        \new Staff { \AgnusViolinoI }
+        \new Staff { \AgnusFagottoI }
       >>
     }
   }

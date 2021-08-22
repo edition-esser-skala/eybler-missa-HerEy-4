@@ -598,7 +598,7 @@ CredoOrgano = {
     c8 r r c\pp r r \noBreak
     c4.~ c8 r r\fermata \bar "||"
     \key c \major \time 2/2 \newSpacingSection \tempoEtResurrexit
-      r2 r4 \mvTr g'(\f-\solo-\unisonoE %90
+      r2 r4 \mvTr g'(\f-\solo-\unisonoE \noBreak %90
     \scriptOut d8-!) r h'4( \scriptOut g8-!) r d'4(
     \scriptOut h8-!) r g'4( \scriptOut d8-!) r g,,4\fz
     a h c cis

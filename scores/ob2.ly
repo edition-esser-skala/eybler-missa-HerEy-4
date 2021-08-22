@@ -38,7 +38,7 @@
 \layout {
   \context {
     \Staff
-    instrumentName = "vl 1"
+    instrumentName = "ob 2"
   }
 }
 
@@ -52,8 +52,8 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = "Violino I"
-          \KyrieViolinoI
+          \set Staff.instrumentName = "Oboe II"
+          \KyrieOboeII
         }
       >>
     }
@@ -65,7 +65,7 @@
     }
     \score {
       <<
-        \new Staff { \GloriaViolinoI }
+        \new Staff { \GloriaOboeII }
       >>
     }
   }
@@ -76,7 +76,7 @@
     }
     \score {
       <<
-        \new Staff { \CredoViolinoI }
+        \new Staff { \CredoOboeII }
       >>
     }
   }
@@ -85,10 +85,10 @@
       number = "4"
       title = "S A N C T U S"
     }
-    \paper { page-count = #1 }
+    \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \SanctusViolinoI }
+        \new Staff { \SanctusOboeII }
       >>
     }
   }
@@ -99,7 +99,7 @@
     }
     \score {
       <<
-        \new Staff { \BenedictusViolinoI }
+        \new Staff { \BenedictusOboeII }
       >>
     }
   }
@@ -108,9 +108,10 @@
       number = "6"
       title = "A G N U S   D E I"
     }
+    \paper { systems-per-page = #5 }
     \score {
       <<
-        \new Staff { \AgnusViolinoI }
+        \new Staff { \AgnusOboeII }
       >>
     }
   }
