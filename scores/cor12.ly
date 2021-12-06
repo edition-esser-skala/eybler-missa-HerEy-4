@@ -1,68 +1,21 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
+#(define option-instrument-name "cor")
+\include "score_settings/two-staves.ly"
 
-\paper {
-  indent = 1\cm
-  top-margin = 1.5\cm
-  system-separator-markup = ##f
-  system-system-spacing =
-    #'((basic-distance . 16)
-       (minimum-distance . 16)
-       (padding . -100)
-       (stretchability . 0))
+\paper { indent = 1.5\cm }
 
-  top-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-  top-markup-spacing =
-    #'((basic-distance . 0)
-       (minimum-distance . 0)
-       (padding . -100)
-       (stretchability . 0))
-
-  markup-system-spacing =
-    #'((basic-distance . 12)
-       (minimum-distance . 12)
-       (padding . -100)
-       (stretchability . 0))
-
-  systems-per-page = #6
-}
-
-#(set-global-staff-size 17.82)
-
-\layout {
-  \context {
-    \GrandStaff
-    \override StaffGrouper.staffgroup-staff-spacing =
-      #'((basic-distance . 12)
-        (minimum-distance . 12)
-        (padding . -100)
-        (stretchability . 0))
-    \override StaffGrouper.staff-staff-spacing =
-      #'((basic-distance . 12)
-        (minimum-distance . 12)
-        (padding . -100)
-        (stretchability . 0))
-
-  }
-}
 \book {
   \bookpart {
-    \header {
-      number = "1"
-      title = "K Y R I E"
-    }
+    \section "1" "Kyrie"
+    \addTocEntry
     \paper { indent = 2\cm }
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \markup \center-column { "Corno" "in C" }
+            \set GrandStaff.instrumentName = \transposedName "Corno" "C" ""
             \new Staff {
               \set Staff.instrumentName = "I"
               \KyrieCornoI
@@ -77,15 +30,13 @@
     }
   }
   \bookpart {
-    \header {
-      number = "2"
-      title = "G L O R I A"
-    }
+    \section "2" "Gloria"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \markup \center-column { "cor" "(C)" }
+            \set GrandStaff.instrumentName = \transposedNameShort "cor" "C" ""
             \new Staff {
               \set Staff.instrumentName = "1"
               \GloriaCornoI
@@ -100,15 +51,13 @@
     }
   }
   \bookpart {
-    \header {
-      number = "3"
-      title = "C R E D O"
-    }
+    \section "3" "Credo"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \markup \center-column { "cor" "(C)" }
+            \set GrandStaff.instrumentName = \transposedNameShort "cor" "C" ""
             \new Staff {
               \set Staff.instrumentName = "1"
               \CredoCornoI
@@ -123,16 +72,14 @@
     }
   }
   \bookpart {
-    \header {
-      number = "4"
-      title = "S A N C T U S"
-    }
+    \section "4" "Sanctus"
+    \addTocEntry
     \paper { systems-per-page = #3 }
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \markup \center-column { "cor" "(C)" }
+            \set GrandStaff.instrumentName = \transposedNameShort "cor" "C" ""
             \new Staff {
               \set Staff.instrumentName = "1"
               \SanctusCornoI
@@ -147,15 +94,13 @@
     }
   }
   \bookpart {
-    \header {
-      number = "5"
-      title = "B E N E D I C T U S"
-    }
+    \section "5" "Benedictus"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \markup \center-column { "cor" "(F)" }
+            \set GrandStaff.instrumentName = \transposedNameShort "cor" "F" ""
             \new Staff {
               \set Staff.instrumentName = "1"
               \BenedictusCornoI
@@ -170,16 +115,14 @@
     }
   }
   \bookpart {
-    \header {
-      number = "6"
-      title = "A G N U S   D E I"
-    }
+    \section "6" "Agnus Dei"
+    \addTocEntry
     \paper { systems-per-page = #3 }
     \score {
       <<
         \new StaffGroup <<
           \new GrandStaff <<
-            \set GrandStaff.instrumentName = \markup \center-column { "cor" "(C)" }
+            \set GrandStaff.instrumentName = \transposedNameShort "cor" "C" ""
             \new Staff {
               \set Staff.instrumentName = "1"
               \AgnusCornoI

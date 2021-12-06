@@ -1,21 +1,22 @@
 \version "2.22.0"
 
 \include "../definitions.ly"
+\include "score_settings/full-score.ly"
 
 \paper {
-  #(define (page-post-process layout pages) (ly:create-toc-file layout pages))
+  top-system-spacing.basic-distance = #10
+  top-system-spacing.minimum-distance = #10
+  top-markup-spacing.basic-distance = #0
+  top-markup-spacing.minimum-distance = #0
+  markup-system-spacing.basic-distance = #10
+  markup-system-spacing.minimum-distance = #10
 }
-
-#(set-global-staff-size 15.87)
 
 \book {
   \bookpart {
-    \header {
-      number = "1"
-      title = "K Y R I E"
-    }
+    \section "1" "Kyrie"
+    \addTocEntry
     \paper { indent = 3\cm }
-    \tocSection "1" "Kyrie"
     \score {
       <<
         \new StaffGroup <<
@@ -44,7 +45,7 @@
         >>
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "Corno I, II" "in C" }
+            \set Staff.instrumentName = \transposedName "Corno I, II" "C" ""
             \partCombine \KyrieCornoI \KyrieCornoII
           >>
         >>
@@ -67,25 +68,19 @@
         >>
         \new ChoirStaff <<
           \new Staff {
-            \set Staff.instrumentName = \SopranoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
+            \incipitSoprano
             \new Voice = "Soprano" { \dynamicUp \KyrieSoprano }
           }
           \new Lyrics \lyricsto Soprano \KyrieSopranoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \AltoIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
+            \incipitAlto
             \new Voice = "Alto" { \dynamicUp \KyrieAlto }
           }
           \new Lyrics \lyricsto Alto \KyrieAltoLyrics
 
           \new Staff {
-            \set Staff.instrumentName = \TenoreIncipit
-            \override Staff.InstrumentName.self-alignment-Y = ##f
-            \override Staff.InstrumentName.self-alignment-X = #RIGHT
+            \incipitTenore
             \new Voice = "Tenore" { \dynamicUp \KyrieTenore }
           }
           \new Lyrics \lyricsto Tenore \KyrieTenoreLyrics
@@ -110,11 +105,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "2"
-      title = "G L O R I A"
-    }
-    \tocSection "2" "Gloria"
+    \section "2" "Gloria"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -147,12 +139,12 @@
             \partCombine \GloriaCornoI \GloriaCornoII
           >>
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "clno (C)" "1, 2" }
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "clno" "C" "" "1, 2" }
             \partCombine \GloriaClarinoI \GloriaClarinoII
           >>
         >>
-        \new Staff {
-          \set Staff.instrumentName = \markup \center-column { "timp" "(C–G)" }
+        \new Staff \with { \smallStaffDistance } {
+          \set Staff.instrumentName = \transposedTimpShort "C" "" "G" ""
           \GloriaTimpani
         }
         \new StaffGroup <<
@@ -211,11 +203,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "3"
-      title = "C R E D O"
-    }
-    \tocSection "3" "Credo"
+    \section "3" "Credo"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -252,7 +241,7 @@
             \partCombine \CredoClarinoI \CredoClarinoII
           >>
         >>
-        \new Staff {
+        \new Staff \with { \smallStaffDistance } {
           \set Staff.instrumentName = "timp"
           \CredoTimpani
         }
@@ -312,11 +301,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "4"
-      title = "S A N C T U S"
-    }
-    \tocSection "4" "Sanctus"
+    \section "4" "Sanctus"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -353,7 +339,7 @@
             \partCombine \SanctusClarinoI \SanctusClarinoII
           >>
         >>
-        \new Staff {
+        \new Staff \with { \smallStaffDistance } {
           \set Staff.instrumentName = "timp"
           \SanctusTimpani
         }
@@ -413,11 +399,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "5"
-      title = "B E N E D I C T U S"
-    }
-    \tocSection "5" "Benedictus"
+    \section "5" "Benedictus"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -446,7 +429,7 @@
         >>
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "cor (F)" "1, 2" }
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "F" "" "1, 2" }
             % \transpose c f,
             \partCombine \BenedictusCornoI \BenedictusCornoII
           >>
@@ -507,11 +490,8 @@
     }
   }
   \bookpart {
-    \header {
-      number = "6"
-      title = "A G N U S   D E I"
-    }
-    \tocSection "6" "Agnus Dei"
+    \section "6" "Agnus Dei"
+    \addTocEntry
     \score {
       <<
         \new StaffGroup <<
@@ -540,7 +520,7 @@
         >>
         \new StaffGroup <<
           \new Staff <<
-            \set Staff.instrumentName = \markup \center-column { "cor (C)" "1, 2" }
+            \set Staff.instrumentName = \markup \center-column { \transposedNameShort "cor" "C" "" "1, 2" }
             \partCombine \AgnusCornoI \AgnusCornoII
           >>
         >>
