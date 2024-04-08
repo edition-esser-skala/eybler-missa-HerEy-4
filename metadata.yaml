@@ -4,19 +4,27 @@ composer:
 title: Missa Sancti Mauritii
 id: HerEy 4
 genre: mass
-scoring: S, A, T, B (coro), 2 ob, 2 fag, 2 cor (C/F),\\2 clno (C), timp (C–G), 2 vl, 2 vla, b, org
+scoring: S, A, T, B (coro), 2 ob, 2 fag, 2 cor (C/F),\\2 clno (C), timp (C–G), 2 vl, vla, vlc, b, org
 license: cc-by-sa-4.0
 sources:
+  A1:
+    siglum: A-Ws
+    shelfmark: 555 (1)
+    date: 1825
+    license: public domain
+    principal: true
+    notes: full score; 11 pages
   B1:
     siglum: D-NATk
     shelfmark: NA/SP (E-20)
     date: 1840–1860
     rism: 455039869
     url: https://mirador.acdh.oeaw.ac.at/musikarchivspitz/D-NATk_E20/
-    license: public domain
-    principal: true
+    license: public domain7
+    note: 19 parts (S, A, T, B, vl 1, vl 2, vla, vlne, org, ob 1, ob 2, fag 1, fag 2, fag 1/2, cor 1, cor 2, clno 1, clno 2, timp)
 imslp: Missa_Sancti_Mauritii,_HerEy_4_(Eybler,_Joseph)
 parts:
   cor12: Corno I, II in C/F
   ottoni: Clarino I, II in C\\Timpani in C–G
-  vla12: Viola I, II
+  vla: Viole
+  b: Violoncello \& Bassi

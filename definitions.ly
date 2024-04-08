@@ -1,9 +1,9 @@
-\version "2.22.0"
+\version "2.24.2"
 
 #(define option-movement-title-format "number-title")
-#(define option-init-toc #t)
 #(define option-print-all-bar-numbers #f)
 \include "ees.ly"
+\include "ees_articulate.ly"
 
 
 perd = \markup \remark  "perd."
@@ -41,7 +41,7 @@ tempoAgnus = \tempoMarkup "Adagio"
 \include "notes/timp.ly"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"
-\include "notes/vla12.ly"
+\include "notes/vla.ly"
 \include "notes/S.ly"
 \include "notes/A.ly"
 \include "notes/T.ly"
