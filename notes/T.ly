@@ -22,11 +22,12 @@ KyrieTenore = {
     c8.([ h16)] h4 r8 d
     g,8.([ c16)] c4 r8 g'\f
     fis8.([ c16)] c4 h\fz
-    c8 c h( d4 c8) %20
-    h4 r r
+    % c8 c h(\< d4 c8) %20 % for MIDI
+    c8 c h(\< \after 8 \> d4 c8) %20
+    h4\! r r
     r r8 d\p d8.([ c16)]
     h4 r r
-    d4.\fz g,8 h d\p
+    d4.\fz g,8\p h d
     f!4 d r %25
     e4.\mf c8 a c
     d4 h g
@@ -49,13 +50,13 @@ KyrieTenore = {
     f4\f d c\fz
     f8 f e( g4 f8) %45
     e4 r r
-    r r8 g,\p h([ d)]
+    r r8 g,\pE h([ d)]
     c4 r r
     c8.\fz e16 g4 r
     f8.\fz c16 a4 r %50
-    r8 g\p g4( h)
+    r8 g\p g4 h
     c r r
-    h2 d4
+    h2\p d4
     c r c\pp
     d2( h4) %55
     c r r
@@ -112,7 +113,7 @@ KyrieTenoreLyrics = \lyricmode {
   son.
   Ky -- ri -- e,
   Ky -- ri -- e %50
-  e -- lei --
+  e -- le -- i --
   son,
   Ky -- ri --
   e e --

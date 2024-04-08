@@ -5,12 +5,13 @@ KyrieSoprano = {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoKyrie
     R2.*2
-    \mvTr f4.\p^\tutti a8 g16([ f)] e([ d)]
+    \mvTr f4.\p^\tuttiE a8 g16([ f)] e([ d)]
     c8([ h)] c4 r8 g'16([ c)]
     c4\fz h8 r r h16([ d)] %5
     d4\fz c8 r r4
     g'4.\fz f8\p e d
-    c8.([ d16)] h4 r8 e
+    % c8.([ d16)] h4 r8 e % for MIDI
+    \after 8 ^\turn c8.([ d16)] h4 r8 e
     d8.([ h16)] g4 r
     r8 d'\mf h g e'4~ %10
     e8[ c] a c d4~
@@ -18,11 +19,12 @@ KyrieSoprano = {
     c8[ a] fis e' d c
     c([ h)] a4 r
     R2.*2 %16
-    d4. f8 e16([ d)] c([ h)]
+    d4. f!8 e16([ d)] c([ h)]
     g'8.([ e16)] c4 r8 c\f
     c8.([ fis16)] fis4 g~\fz
-    g16[ e] c a g8( h4 a8) %20
-    g4 r8 d'\p d8.([ c16)]
+    % g16[ e] c a g8(\< h4 a8) %20 % for MIDI
+    g16[ e] c a g8(\< \after 8 \> h4 a8) %20
+    g4\! r8 d'\p d8.([ c16)]
     h4 r r
     R2.
     h8.\fz d16 d4 r8 g,\p
@@ -34,13 +36,15 @@ KyrieSoprano = {
     c4\fz h8 r r h16([ d)] %30
     d4\fz c8 r r4
     g'4.\fz f8\p e d
-    c8.([ d16)] h4 r8 e
+    % c8.([ d16)] h4 r8 e % for MIDI
+    \after 8 \turn c8.([ d16)] h4 r8 e
     d8.([ h16)] g4 r
     r8 d'\mf h g g'4~ %35
     g8[ e] c e f4~
     f8[ d] h d e4~
     e8[ c] a f' e d
-    c8.([ d16)] h4 r
+    % c8.([ d16)] h4 r % for MIDI
+    \after 8 \turn c8.([ d16)] h4 r
     R2.*3 %42
     f'4. a8 f d
     h8.([\f f'16)] f4 e~\fz
@@ -52,9 +56,9 @@ KyrieSoprano = {
     a'8.\fz f16 c4 r %50
     r r8 g\p g4
     g r r
-    f'2 h,4
+    f'2\p h,4
     c r e8([\pp c)]
-    g2~ g16[ f e f] %55
+    g2~ g16[( f e f]) %55
     e4 r r
     R2.\fermata \bar "|." %57 finis
   }

@@ -20,15 +20,16 @@ KyrieBasso = {
     g4. h8 a16([ g)] fis([ e)] %15
     e8.([ d16)] d8 r r d
     d8.([ g16)] g4 r
-    r8 c,4 e8 g e
+    r8 c,4\cresc e8 g e
     d4\f dis e\fz
-    c8 c d2 %20
-    g,4 r r
+    % c8 c d2\< %20 % for MIDI
+    c8 c \after 4 \> d2\< %20
+    g,4\! r r
     r r8 d'\p fis([ a)]
     g4 r r
     g8.\fz h16 h4 r8 h,\p
     d4 f! r %25
-    c\mf g'^\critnote r8 c,
+    c\mf a' r8 c,
     h4 g' r8 b,
     a4 f'8 f d f
     g4\p c, r8 c
@@ -48,13 +49,13 @@ KyrieBasso = {
     g4 gis a\fz
     f8 f g2 %45
     c,4 r r
-    r r8 g'\p g8.([ f16)]
+    r r8 g'\pE g8.([ f16)]
     e4 r r
     e8.\fz g16 c4 r
     f,8.\fz a16 c4 r %50
     r r8 g\p g4
     c, r r
-    g'2 g4
+    g'2\p g4
     c r c,8([\pp e)]
     g2. %55
     c,4 r r

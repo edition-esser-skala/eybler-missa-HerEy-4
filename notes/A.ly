@@ -5,7 +5,7 @@ KyrieAlto = {
     \clef treble
     \key c \major \time 3/4 \autoBeamOff \tempoKyrie
     R2.*2
-    \mvTr d4.\p^\tutti a8 a f'
+    \mvTr d4.\p^\tuttiE a8 a f'
     d4 e r8 e
     f4\fz f8 r r f %5
     g4\fz g8 r r4
@@ -18,18 +18,18 @@ KyrieAlto = {
     fis([ a)] d, fis g a
     d,([ g)] fis4 r
     R2.*3 %17
-    e4. g8 f16([ e)] d([ c)]
+    e4.\cresc g8 f16([ e)] d([ c)]
     a'2\f g4\fz
     e d( fis) %20
-    g r8 d\pE fis([ a)]
+    g r8 d\p fis([ a)]
     g4 r r
     R2.
-    f!4.\fz a8 g16([ f)] e([\p d)]
+    f!4.\fz a8 g16([\p f)] e([ d)]
     c8.([ h16)] h4 r %25
     r g'\mf e
     r8 d d4 e
     f4. a8 g16([ f)] e([ d)]
-    c8([\pE h)] c4 r8 e
+    c8([\p h)] c4 r8 e
     f4\fz f8 r r f %30
     g4\fz g8 r r4
     b4.\fz a8\p g f
@@ -39,11 +39,12 @@ KyrieAlto = {
     c'4.( a8) f a
     h4.( g8) e g
     a4 a8 a g f
-    e8.([ f16)] d4 r
+    % e8.([ f16)] d4 r % for MIDI
+    \after 8 \turn e8.([ f16)] d4 r
     R2. %40
     f4. a8 g16([ f)] e([ d)]
     f8.([ e16)] e4 r8 g
-    c,8.([ f16)] f4 r8 a\fE
+    c,8.([ f16)] f4 r8 a\f
     d,4 h' c\fz
     a8 a g4( h,) %45
     c r8 g'\p g8.([ f16)]
@@ -51,9 +52,9 @@ KyrieAlto = {
     R2.
     b'8.\fz g16 e4 r
     c'8.\fz a16 f4 r %50
-    r8 g\pE g4.( f8)
+    r8 g\p g4. f8
     e4 r r
-    d2 f4
+    d2\p f4
     e r g\pp
     h,2( d4) %55
     c r r
@@ -108,7 +109,7 @@ KyrieAltoLyrics = \lyricmode {
 
   Ky -- ri -- e,
   Ky -- ri -- e %50
-  e -- lei --
+  e -- le -- i --
   son,
   Ky -- ri --
   e e --

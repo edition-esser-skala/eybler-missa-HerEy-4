@@ -1,12 +1,17 @@
 \version "2.24.2"
 
 #(define option-movement-title-format "number-title")
-#(define option-print-all-bar-numbers #f)
+#(define option-print-all-bar-numbers #t)
 \include "ees.ly"
 \include "ees_articulate.ly"
 
 
-perd = \markup \remark  "perd."
+fzp  = \dynScript "fzp" ##f
+perd = #(make-music
+  'DecrescendoEvent
+  'span-direction START
+  'span-type 'text
+  'span-text (markup (#:normal-text #:small "perd.")))
 sulG = #(make-music
   'CrescendoEvent
   'span-direction START

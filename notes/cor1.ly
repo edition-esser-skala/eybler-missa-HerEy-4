@@ -27,11 +27,11 @@ KyrieCornoI = {
     r r r8 f
     e4 d r
     R2.*4 %43
-    d4\f f e\fz
-    r e4.-> d8 %45
+    d4\fE f e\fzE
+    r e4. d8 %45
     c4 r r
     R2.
-    r4 r8 c\f c c
+    r4 r8 c\fE c c
     c4. c8 c c
     c4 r r %50
     R2.
