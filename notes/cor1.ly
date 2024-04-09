@@ -48,9 +48,9 @@ GloriaCornoI = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoGloria
-    \partial 8 r8 c2\f e4 g
+    \partial 8 r8 \pa c2\f e4 g \pd
     c1
-    c2 e
+    c2 f
     d1
     e4 c2 c4 %5
     c1
@@ -110,10 +110,10 @@ GloriaCornoI = {
     e4 r e d
     c r r2 %85
     R1*14 %99
-    c1~\fp %100
+    c1~\sfp %100
     c4 r r2
     R1*5 %106
-    c1\f
+    \pao c1\f
     es
     g4 r r2
     g,4 r8 g16 g g4 g %110
@@ -122,9 +122,9 @@ GloriaCornoI = {
     g r r2
     R1*10 %123
     d'1\f
-    c2 \once \partCombineChords e %125
+    c2 e %125
     R1*2
-    d1\f
+    d1\fE
     e4 g, c e
     d1 %130
     e4 c2 c4
@@ -134,7 +134,7 @@ GloriaCornoI = {
     d d2 d4 %135
     e1
     d
-    c2 \once \partCombineChords e4 c
+    c2 e4 c
     d r r2
     R1*4 %143
     r2 r4 d

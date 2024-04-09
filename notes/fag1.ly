@@ -80,7 +80,7 @@ GloriaFagottoI = {
     es~
     es~
     es~
-    es4 es d c
+    es4 es \pao d c
     h! r r2 %25
     R1
     g1\f
@@ -94,14 +94,14 @@ GloriaFagottoI = {
     c,2 c'
     f,4 r g r
     c, g'8. g16 g2~ %40
-    g1
+    g1~
     g4 g8. g16 g2~
     g1~
     g4 c8. c16 c2~
     c1~ %45
     c4 r r2
     R1*3
-    r2 f,4\pE f %50
+    r2 f,4\f f %50
     b,2 f'
     R1
     r4 g2\f g4
@@ -130,60 +130,60 @@ GloriaFagottoI = {
     d2 cis8( d e f)
     fis4( g) g r
     c,1~
-    c2 f4 f
+    c2 f
     d2. h4 %80
     c4 g8. g16 g2~
     g1
-    a8 r \clef "treble_8" a'2\fz g8 f
-    e4 f e d
+    a8 r a'2\fz g8 f
+    e4 f e d \noBreak
     c r r2 %85
-    \key c \minor r4 as'2\fz \once \slurDashed g8( f)
+    \clef "treble_8" \key c \minor r4 as'2\fz g8 f \noBreak
     f4( es) r2
-    r4 f~\fz f8 as( g d)
+    r4 f~\fz f8( as g d)
     f4( es) r2
-    \clef bass c1~\mfE %90
+    \clef bass c1~ %90
     c
-    es2.\p c4
+    \mvDl es2.\p c4
     h r r2
-    \clef "treble_8" r4 as'2\fz \once \slurDashed g8( f)
+    \clef "treble_8" r4 as'2\fz g8 f
     f4( es) r2 %95
-    r4 f~\fz f8 as( g d)
+    r4 f~\fz f8( as g d)
     f4( es) r2
-    R1
-    \clef bass r4 as,(\pE\crescE c es)
-    ges1(\fz %100
-    es2\decresc c
-    des4)\pE r r2
-    R1*3 %105
-    c1~\fE
+    \pa R1
+    r4 as,(\< c es)
+    ges1\sfp\> %100
+    es2 c\!
+    des4 r r2
+    R1*3 \pd %105
+    \clef bass c1~\f
     c
     es
     g2 c,
-    d c %100
+    d c %110
     h c
     d c
-    h8(\p\< c d es e f fis g)\!
-    as2. g8 f
+    h8(_\p_\< c d es e f fis g)
+    as2.\! g8 f
     e4 r r2 %115
     R1*6 %121
-    \key c \major R1
+    \key c \major \pa R1 \noBreak
     d1\p\cresc
     h2\f d
-    c1 %125
+    c1 \pd %125
     R
-    r4 g2\p\cresc g4
+    r4 \after 4 \cresc g2\p g4
     g1~\f
     g~
     g~ %130
-    g4 g g g
-    a2 g
+    g4 \pao g g g
+    \pa a2 g \pd
     f4 a c2
-    r4 g2 g4
+    \pa r4 g2 g4 \pd
     g h2 h4 %135
     c1
     h4. d8 g4 h,
     c8 h c d e d e c
-    h4 g r2
+    h4 \pa g r2
     R1 %140
     r4 c2 g4
     r e'2 d8 c
@@ -204,7 +204,7 @@ GloriaFagottoI = {
     c4 r r c8 b
     a b a g f4 f'~
     f d r2
-    r4 c8 h a h c d %160
+    r4 c8 h! a h c d %160
     g,4 e' r e
     fis, d' gis,2\trill
     a4 e'8 d c d c h
@@ -220,13 +220,13 @@ GloriaFagottoI = {
     c8 e d c h4 b~
     b8 d c b a4 r
     r c2 f4~ %175
-    f8 g e c h4 r
+    f8 g e c \pd h4 r
     r f' g, e'
     r d e, c'
-    r2 e,
+    \pao r2 e,
     f g %180
     a h
-    c a4 g
+    c a4 \pao g
     c e, e' g,
     a c a f
     e e' r2 %185

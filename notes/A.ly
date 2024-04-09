@@ -122,7 +122,7 @@ GloriaAlto = {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoGloria
     \partial 8 r8 R1
-    \mvTr g'4\f^\tutti g8 g c4 c
+    \mvTr g'4\f^\tuttiE g8 g c4 c
     c2 a
     g1
     g4 r r2 %5
@@ -167,7 +167,7 @@ GloriaAlto = {
     c( e) g g
     f f r2
     f f %50
-    f f\cresc
+    f\cresc f
     f f4 g
     f e r2
     g\f g4 e
@@ -199,20 +199,20 @@ GloriaAlto = {
     g2( f) %80
     e4 r r2
     R1*4 %85
-    \key c \minor r2 g\mf
-    as-> g4 r
+    \key c \minor r2 g\mf \noBreak
+    as^> g4 r
     r g g g
-    as2-> g4 r
+    as2^> g4 r
     c,2 c %90
     g' es4 r
-    c1\pE
+    c1\p
     d4 r r2
     r g\mf
-    as-> g4 r %95
+    as^> g4 r %95
     r g g g
-    as2-> g4 r
+    as2^> g4 r
     R1
-    as4.\mf\crescE es8 es4 r
+    as4.\mf es8 es4 r
     c'2.\f c,4 %100
     es2 r
     des4\p des ces ces
@@ -227,14 +227,14 @@ GloriaAlto = {
     g g8 g g4 g8 g
     g2 g,4 r
     R1
-    r4 as'2\p-> g8([ f)]
+    r4 as'2\p^> g8([ f)]
     e4.( f8) g4 r %115
     R1*2
     as,2 as
     as a
-    g2. h4 %120
+    g2. h4 \noBreak %120
     d2( c)
-    \key c \major h4 r r2
+    \key c \major h4 r r2 \noBreak
     R1
     d4.\f g8 g4 g
     g2 g %125
@@ -252,22 +252,22 @@ GloriaAlto = {
     g4. g8 g4 g
     c,8([ h)] c d e([ d)] e([ fis)]
     g4 g r2
-    r4 a2( g8[ f] %140
-    e[ f e d)] c4 e'(
+    r4 a2 g8[ f] %140
+    e[ f e d] c4 e'(
     e,) c' fis,2
     g4 r r2
     r4 f8([ e] d[ e f g]
     c,4) c' r2 %145
     R1
     r4 g2 e4
-    r a2( g8[ f]
-    e[ f e d)] c4 r
+    r a2 g8[ f]
+    e[ f e d] c4 r
     r a'~ a8[ h a g] %150
     fis[ g fis e] d4 r
     r g~ g8[ a g f]
     e[ f e d] c4 d8[ e]
-    f4 d'2( c8[ b]
-    a[ b a g)] f4 r %155
+    f4 d'2 c8[ b]
+    a[ b a g] f4 r %155
     R1
     r4 c'8([ b] a[ b a g)]
     f4 r r a(
@@ -311,7 +311,7 @@ GloriaAltoLyrics = \lyricmode {
   glo -- ri -- a
   De -- o,
   in ex -- cel -- sis
-  De -- o glo -- ri -- a,
+  De -- o, glo -- ri -- a
   in ex -- cel -- sis %10
   De -- o.
 
@@ -434,22 +434,22 @@ GloriaAltoLyrics = \lyricmode {
   glo -- ri -- a, in
   glo -- ri -- a De -- i __
   Pa -- tris,
-  a -- %140
-  men, a --
+  a -- _ %140
+  _ men, a --
   men, a --
   men,
   a --
   men, %145
 
   a -- men,
-  a --
-  men,
+  a -- _
+  _ men,
   a -- %150
   _ men,
   a --
   _ _ _
-  men, a --
-  men, %155
+  men, a -- _
+  _ men, %155
 
   a --
   men, a --

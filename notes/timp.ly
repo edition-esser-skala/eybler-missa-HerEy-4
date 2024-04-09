@@ -16,14 +16,14 @@ GloriaTimpani = {
     g8 \tuplet 3/2 8 { g16 g g } g8 g c \tuplet 3/2 8 { c16 c c } c8 c %10
     g4 r r2
     R1*15 %26
-    g1\fE\startTrillSpan
+    g1\f\startTrillSpan
     c4\stopTrillSpan r8 \tuplet 3/2 8 { c16 c c } c4 c
     g1\startTrillSpan
     c4\stopTrillSpan r8 \tuplet 3/2 8 { c16 c c } c4 c %30
     c r r2
     R1*5 %36
     c4\ff r8 \tuplet 3/2 8 { c16 c c } c4 c
-    c2~\startTrillSpan c4\stopTrillSpan r
+    c2\startTrillSpan c4\stopTrillSpan r
     r2 g4 r
     c r r2 %40
     c1\startTrillSpan
@@ -33,7 +33,7 @@ GloriaTimpani = {
     c1~\startTrillSpan %45
     c4\stopTrillSpan r r2
     R1*9 %55
-    c4\f r8 \tuplet 3/2 8 { c16 c c } c4 c
+    c4\fE r8 \tuplet 3/2 8 { c16 c c } c4 c
     c r r2
     R1*2
     r2 g4 r8 g %60
@@ -58,7 +58,7 @@ GloriaTimpani = {
     g4 r8 \tuplet 3/2 8 { g16 g g } g4 g
     g r r2
     R1*11 %124
-    c2~\fE\startTrillSpan c4\stopTrillSpan r %125
+    c2~\f\startTrillSpan c4\stopTrillSpan r %125
     R1*3
     c4\f r8 \tuplet 3/2 8 { c16 c c } c4 c
     g r r2 %130

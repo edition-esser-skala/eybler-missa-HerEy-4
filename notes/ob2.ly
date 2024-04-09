@@ -65,7 +65,7 @@ GloriaOboeII = {
     h c %10
     h4 r r2
     R1*14 %25
-    g2\p\cresc h
+    g2\p h\cresc
     h1\f
     c
     h
@@ -84,10 +84,10 @@ GloriaOboeII = {
     b2. g4 %45
     f r r2
     R1*3
-    r2 f4\pE f %50
+    r2 f4\f f %50
     f1
     R1
-    r4 e2\fE e4
+    r4 e2\f e4
     e1
     f2. f'4 %55
     g2 g,
@@ -105,10 +105,10 @@ GloriaOboeII = {
     a2. gis4
     a a2 c4
     a1 %70
-    g~
+    g!~
     g4 d'2 c4
     c2 h4 r
-    g2~ g4 h8( c)
+    g2~ g4 h8 c
     cis4( d) d r %75
     h2 ais8( h c d)
     dis4( e) e r
@@ -118,21 +118,21 @@ GloriaOboeII = {
     e4 e'8. e16 e2~
     e2. d8 c
     a r f'2\fz e8 d
-    c4 a g f
+    c4 a g f \noBreak
     e r r2 %85
-    \key c \minor r4 f'2\fz \once \slurDashed es8( d)
+    \key c \minor r4 f'2\fz es8 d \noBreak
     d4( c) r2
-    r4 d~\fz d8 f( es h)
+    r4 d~\fz d8( f es h)
     d4( c) r2
-    g1~\mfE %90
+    g1~ %90
     g
     c,\p
     d4 r r2
-    r4 f'2\fz \once \slurDashed es8( d)
+    r4 f'2\fz es8 d
     d4( c) r2 %95
-    r4 d~\fz d8 f( es h)
+    r4 d~\fz d8( f es h)
     d4( c) r2
-    R1*2 %199
+    R1*2 %99
     es1(\sfp %100
     c2) r
     R1*4 %105
@@ -140,20 +140,20 @@ GloriaOboeII = {
     es
     fis
     g
-    f'2 es %110
+    f'!2 es %110
     d es
     f es
     d4 r r2
     R1*2 %115
-    r4 b2->\pE as8 g
+    r4 b2-> as8 g
     f4 r r2
     R1*4 %121
-    \key c \major R1
-    g~\pE\cresc
+    \key c \major R1 \noBreak
+    g~\p\cresc
     g2.\f h4
     c1 %125
     R
-    r4 e,\p\cresc g c
+    r4 e,\p g\cresc c
     h1\f
     c
     d %130
@@ -166,11 +166,11 @@ GloriaOboeII = {
     g2. g4
     c8 h c d e d e fis
     g4 g, r2
-    r4 a2 g8 f %140
+    r4 a2 g8 f! %140
     e f e d c4 e'
     e, c' fis,2\trill
     g4 r r2
-    r4 f8 e d e f g
+    r4 f!8 e d e f g
     c,4 c' r2 %145
     R1
     r4 g2 e4

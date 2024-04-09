@@ -58,20 +58,20 @@ GloriaOboeI = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoGloria
-    \partial 8 r8 c2\f e4 g
+    \partial 8 r8 \pa c2\f e4 g \pd
     c2 e
     g f
     d1
     e4 c2 c4 %5
     f2 e
     a g
-    f4 e d d
-    d2 e
+    f4 e d c
+    h2 c
     d e %10
     d4 r r2
     R1*13 %24
     r2 g,\p %25
-    h\cresc d
+    h d\cresc
     f1\f
     e
     d2 f
@@ -79,8 +79,8 @@ GloriaOboeI = {
     g r r2
     R1*4 %35
     f1\f
-    e2\ffE c4 e
-    g2 g
+    e2\ff c4 e
+    g2 e
     a4 r h, r
     c e8. e16 e2~ %40
     e1
@@ -90,10 +90,10 @@ GloriaOboeI = {
     g2. b,4 %45
     a r r2
     R1*3
-    r2 f4\pE f %50
+    r2 \pa f4\f f \pd %50
     d'2 c
     R1
-    r4 g2\fE g4
+    r4 g2\f g4
     g2 b
     a4 c f a %55
     b2 b,
@@ -101,7 +101,7 @@ GloriaOboeI = {
     f c
     a' f
     d1 %60
-    c4 c2 c4
+    \pao c4 c2 c4
     h1
     c
     d4 d2 c4
@@ -109,7 +109,7 @@ GloriaOboeI = {
     e1
     f2. d4
     c2. h4
-    a c2 e4
+    \pao a c2 e4
     d1 %70
     h2 c
     d8 e f2 e4
@@ -117,65 +117,65 @@ GloriaOboeI = {
     c2 h8( c d e)
     e4( f) f r %75
     d2 cis8( d e f)
-    \once \slurDashed fis4( g) g r
-    g2 \once \slurDashed f8( e d c)
+    fis4( g) g r
+    g2 f8( e d c)
     f2 a
     h,2. d4 %80
     c g'8. g16 g2~
     g2. f8 e
     d r a'2\fz g8 f
-    e4 d c h
+    e4 d c h \noBreak
     c r r2 %85
-    \key c \minor r4 as'2\fz \once \slurDashed g8( f)
+    \key c \minor r4 as'2\fz g8 f \noBreak
     f4( es) r2
-    r4 \once \slurDashed f~\fz f8 as( g d)
-    \once \slurDashed f4( es) r2
-    c1\mfE %90
+    r4 f~\fz f8( as g d)
+    f4( es) r2
+    c1 %90
     es
     fis,\p
     g4 r r2
-    r4 as'2\fz g8( f)
+    r4 as'2\fz g8 f
     f4( es) r2 %95
-    r4 \once \slurDashed f~\fz f8 as( g d)
+    r4 f~\fz f8( as g d)
     f4( es) r2
-    R1
-    r4 \once \slurDashed as,(\pE\crescE c es)
-    \once \slurDashed ges1(\fz %100
-    es2\decrescE c
-    des4)\pE r r2
-    R1*3 %105
+    \pa R1
+    r4 as,(\< c es)
+    ges1\sfp\> %100
+    es2 c\!
+    des4 r r2
+    R1*3 \pd %105
     as1~\f
     as
     c
     h2 c
-    f es %110
-    d es
-    f es
-    h8(\p\< c d es e f fis g)\!
-    as4 r r2
-    e,8( f g as a b h c) %115
-    des2.\p c8 b
+    \pa d c %110
+    h c
+    d c
+    h8(\p\< c d es e f fis g)
+    as4\! r r2
+    e,8(\< f g as a b h c) %115
+    des2.\! \pd c8 b
     as4 r r2
     R1*4 %121
-    \key c \major g1\p
+    \key c \major \pa g1\p \noBreak
     h\cresc
     d2\f f
-    e c %125
+    e c \pd %125
     R1
-    r4 g\p\cresc c e
+    r4 g\p c\cresc e
     d1\f
     e
     f %130
     e4 c c c
     f2 e
-    a g4 \once \slurDashed g~
+    a g4 g~
     g f2 e4
-    d2 g, %135
-    e' c
-    d4 h g h
+    d \pa g,2 g4 \pd %135
+    e'2 c
+    d4 h g \pa g
     c8 h c d e d e fis
     g4 g, r g'
-    a, f' h,2\trill %140
+    a, f'! h,2\trill %140
     c4 r r2
     r4 c8 h a h c d
     g,4 g' r2
@@ -184,11 +184,11 @@ GloriaOboeI = {
     r e'2 d8 c
     h c h a g4 g'
     a, f' h,2\trill
-    c4 \once \slurDashed e~ e8 f e d
+    c4 e~ e8 f e d
     c d c h a4 r %150
-    r \once \slurDashed d~ d8 e d c
+    r d~ d8 e d c
     h c h a g4 r
-    r \once \slurDashed c~ c8 d c b
+    r \once \tieDashed c~ c8 d c b
     a c b a g a b c
     f,4 f8 e d e f g %155
     c,4 c' r g'8 f
@@ -199,7 +199,7 @@ GloriaOboeI = {
     g4 r r2
     r4 d'8 c h c d e
     c4 a r e'8 d
-    c d c h a4 \once \slurDashed a~
+    c d c h a4 a~
     a h8 c d4 d8 c %165
     h c h a g4 g~
     g a8 b c4 c8 b
@@ -211,14 +211,14 @@ GloriaOboeI = {
     c4 r r2
     r r4 f
     g, e' a, d8 c %175
-    h!4 c d g
+    h!4 c d \pd g
     a, f' r e
-    f, d' r c
+    f, d' r \pa c
     d, d'2 c8 h
     a4 f'2 e8 d %180
     c4 a'2 g8 f
-    e4 e d2
-    c4 g' g, b'
+    e4 e d2\trill
+    c4 \pd g' g, b'
     a f c a'
     g c r2 %185
     R1

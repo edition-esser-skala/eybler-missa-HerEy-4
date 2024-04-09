@@ -84,7 +84,7 @@ GloriaViolinoI = {
     h4 <g' h, d, g,> r g,(\p
     as2 f4 d)
     es2( c4 as)
-    g8( b des? es) g( b des b)
+    g8( b d es) g( b des b)
     c( as es c) as( c es as) %15
     f des'4 c8 b( as g f)
     es( c as c) es( as c es)
@@ -119,10 +119,10 @@ GloriaViolinoI = {
     g( c e g) c,( e g b)
     a( b c a) f( g a f)
     b( d, f b) a( f a c) %50
-    d( b f d') c(\cresc f, a c)
+    d(\cresc b f d') c( f, a c)
     f( a, c f) e( d c b)
-    a( c, e g) c( g c e)
-    g16\fE g c, c e e g g b b g g e e b b
+    a( c,\f e g) c( g c e)
+    g16 g c, c e e g g b b g g e e b b
     a a f f c c f f a a c c f f a a %55
     g g g, g c  c e e g g e e b' b g g
     a a c c f, f a a c, c f f a, a c c
@@ -152,47 +152,47 @@ GloriaViolinoI = {
     e4 g'8. g16 g2~
     g16 g f f e e d d c c h h a a g g
     f8 r a'2\fz g8 f
-    e( g f d) c( e d h)
-    c4 r8 h, \appoggiatura d16 c8( h c d) %85
-    \key c \minor h4 r r2
-    c4\mfE r8 h \appoggiatura d16 c8( h c d)
+    e( g f d) c( e d h) \noBreak
+    c4 r8 h, \grace d16 c8( h c d) %85
+    \key c \minor h4 r r2 \noBreak
+    c4 r8 h \grace d16 c8( h c d)
     h4 r r2
-    c4 r8 h \appoggiatura d16 c8( h c d)
+    c4 r8 h \grace d16 c8( h c d)
     es g( es c) r c'( g es) %90
     r es'( c g) r g'( es c)
     r h(\p c d f es d c)
-    h g(\f fis f e es d c)
+    h-! g(\f fis f e es d c)
     h4 r r2
-    c4\mfE r8 h \appoggiatura d16 c8( h c d) %95
+    c4 r8 h \grace d16 c8( h c d) %95
     h4 r r2
-    c4 r8 h \appoggiatura d16 c8( h c es)
+    c4 r8 h \grace d16 c8( h c es)
     as, c4\p c c c8~
     c es4\cresc es es es8~
     es ges'4\f es c es8 %100
-    ges,4 ges2\decresc ges4
+    ges,4\decresc ges2\decresc ges4
     r fes2\p fes4
     r fes( es des)
-    c! r8 g\f \appoggiatura b16 as8( g as c)
-    es4 r8 h \appoggiatura des16 c8( h c es) %105
-    as4 r8 d, \appoggiatura f16 es8( d es as)
-    c4 r8 g \appoggiatura b16 as8( g as c)
-    es h( c d es e f fis)
+    c! r8 g\f \grace b16 as8( g as c)
+    es4 r8 h \grace des16 c8( h c es) %105
+    as4 r8 d, \grace f16 es8( d es as)
+    c4 r8 g\cresc \grace b16 as8( g as c)
+    es\! h( c d es e f fis)
     g8.[ d16 h8. g16] c8.[ g16 c8. es16]
     d8.[ h16 d8. g16] es8.[ g16 es8. c16] %110
     g'8.[ d16 h8. g16] c8.[ g16 c8. es16]
     d8.[ h16 d8. g16] es8.[ g16 es8. c16]
-    h8(\< c d es e f fis g)\!
-    as4 r r2
-    e8(\pE\< f g as a b h c)\! %115
-    des4 r r2
-    f,8(\> as c b as g f es)
-    des4(\p f as, des)
+    h8(\p\< c d es e f fis g)
+    as4\! r r2
+    e8(\< f g as a b h c) %115
+    des4\! r r2
+    f,8(\> as! c b as g f es)
+    des4(\! f as, des)
     f,( as des, c)
-    h( d g f) %120
-    \once \slurDashed f2( es)
-    \key c \major d16 d g, g h h d d g g h, h d d g g
+    h( d g f) \noBreak %120
+    f2 es\trill
+    \key c \major d16 d g, g h h d d g g h, h d d g g \noBreak
     h h d, d g\cresc g h h d d g, g h h d d
-    f\f f e e d d c c h h a a g g f f
+    f\f f e! e d d c c h h a a g g f f
     e e c c e e g g c c g g e' e c c %125
     g\p g f f d d h h g g h h d d f f
     e e g g c\cresc c e e g, g c c e e g g
@@ -208,7 +208,7 @@ GloriaViolinoI = {
     d d d' d h h g g d d h h g g f' f
     e e h h c c d d e e d d e e fis fis
     g g d d h h d d c c g g c c e e
-    a, a f f a a d d h h d d g g h, h %140
+    a, a f! f a a d d h h d d g g h, h %140
     c c h h c c d d e e e, e g g e' e
     e, e g g c c h h a a a' a fis fis d d
     g g g, g d' d c c h h d d g, g g' g
@@ -232,7 +232,7 @@ GloriaViolinoI = {
     g g d d h h h' h g g fis fis e e a a
     fis fis d d h' h a a gis gis a a fis fis gis gis
     a a a, a c c d d e e e, e e' e d d
-    c c d d c c h h a a h h a a g g
+    c c d d c c h h a a h h a a g! g
     fis fis a a h h c c d d d, d d' d c c %165
     h h c c h h a a g g a a g g f f
     e e g g a a b b c c c, c c' c b b

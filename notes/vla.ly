@@ -77,7 +77,7 @@ GloriaViola = {
     \clef alto
     \key c \major \time 4/4 \tempoGloria
     \partial 8 \tuplet 3/2 8 { g16\f a h } c8 e c g e c' g e
-    c g'' e c g e' c g
+    \kneeBeam c g'' e c g e' c g
     e g c e f, a d f
     g, g' d h g h d g
     c, d16 e f g a h c8 g e c %5
@@ -90,31 +90,31 @@ GloriaViola = {
     as2 f4 d)
     es2( c4 as)
     es r r2
-    << {
-      r4 es'2 es4 %15
+    r4 << {
+      es'2 es4 %15
       f1
       es~
       es2. g4
-      as r r2
-      r4 c,2 c4 %20
-      es r r2
-      r4 c2 c4
-      es r r2
-      r4 c d es
-      d r r2 %25
+      as \oneVoice r r2
+      r4 \voiceOne c,2 c4 %20
+      es \oneVoice r r2
+      r4 \voiceOne c2 c4
+      es \oneVoice r r2
+      r4 \voiceOne c d es
+      d
     } \\ {
-      r4 c2 c4 %15
+      c2 c4 %15
       des1
       c
       b
-      as4 r r2
-      r4 as2 as4 %20
-      c4 r r2
-      r4 g2 g4
-      c r r2
-      r4 a!2 a4
-      d, r r2 %25
-    } >>
+      as4 s2.
+      s4 as2 as4 %20
+      c4 s2.
+      s4 g2 g4
+      c s2.
+      s4 a!2 a4
+      d,
+    } >> r r2 %25
     r4 h'\f g d'
     h8 c d e f g a h
     c4 c,2 c4
@@ -137,11 +137,11 @@ GloriaViola = {
     c c2 c4~
     c c2 c4~
     c a c f~
-    f f,2 f'4~ %50
-    f f2\cresc f4~
+    f f,2 f'4~\cresc %50
+    f f2 f4~
     f f2 g4
-    f e g e
-    c\f c2 c4~
+    f e\f g e
+    c c2 c4~
     c a f a %55
     c c2 e4
     f c' a f
@@ -161,7 +161,7 @@ GloriaViola = {
     g g,2 g4~
     g g'2 g4~
     g c, h d
-    g, g'2 \once \tieDashed g4~
+    g, g'2 g4~
     g g2 g,4~ %75
     g g'2 g4
     c, e c e
@@ -171,31 +171,31 @@ GloriaViola = {
     c r r g8. g16
     g g a a h h c c d d e e f f g g
     a a g g f f e e d d h h c c d d
-    g,8( e' f a) g( c, d f)
-    e4 r8 h \appoggiatura d16 c8( h c d) %85
-    \key c \minor h4 r r2
-    c4\mfE r8 h \appoggiatura d16 c8( h c d)
-    h4-\critnote r r2
-    c4 r8 h \appoggiatura d16 c8( h c d)
+    g,8-! e'( f a) g( c, d f) \noBreak
+    e4 r8 h \grace d16 c8( h c d) %85
+    \key c \minor h4 r r2 \noBreak
+    c4 r8 h \grace d16 c8( h c d)
+    h4 r r2
+    c4 r8 h \grace d16 c8( h c d)
     es4 c r c %90
     r es r es
     r fis\p r fis
     g r8 f(\f e es d c)
     h4 r r2
-    c4\mfE r8 h \appoggiatura d16 c8( h c d) %95
+    c4 r8 h \grace d16 c8( h c d) %95
     h4 r r2
-    c4 r8 h \appoggiatura d16 c8( h c es)
+    c4 r8 h \grace d16 c8( h c es)
     as, es4\p es es es8~
     es as4\cresc as as as8~
-    as as4\fE as as as8 %100
-    c4 c2\decresc c4
-    des fes,2\p fes4~
+    as as4\f as as as8 %100
+    c4\decresc c2 c4
+    des\p fes,2 fes4~
     fes des( es fes)
-    es r8 g\f \appoggiatura b16 as8( g as c)
-    es4 r8 h \appoggiatura des16 c8( h c es) %105
-    as4 r8 d,,! \appoggiatura f16 es8( d es as)
-    c4 r8 g as( es c es)
-    as4 c2 c4
+    es r8 g\f \grace b16 as8( g as c)
+    es4 r8 h \grace des16 c8( h c es) %105
+    as4 r8 d,,! \grace f16 es8( d es as)
+    c4 r8 g\cresc as( es c es)
+    as4\! c2 c4
     g8.[ h16 d8. g16] es8.[ g16 es8. c16]
     h8.[ d16 h8. g16] c8.[ g16 c8. es16] %110
     g,8.[ h16 d8. g16] es8.[ g16 es8. c16]
@@ -207,17 +207,17 @@ GloriaViola = {
     r as c as
     f f2 f4~
     f f2 es4
-    d! h'( c d) %120
-    \once \slurDashed g,2( fis)
-    \key c \major g4 g2 g4
-    g h2\cresc h4
-    h\f d2 h4
+    d! h'( c d) \noBreak %120
+    g,2 fis
+    \key c \major g4 g2 g4~ \noBreak
+    g h2\cresc h4~
+    h d2\f h4
     c c2 c4 %125
     d\p g,2 h4
     c e2\cresc g4~
-    g g2\f h,4
+    g\f g2 h,4
     c c2 e4
-    d d'2 h4 %130
+    d d'2 d4 %130
     c8 e g, c e, g c, e
     a, c f a g, c e g
     f, a c f e, g c e
@@ -227,11 +227,11 @@ GloriaViola = {
     g' fis g d h a h g
     c d e d c h c a
     h d g, h c4 r
-    r a'2 g8 f %140
+    r a'2 g8 f! %140
     e f e d c4 e'
     e, c' fis,2\trill
     g4 r r2
-    r4 f8 e d e f g
+    r4 f!8 e d e f g
     c,4 c' r2 %145
     R1
     r4 g2 e4
@@ -255,7 +255,7 @@ GloriaViola = {
     fis g fis e d4 d~ %165
     d e8 f g4 g8 f
     e f e d c4 c~
-    c d8 e f4 \once \tieDashed d~
+    c d8 e f4 d~
     d e8 fis g4 e~
     e f8 g a4 f~ %170
     f d~ d8 h c d

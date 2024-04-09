@@ -157,7 +157,7 @@ GloriaBasso = {
     b,2. b4
     a r a' a
     c,2. c4
-    h r r2 %35
+    h! r r2 %35
     R1
     c'2\ff c4 c
     c2 c,4 c'
@@ -169,7 +169,7 @@ GloriaBasso = {
     e2 e4 e
     f f r2
     d4 d c c %50
-    b4. b8 a2\cresc
+    b4.\cresc b8 a2
     a' b4 g
     c c, r2
     e\f e4 g
@@ -201,22 +201,22 @@ GloriaBasso = {
     g1 %80
     c,4 r r2
     R1*4 %85
-    \key c \minor r2 g'\mf
-    as-> g4 r
+    \key c \minor r2 g'\mf \noBreak
+    as^> g4 r
     r g g g
-    as2 g4 r
+    as2^> g4 r
     es2 es %90
     c c4 r
     as1\p
     g4 r r2
     r g'\mf
-    as-\parenthesize-> g4 r %95
+    as^> g4 r %95
     r g g g
-    as2-> g4 r
+    as2^> g4 r
     R1*2
     as4.\f as,8 as4 r %100
     as\p as as as
-    heses2-> as
+    heses2^> as
     g1
     as2 r
     R1 %105
@@ -228,20 +228,20 @@ GloriaBasso = {
     g g8 g g4 g8 g
     g2 g,4 r
     R1
-    r4 f'2\p-> g8([ as)]
+    r4 f'2\p^> g8([ as)]
     g4.( f8) e4 r %115
     R1*2
     f2 f,
     f fis
-    g4( f'!) es( d) %120
+    g4( f'!) es( d) \noBreak %120
     c1
-    \key c \major g4 r r2
+    \key c \major g4 r r2 \noBreak
     R1
     g'4.\f g8 g4 g
     c,2 e %125
     h1\p
     c4 r r2
-    g'4.\f g8 g4 g
+    g'4.\fE g8 g4 g
     c g e c
     h2 h' %130
     c4 r r c,
@@ -257,25 +257,25 @@ GloriaBasso = {
     c,4) c' r2
     R1
     r4 g2 e4
-    r a2( g8[ f]
-    e[ f e d)] c4 e'( %145
+    r a2 g8[ f]
+    e[ f e d] c4 e'( %145
     e,) c' fis,2\trill
     g4 r r2
-    r4 f8([ e] d[ e f g]
+    r4 f!8([ e] d[ e f g]
     c,4) c' r a~
     a8[ h a g] fis[ g fis e] %150
     d4 r r g~
     g8[ a g f!] e[ f e d]
     c4 r r c'(
     d,) b' e,2\trill
-    f4 a2( g8[ f] %155
-    e[ f e d]) c4 r
+    f4 a2 g8[ f] %155
+    e[ f e d] c4 r
     R1
     r4 c'8[ b] a[ b a g]
     f[ g f e] d[ e f g]
     a4 a, r a'( %160
-    h,!) g' cis,2(\trill
-    d e)
+    h,!) g' cis,2\trill
+    d e
     a, r
     r4 a'8[( g] fis[ g fis e])
     d4 d2( e8[ fis]) %165
@@ -414,7 +414,7 @@ GloriaBassoLyrics = \lyricmode {
 
   no -- bis, %118
   mi -- se --
-  re -- re %120
+  re -- re __ %120
   no --
   bis.
 
@@ -438,8 +438,8 @@ GloriaBassoLyrics = \lyricmode {
   men,
 
   a -- men,
-  a --
-  men, a -- %145
+  a -- _
+  _ men, a -- %145
   men, a --
   men,
   a --
@@ -449,14 +449,14 @@ GloriaBassoLyrics = \lyricmode {
   _
   men, a --
   men, a --
-  men, a -- %155
-  men,
+  men, a -- _ %155
+  _ men,
 
   a -- _
   _ _
   _ men, a -- %160
   men, a --
-
+  _ _
   men,
   a --
   men, a -- %165

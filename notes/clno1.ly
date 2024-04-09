@@ -4,11 +4,11 @@ GloriaClarinoI = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoGloria
-    \partial 8 r8 c2\f e4 g
-    c r r2
+    \partial 8 r8 \pa c2\f e4 g
+    c \pd r r2
     R1
     d
-    e4 r8 g, c g e g %5
+    e4 r8 \pa g, c g e g \pd %5
     c4 r8 c16 c c4 c
     c4 r8 c16 c c4 c
     c4 r r2
@@ -22,7 +22,7 @@ GloriaClarinoI = {
     e4 \pa c,8. c16 \pd e4 g %30
     b r r2
     R1*5 %36
-    c,2\ff e4 g
+    \pa c,2\ff e4 g \pd
     c2 e4 r
     r2 d4 r
     c r r e,8. e16 %40
@@ -32,16 +32,16 @@ GloriaClarinoI = {
     r r4 b8. b16
     b4 r r2 %45
     R1*10 %55
-    c4\f r8 c16 c c4 c
+    c4\fE r8 c16 c c4 c
     c r r2
     R1*2
     r2 g4 r8 g %60
     e4 r r2
-    e4 r8 e16 e e4 e
-    e r r2
+    \pao e4 r8 \pa e16 e e4 e
+    e \pd r r2
     R1*4 %67
-    e4 r8 e16 e e4 e
-    e r r2
+    \pao e4 r8 \pa e16 e e4 e
+    e \pd r r2
     R1*2 %71
     r4 d'2 e4
     e2 d4 r
@@ -64,20 +64,20 @@ GloriaClarinoI = {
     g4 r8 g16 g g4 g
     g r r2
     R1*11 %123
-    r2 r4 g\f
-    e2 c %125
+    r2 r4 \pa g\f
+    e2 c \pd %125
     R1*2
-    r2 r4 g'\f
-    c2 \once \partCombineChords e
+    r2 r4 \pao g'\f
+    c2 e
     d1 %130
     e4 c8. c16 c4 c
     c r r2
     c4 r r2
-    r4 d2\fz e4
+    r4 d2 e4
     d g,8. g16 g4 g %135
     \pa e2 c \pd
     g' r4 \pao g
-    c2 \once \partCombineChords e4 c
+    c2 e4 c
     g r r2
     R1*9 %148
     r4 e8. e16 e4 e
@@ -85,7 +85,7 @@ GloriaClarinoI = {
     R1
     g4 r r2
     R1*3 %155
-    r4 \pao g c \once \partCombineChords e
+    r4 \pao g c e
     R1*3
     r4 c2 \pao c,4 %160
     g' r r2
@@ -137,9 +137,9 @@ CredoClarinoI = {
     g2 e4 r
     R1
     g4 g8. g16 g4 g
-    c2 \once \partCombineChords e
+    c2 e
     d4 g,8. g16 g4 g %25
-    \once \partCombineChords e'2 c
+    e'2 c
     d4 r r2
     R1*7 %34
     r2 d %35
@@ -208,7 +208,7 @@ CredoClarinoI = {
     e2 r
     R1*25 %239
     g,1 %240
-    c2 \once \partCombineChords e
+    c2 e
     d1~
     d
     c2 d~

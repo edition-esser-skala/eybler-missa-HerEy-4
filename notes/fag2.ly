@@ -92,11 +92,11 @@ GloriaFagottoII = {
     e1 %45
     f4 r r2
     R1*3
-    r2 f,4\pE f %50
+    r2 f,4\f f %50
     b,2 f'
     R1
     r4 c'2\f c4
-    c1-\critnote
+    c1
     f %55
     e2. c4
     f1
@@ -116,7 +116,7 @@ GloriaFagottoII = {
     g4 f e c
     h2 c
     g g'4 r
-    e2 g4 h8( c)
+    e2 g4 h8 c
     cis4( d) d r %75
     h2 ais8( h c d)
     dis4( e) e r
@@ -125,26 +125,26 @@ GloriaFagottoII = {
     g g' %80
     c,4 e8. e16 e2~
     e1
-    f8 r \clef "treble_8" f'2\fz e8 d
-    c4 \clef bass f, g g,
+    f8 r f'2\fz e8 d
+    c4 f, g g, \noBreak
     c r r2 %85
-    \key c \minor \clef "treble_8" r4 f'2\fz \once \slurDashed es8( d)
+    \key c \minor \clef "treble_8" r4 f'2\fz es8 d \noBreak
     d4( c) r2
-    r4 d~\fz d8 f( es h)
+    r4 d~\fz d8( f es h)
     d4( c) r2
-    \clef bass es,1\mfE %90
+    \clef bass es,1 %90
     c
     as\p
     g4 r r2
-    \clef "treble_8" r4 f''2\fz \once \slurDashed es8( d)
+    \clef "treble_8" r4 f''2\fz es8 d
     d4( c) r2 %95
-    r4 d~\fz d8 f( es h)
+    r4 d~\fz d8( f es h)
     d4( c) r2
-    R1*2 %99
-    \clef bass es1(\sfp %100
+    R1*2
+    es1(\sfp %100
     c2) r
     R1*4 %105
-    as1~\fE
+    \clef bass as1~\f
     as~
     as
     g
@@ -155,12 +155,12 @@ GloriaFagottoII = {
     r4 f2-> es8 d
     des4 r r2 %115
     R1*6 %121
-    \key c \major g,1~\p
+    \key c \major g,1~\p \noBreak
     g\cresc~
     g\f
     c, %125
     R
-    r4 g'\p\cresc e c
+    r4 g'\p e\cresc c
     g1\f
     c
     h %130
@@ -174,18 +174,18 @@ GloriaFagottoII = {
     e8 d c h c h c a
     g4 g' r2
     r4 f8 e d e f g %140
-    c,4-\critnote c' r2
+    c,4 c' r2
     R1
     r4 g2 e4
     r a2 g8 f
     e f e d c4 e' %145
     e, c' fis,2\trill
     g4 r r2
-    r4 f8 e d e f g
+    r4 f!8 e d e f g
     c,4 c' r a~
     a8 h a g fis g fis e %150
     d4 r r g~
-    g8 a g f e f e d
+    g8 a g f! e f e d
     c4 r r c'
     d, b' e,2\trill
     f4 a2 g8 f %155

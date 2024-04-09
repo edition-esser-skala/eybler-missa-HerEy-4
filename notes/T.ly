@@ -126,8 +126,8 @@ GloriaTenore = {
     \clef "treble_8"
     \key c \major \time 4/4 \autoBeamOff \tempoGloria
     \partial 8 r8 R1
-    \mvTr e4\f^\tutti e8 e g4 g
-    c,2^\critnote d
+    \mvTr e4\f^\tuttiE e8 e g4 g
+    c,2 d
     h1
     c4 r r2 %5
     c4. c8 c4 r
@@ -152,11 +152,11 @@ GloriaTenore = {
     d2 r %25
     r r4 g,\f
     d'2. f4
-    e r g e
+    e! r g e
     d2 f4 f
     e r r2 %30
     R1
-    r4 g,\p g g
+    r4 g,\pE g g
     c,( a') a r
     r a a a
     d,( h') h r %35
@@ -171,7 +171,7 @@ GloriaTenore = {
     g( c) c c
     c8([ b)] a4 r2
     r f4 f %50
-    b( d) f2\cresc
+    b(\cresc d) f2
     c b4 d
     c c c2~\f
     c c4 c
@@ -191,7 +191,7 @@ GloriaTenore = {
     c4( e2 gis,4)
     a r r2
     c a4 d %70
-    d2 g,
+    d2 g,!
     r4 d'2 c4
     c2 h4 r
     c2 f4 e
@@ -200,22 +200,22 @@ GloriaTenore = {
     dis4( e) e r
     c( e) g e
     c2 f
-    d2.( h8[ c)] %80
+    d!2. h8[( c)] %80
     c4 r r2
     R1*4 %85
-    \key c \minor r2 g\mf
-    as-> g4 r
+    \key c \minor r2 g\mf \noBreak
+    as^> g4 r
     r g g g
-    as2-> g4 r
+    as2^> g4 r
     g2 g %90
     es4.( g8) c4 r
     es2.(\p c4)
     h r r2
     r g\mf
-    as-> g4 r %95
+    as^> g4 r %95
     r g g g
-    as2-> g4 r
-    es'4.\pE c8 c4 r
+    as2^> g4 r
+    es'4. c8 c4 r
     c4.\cresc as8 as4 r
     es'2.\f ges4 %100
     ges,2 r
@@ -232,19 +232,19 @@ GloriaTenore = {
     g4 g8 g g2
     g,4 r r2
     R1*2 %115
-    r4 b2->\p c8([ des)]
+    r4 b2^>\p c8([ des)]
     c4.( b8) as4 r
     r des2 des4~
     des f,2 es4
-    d!2 g %120
+    d!2 g \noBreak %120
     g( fis)
-    \key c \major g4 r r2
+    \key c \major g4 r r2 \noBreak
     R1
     h4.\f h8 h4 h
     c2 c %125
     d(\p g,)
     g4 r r2
-    h4.\f h8 h4 h
+    h4.\fE h8 h4 h
     c e g, c
     d2. d4 %130
     c r r c
@@ -258,8 +258,8 @@ GloriaTenore = {
     g4 g, r2
     R1 %140
     r4 c2 g4
-    r e'2( d8[ c]
-    h[ c h a]) g4 g'(
+    r e'2 d8[ c]
+    h[ c h a] g4 g'(
     a,) f' h,2\trill
     c4 r r2 %145
     r4 c8([ h] a[ h c d]
@@ -382,8 +382,8 @@ GloriaTenoreLyrics = \lyricmode {
   De -- i,
   Fi -- li -- us
   Pa -- tris,
-  \xE Pa -- %80
-  tris. \x
+  Fi -- li %80
+  us.
 
   Qui %86
   tol -- lis
@@ -440,8 +440,8 @@ GloriaTenoreLyrics = \lyricmode {
   Pa -- tris,
   %140
   a -- men,
-  a --
-  men, a --
+  a -- _
+  _ men, a --
   men, a --
   men, %145
   a --

@@ -32,7 +32,7 @@ GloriaClarinoII = {
     r r4 g'8. g16
     g4 r r2 %45
     R1*10 %55
-    c,4\f r8 c16 c c4 c
+    c,4\fE r8 c16 c c4 c
     c r r2
     R1*2
     r2 g4 r8 g %60

@@ -50,8 +50,8 @@ GloriaCornoII = {
     \key c \major \time 4/4 \tempoGloria
     \partial 8 r8 c2\f e4 g
     e1
-    c2 c'
-    g1
+    c2 d'
+    g,1
     c4 c,2 c4 %5
     c1
     c
@@ -110,7 +110,7 @@ GloriaCornoII = {
     c4 r c g
     e r r2 %85
     R1*14 %99
-    c1~\fp %100
+    c1~\sfp %100
     c4 r r2
     R1*5 %106
     c'1\f
@@ -124,7 +124,7 @@ GloriaCornoII = {
     g'1\f
     e2 c %125
     R1*2
-    g'1\f
+    g'1\fE
     c4 e, g c
     g1 %130
     c4 c,2 c4
@@ -170,7 +170,7 @@ GloriaCornoII = {
     f d e c
     d g, c r
     R1*2 %180
-    r2 c
+    r2 g
     c4 c2 g4
     e c c' c
     c c2 c4

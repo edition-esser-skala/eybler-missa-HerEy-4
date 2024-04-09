@@ -123,7 +123,7 @@ GloriaSoprano = {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoGloria
     \partial 8 r8 R1
-    \mvTr c'4\f^\tutti c8 c e4 e
+    \mvTr c'4\f^\tuttiE c8 c e4 e
     g2 f
     d( g)
     e4 r r2 %5
@@ -168,10 +168,10 @@ GloriaSoprano = {
     c2 b'4 b
     a8([ b)] c4 f, f
     b2 a %50
-    d c\cresc
+    d\cresc c
     f e8([ d)] c([ b)]
     a4 g r2
-    g'\fE b,4 b
+    g'\f b,4 b
     a( c) f r %55
     g2 r4 b,
     a( c) f r
@@ -197,22 +197,22 @@ GloriaSoprano = {
     fis4( g) g r
     g2 f8([ e)] d([ c)]
     f2 a
-    h,2.( d8[ c)] %80
+    h,2. d8[( c)] %80
     c4 r r2
     R1*4 %85
-    \key c \minor r2 g\mf
-    as-> g4 r
+    \key c \minor r2 g\mf \noBreak
+    as^> g4 r
     r g g g
-    as2-> g4 r
+    as2^> g4 r
     r c2 g4 %90
     es'2 c4 r
     fis,1\p
     g4 r r2
     r g\mf
-    as-> g4 r %95
+    as^> g4 r %95
     r g g g
-    as2-> g4 r
-    c4.\pE as8 as4 r
+    as2^> g4 r
+    c4. as8 as4 r
     es'4.\cresc c8 c4 r
     ges'2.\f es4 %100
     c2 r
@@ -229,16 +229,16 @@ GloriaSoprano = {
     g4 g8 g g2
     g,4 r r2
     R1*2 %115
-    r4 des'2\pE c8([ b)]
+    r4 des'2\p^> c8([ b)]
     as4.( b8) c4 r
     r as2 f4~
     f des2 c4
-    h2 c4( d) %120
+    h2 c4( d) \noBreak %120
     f2( es)
-    \key c \major d4 r r2
+    \key c \major d4 r r2 \noBreak
     R1
     g4.\f g8 g4 g
-    e'2 c %125
+    e'!2 c %125
     g2.(\p f4)
     e r r2
     g4.\f g8 g4 g
@@ -253,14 +253,14 @@ GloriaSoprano = {
     d4. h8 g4 g
     c8([ h)] c d e([ d)] e([ fis)]
     g4 g, r g'(
-    a,) f' h,2 %140
+    a,) f'! h,2 %140
     c4 r r2
     r4 c8([ h] a[ h c d]
     g,4) g' r2
     R1
     r4 c,2 g4 %145
-    r e'2( d8[ c]
-    h[ c h a)] g4 g'(
+    r e'2 d8[ c]
+    h[ c h a] g4 g'(
     a,) f' h,2
     c4 e~ e8[ f e d]
     c[ d c h] a4 r %150
@@ -366,7 +366,7 @@ GloriaSopranoLyrics = \lyricmode {
   u -- ni -- ge -- ni --
   te, %65
   Je -- su,
-  Je -- su
+  Je -- su __
   Chri --
   ste,
   Do -- mi -- ne %70
@@ -377,10 +377,10 @@ GloriaSopranoLyrics = \lyricmode {
   Pa -- tris, %75
   A -- gnus
   De -- i,
-  Fi -- li -- us
+  Fi -- li -- us __
   Pa -- tris,
-  \xE Pa -- %80
-  tris. \x
+  Fi -- li -- %80
+  us.
 
   Qui %86
   tol -- lis
@@ -412,9 +412,9 @@ GloriaSopranoLyrics = \lyricmode {
   tris:
 
   Mi -- se -- %116
-  re -- re,
-  mi -- _
-  _ se --
+  re -- re
+  no -- bis, __
+  mi -- se --
   re -- re __ %120
   no --
   bis.
@@ -441,8 +441,8 @@ GloriaSopranoLyrics = \lyricmode {
   men,
 
   a -- men, %145
-  a --
-  men, a --
+  a -- _
+  _ men, a --
   men, a --
   men, a --
   _ men, %150
