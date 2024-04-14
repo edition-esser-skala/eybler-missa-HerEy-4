@@ -309,8 +309,8 @@ CredoViola = {
     g h d g h g d h %25
     g e g c e e, g e'
     d g d h g h d h
-    a d a f g e' cis g
-    a f' d a f d f g
+    a d a f! g e' cis g
+    a f'! d a f d f g
     a d f, a d b g g' %30
     e cis a e f f' f, e
     d f g a b c d b
@@ -338,7 +338,7 @@ CredoViola = {
     e4 <c c,> r2\fermata \bar "||"
     \key a \major \time 6/8 \tempoEtIncarnatus \newSpacingSection
       R2.*2 %56
-    r4 r8 r \mvTr a\p-\pizz a
+    r4 r8 r \mvTr a\pE-\pizz a
     gis r gis a r r
     R2.
     r4 a8 gis r gis %60
@@ -348,8 +348,8 @@ CredoViola = {
     r gis a cis a d
     gis, r r r a a %65
     gis r r r e a
-    cis e a cis e cis
-    g\cresc e cis d\! r r
+    cis e a cis e\cresc cis
+    g e cis d\! r r
     r4 r8 r r \mvTr his,(\p-\arco
     cis) r cis( h') r h( %70
     a) r16 fis'8-\markup \remark "sempre legato e piano" e! d cis h16~
@@ -358,21 +358,27 @@ CredoViola = {
     e g8 fis e dis fis a,16~
     a c8 h a gis! h d16~ %75
     d f8 e d c a a'16~
-    a gis8 e fis g b g16~
+    a gis!8 e fis g b g16~
     g fis!8 d e f as f16~
     f e8 c d es c d16~
-    d es8\decresc d des c h! b16 %80
+    d\decresc es8 d des c h! b16 %80
     a!4.:64\pp a:
     fis!8:\cresc a: c: es:\f fis!: a:
-    \tempoPassus \mvTrr c16[\ff-\markup \remark "staccato assai" r32. c64 c16 r32. c,64 c16 r32. c64] as16[ r32. as64 as16 r32. as64 as16 r32. as64]
+    \tempoPassus \mvTrr c16[\ff-\markup \remark "staccato assai" r32. \hA c64 c16 r32. c,64 c16 r32. \hA c64] as16_[ r32. \hA as64 as16 r32. \hA as64 as16 r32. \hA as64]
     \tempoEtSepultus g16 r r8 r r4 r8
     R2. %85
-    \mvTr <g es>8(\pE-\markup \remark "con sordino" <f d> <g es>) <as f>4.->
-    <g es>8( <fis d> <g es>) <as f>4.->
-    <es g>8 r r es\pp r r \noBreak
+    << {
+      g8(^\conSord f \hA g) as4.^>
+      g8( fis \hA g) as4.^>
+      g8
+    } \\ {
+      es(\p d \hA es) f4.
+      es8( d \hA es) f4.
+      es8
+    } >> r r es\pp r r \noBreak
     es4.~ es8 r r\fermata \bar "||"
     \key c \major \time 2/2 \newSpacingSection \tempoEtResurrexit
-      r2 r4 \mvTr g(\f-\markup \remark "senza sordino" %90
+      r2^\senzaSord r4 g(\f %90
     \scriptOut d8-!) r h'4( \scriptOut g8-!) r d'4(
     \scriptOut h8-!) r g'4( \scriptOut d8-!) r h'4\fz
     c d e e,
@@ -398,12 +404,12 @@ CredoViola = {
     r q4.-! q8-!
     <c a'>2^\tenuto r
     R1 %115
-    <c f>4-! r r2
-    <f a>4-! r r2
-    <g g,>4-! r r2
-    <h d, g,>4-! r r2
-    <c e, g, c,>4-! r r2 %120
-    r \mvTr <c, c,>4.-!\f-\markup \remark "staccato" q8-!
+    <c f>4 r r2
+    <f a>4 r r2
+    <g g,>4 r r2
+    <h d, g,>4 r r2
+    <c e, g, c,>4 r r2 %120
+    r <c, c,>4.-!\f^\markup \remark "staccato" q8-!
     q4-! r r2
     r q4.-! q8-!
     q4-! r r2
@@ -414,11 +420,11 @@ CredoViola = {
     \scriptOut c4-!) r h!4.-! h8-!
     c2 g %130
     es2.\trill d8 c
-    g'4 r r g16( a h c)
+    g'4 r r g16( a! h c)
     d2 r4 h16( c d es)
     f2.\fz d'4
     h g d h %135
-    \mvTr g\p-\markup \remark "staccato" r8 g g4 r8 g
+    g\p^\markup \remark "sempre staccato" r8 g g4 r8 g
     g4 r8 g g4 r8 g
     g4 r8 g g4 r8 g
     g4 r8 g g4 r8 g
@@ -426,18 +432,18 @@ CredoViola = {
     g4 r8 g g4 r8 g
     g4 r8 g g4 r8 g
     g4 r8 g g4 r8 g
-    g4 r8 g h!4\cresc r8 h
+    g4 r8 g\cresc h!4 r8 h
     d4\f r8 d f4 r8 f %145
     h,!4 r8 h as'4 r8 as
     f4 r8 f d'4 r8 d
-    h!4 r8 h f'4 r8 f
+    h4 r8 h f'4 r8 f
     d4 r8 d h!4 r8 h
     as4 r8 as f4 r8 f %150
-    d4 r8 d h!4 r8 h
+    d4 r8 d h4 r8 h
     c4 r r2
     R1
     c,4\f d e! c
-    f g a f %155
+    f g a! f %155
     d e f d
     g a h g
     e f g e

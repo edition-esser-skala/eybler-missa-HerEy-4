@@ -250,29 +250,29 @@ CredoFagottoI = {
     g4 d' h g
     c r r2 %10
     R1*2
-    r4 d2\f g,4~
+    r4 \mvDl d2\f g,4~
     g g'2 g4
     c, d g,2 %15
-    g4 r r g~
-    g8 a h c d4 h~
+    g4 r r \pa g~
+    g8 a h c \pd d4 h~
     h8 c d e f!4 h,
     c g e' c
-    g h2 h4 %20
+    \pao g h2 h4 %20
     h2 c
     g4 h2 a4
     g h8. h16 h4 h
     c1
     h4 d8. d16 d4 d %25
     g,2 g
-    g4 g2 g4
+    \pao g4 g2 \pao g4
     a1
     a~
     a2 d %30
-    cis4 r d4. c8
+    \pa cis4 r d4. c8
     b4. a8 g2
     g'4 r c,4. b8
     a4. g8 f2
-    f'4 r d2 %35
+    f'4 r \pd d2 %35
     c4 r r2
     r4 es2 a,4
     b d f f~
@@ -305,8 +305,8 @@ CredoFagottoI = {
     e8 r r r4 r8
     r h h cis( e) r %65
     r h h cis( a) r
-    r cis e a,4.
-    e'\cresc d8 r r
+    \pa r cis e \partCombineChords a,4.\cresc
+    e' d8\! \pd r r
     R2.*3 %71
     r4 r8 h4.(\fz
     gis8) r r r4 r8
@@ -317,29 +317,29 @@ CredoFagottoI = {
     d h
     c~ c8 r r
     R2.*2 %81
-    c4.\pE\crescE es\f
+    \partCombineChords c4.\f es\cresc
     \tempoPassus es\ff as,
-    \tempoEtSepultus g16 r r8 r r4 r8
+    \tempoEtSepultus g16 \pd r r8 r r4 r8
     R2. %85
-    g8(\p f g) as4.->
-    g8( fis g) as4.->
+    g8(\p f \hA g) as4.->
+    g8( fis \hA g) as4.->
     g8 r r r4 r8 \noBreak
     R2.\fermata \bar "||"
     \key c \major \time 2/2 \tempoEtResurrexit
       r2 r4 g(\f %90
-    \scriptOut d8-!) r h'4( \scriptOut g8-!) r d'4(
-    \scriptOut h8-!) r g'4( \scriptOut d8-!) r h4\fz
+    d8) r h'4( g8) r d'4(
+    h8) r g'4( d8) r h4\fz
     c d e e,
     fis? g a d~
-    d8 r g,4( \scriptOut d8-!) r h'4( %95
-    \scriptOut g8-!) r d'4( \scriptOut h8-!) r h4\fz
+    d8 r g,4( d8) r h'4( %95
+    g8) r d'4( h8) r h4\fz
     c d e e,
     fis g a2\trill
     h4 r r2
-    r h4.( d8) %100
-    g-! r r4 r2
+    r h4.( d8 %100
+    \scriptOut g)-! r r4 r2
     r g,4.( h8)
-    d-! r r4 r2
+    d r r4 r2
     R1*4 %107
     \appoggiatura { g,16[ a h] } c2.\ff h8-! a-!
     g( a) g-! f-! e( f) e-! d-!
@@ -366,12 +366,12 @@ CredoFagottoI = {
     d~ %135
     d4 r r2
     R1*11 %147
-    r2 f4\f r
+    r2 f4\fE r
     d r h! r
     d1~\fz %150
     d4 r r2
     R1*2
-    c,1\f
+    c,1
     f %155
     d
     g
@@ -414,23 +414,23 @@ CredoFagottoI = {
     g2 g
     a r
     R1*2 %200
-    r2 g
+    r2 \pao g
     c1~\fz
     c~
     c~
-    c~ %205
-    c~
-    c~
-    c~
+    c %205
+    c~\fz
     c
-    h %210
     c
-    d~\ff
-    d
+    c2 a
+    h1 %210
+    c
+    \partCombineChords d~\ff
+    d \pd
     c2 c~
     c h %215
     a1~
-    a~
+    a
     a~
     a
     g~ %220
@@ -443,9 +443,9 @@ CredoFagottoI = {
     e
     d
     b
-    a2 cis %230
-    d d
-    d1~
+    a2 cis( %230
+    d) d
+    d1
     d
     e
     a,2 g' %235
@@ -459,13 +459,13 @@ CredoFagottoI = {
     g~
     g2 g~
     g g %245
-    g r
+    \pao g r
     R1*4 %250
     r2 c
     e g
     fis e
     d2. c4
-    h2 r %255
+    \pa h2 r %255
     r g4 a
     h c d e
     f!2 g,~
@@ -473,7 +473,7 @@ CredoFagottoI = {
     g d %260
     R1
     r2 d~
-    d g,
+    d g, \pd
     r a~
     a d %265
     r g,~
@@ -483,7 +483,7 @@ CredoFagottoI = {
     c %270
     d2 g~
     g c,
-    a g
+    a \pao g
     e c'
     h1 %275
     c2 c

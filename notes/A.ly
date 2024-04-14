@@ -488,7 +488,7 @@ CredoAlto = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \autoBeamOff \tempoCredo
-    \mvTr c'2\fE^\tuttiE a4 r
+    \mvTr c'2\f^\tuttiE a4 r
     d2 h4 g
     g g g2
     e4 r r2
@@ -555,27 +555,34 @@ CredoAlto = {
     gis8 r r r4 r8
     r gis h a16([ d)] cis8 r %65
     e,8. gis16 h d cis([ a)] e8 r
-    r r e a, cis e
-    a4.\cresc a8 r d,\p
+    r r e a, cis e\cresc
+    a4. a8 r d,\p
     fis4. fis
     fis8([ eis)] fis cis4 cis8 %70
     cis4 r8 r4 r8
     R2.*2
-    r4 r8 a'4-> fis8
+    r4 r8 a'4^> fis8
     dis r fis h4. %75
     d,8 e f e c r
     e4. b'
     a as
     R2.*4 %82
-    \tempoPassus R2.
-    \tempoEtSepultus r4 r8 r g\pp g
-    g4.( as4->) g8 %85
-    c,4 r8 r4 r8
+    \tempoPassus << \context Voice = "Alto" {
+      \voiceOne R2.
+      \tempoEtSepultus r4 r8 r g\pp g
+      g4.( as4^>) g8 %85
+      c,4 \oneVoice
+    } \\ {
+      \tiny \mvTr fis!2.\ff-\markup \remark "trb 1"
+      g4.\p f
+      es d!
+      c4
+    } >> r8 r4 r8
     R2.*2 \noBreak
     R2.\fermata \bar "||"
     \key c \major \time 2/2 \tempoEtResurrexit \newSpacingSection
       R1*5 %94
-    g'2\fE h4. g8 %95
+    g'2\f h4. g8 %95
     d'2 d
     c a4 a
     fis2 d
@@ -596,25 +603,39 @@ CredoAlto = {
     c e,
     r f
     f f4 f %115
-    a1
-    a
-    c(
-    h)
-    c4 r r2 %120
+    << \context Voice = "Alto" {
+      \voiceOne a1
+      a
+      c
+      h
+      c4
+    } \\ {
+      \tiny f,4 r r2
+      f4 r r2
+      e4 r r2
+      d4 r r2
+      e4
+    } >> r r2 %120
     R1*4
-    r2 c, %125
+    r2 c\f %125
     as'2. as4
     g2 f
     des'1
     c2 h!
     c g %130
     es c
-    g'1~
-    g2. g4
-    g2 r
+    << \context Voice = "Alto" {
+      \voiceOne g'1~
+      g2. g4
+      g2 \oneVoice
+    } \\ {
+      \tiny d1~
+      d
+      d4 r
+    } >> r2
     R1*2 %136
     g2\p g
-    c1
+    h!1
     h2 r
     d1\cresc %140
     h2 d,
@@ -632,7 +653,7 @@ CredoAlto = {
     g1
     c,2 r
     R1*2 %156
-    g'2\f g
+    g'2 g
     g g4 g
     e2 a
     a2. a4 %160
@@ -757,7 +778,7 @@ CredoAlto = {
     g g
     a1 %280
     c
-    h
+    h!
     d
     c2\cresc e
     a, cis %285
@@ -765,11 +786,19 @@ CredoAlto = {
     a2 a
     g1~\ff
     g
-    g2 r %290
-    g1
-    g2 r
-    h1
-    c2 r\fermata \bar "|." %294 finis
+    g2 << \context Voice = "Alto" {
+      \voiceOne r %290
+      g1
+      g2 r
+      h1
+      c2 \oneVoice
+    } \\ {
+      \tiny e,2
+      r d
+      r e
+      r d
+      c4 r
+    } >> r2\fermata \bar "|." %294 finis
   }
 }
 
@@ -878,7 +907,7 @@ CredoAltoLyrics = \lyricmode {
   De --
   i
   Pa --
-
+  _
   tris. %120
 
   Et %125
@@ -995,9 +1024,9 @@ CredoAltoLyrics = \lyricmode {
   o -- rum,
   et
   vi -- %240
+  tam, et
+  vi --
   tam ven --
-  tu --
-  ri, ven --
   tu -- ri
   sae -- cu -- %245
   li,
@@ -1030,17 +1059,17 @@ CredoAltoLyrics = \lyricmode {
   a --
   men, et
   vi -- %275
-  tam ven --
-  tu --
-  ri, ven --
+  tam ex --
+  pe --
+  cto ven --
   tu -- ri
   sae -- %280
   _
   _
   _
   _ _
-  _ _ %285
-  _
+  cu -- li, %285
+  sae --
   cu -- li,
   a --
 
@@ -1196,8 +1225,8 @@ BenedictusAlto = {
     a c c c c a
     g4 h8 c4 r8
     R2.*4 %26
-    r8 g8.\pE-\parenthesize-> f16 f8 e r
-    r a8.-> g16 g8 f f
+    r8 g8.\pE-\parenthesize^> f16 f8 e r
+    r a8.^> g16 g8 f f
     g g a b8. g16 f8
     d([ g)] b a([ g)] g %30
     h4. c8 r c
@@ -1296,7 +1325,7 @@ AgnusAlto = {
     fis2 g4 r
     r2 es8.\p es16 d8 d
     d4 d8 r c8. c16 d8 d
-    d8.([ fis16)] g8 r r g4-> g8
+    d8.([ fis16)] g8 r r g4^> g8
     a,\p c es4 d! r %10
     R1*2
     es4\mf des c b
@@ -1306,7 +1335,7 @@ AgnusAlto = {
     b'2 a4 r
     r2 des,8.\p des16 c8 c
     c4 c8 r b8. b16 c8 c
-    c8.([ e16)] f8 r r f4-> f8 %20
+    c8.([ e16)] f8 r r f4^> f8 %20
     g,\pE b des4 c! r
     R1*2
     es4\mf es des c

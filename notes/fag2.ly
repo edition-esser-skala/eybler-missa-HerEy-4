@@ -239,7 +239,7 @@ CredoFagottoII = {
     h h
     c4 r r2 %10
     R1*2
-    r4 g'\fE h h,
+    r4 g'\f h h,
     c4. d8 e4 c
     a h c2 %15
     g4 r r g'~
@@ -254,7 +254,7 @@ CredoFagottoII = {
     g4 g8. g16 g4 g %25
     e2 c
     g'4 g,2 g'4
-    f2 e
+    f!2 e
     d f
     d b4 b' %30
     a4. g8 f4. e8
@@ -292,10 +292,10 @@ CredoFagottoII = {
     gis4. a4 r8
     r a a a4 a,8
     e' r r r4 r8
-    r r r a( cis) r %65
-    r e, e \once \slurDashed a( a,) r
-    cis' a e cis4.
-    a\cresc d8 r r
+    r e e a( cis) r %65
+    r e, e a( a,) r
+    cis' a e cis4.\cresc
+    a d8\! r r
     R2.*3 %71
     r4 r8 gis4.(\fz
     eis8) r r r4 r8
@@ -307,37 +307,37 @@ CredoFagottoII = {
     e es~
     es8 r r r4 r8 %80
     R2.
-    a!4.\pE\cresc a,\f
+    a!4.\f a,\cresc
     \tempoPassus as\ff as
     \tempoEtSepultus g16 r r8 r r4 r8
     R2. %85
-    es'8(\p d es) f4.->
-    es8( d es) f4.->
+    es'8(\p d \hA es) f4.->
+    es8( d \hA es) f4.->
     es8 r r r4 r8 \noBreak
     R2.\fermata \bar "||"
     \key c \major \time 2/2 \tempoEtResurrexit
       r2 r4 g(\f %90
-    \scriptOut d8-!) r h'4( \scriptOut g8-!) r d'4(
-    \scriptOut h8-!) r g'4( \scriptOut d8-!) r g,4\fz
+    d8) r h'4( g8) r d'4(
+    h8) r g'4( d8) r g,4\fz
     a h c cis,
     d e fis fis,
-    g8 r g'4( \scriptOut d8-!) r h'4( %95
-    \scriptOut g8-!) r d'4( \scriptOut h8-!) r g4\fz
+    g8 r g'4( d8) r h'4( %95
+    g8) r d'4( h8) r g4\fz
     a h c cis,
     d e fis2\trill
     g4 r r2
-    r g4.( d8) %100
-    h-! r r4 r2
+    r g4.( d8 %100
+    \scriptOut h)-! r r4 r2
     r d'4.( h8)
-    g-! r r4 r2
+    g r r4 r2
     R1*4 %107
     \appoggiatura { g,16[ a h] } c2.\ff h8-! a-!
     g( a) g-! f-! e( f) e-! d-!
     c4 r r2 %110
     r c'4.-! c8-!
-    a2^\tenuto r
+    a2_\tenuto r
     r a4.-! a8-!
-    f2^\tenuto r
+    f2_\tenuto r
     R1 %115
     a4-! r r2
     d,4-! r r2
@@ -356,12 +356,12 @@ CredoFagottoII = {
     g~ %135
     g4 r r2
     R1*11 %147
-    r2 d'4\f r
+    r2 d'4\fE r
     h! r as! r
     f1~\fz %150
     f4 r r2
     R1*2
-    c,1\f
+    c,1
     f %155
     d
     g
@@ -410,8 +410,8 @@ CredoFagottoII = {
     c~
     c %205
     a~\fz
-    a~
-    a~
+    a
+    a
     a
     e %210
     a
@@ -446,7 +446,7 @@ CredoFagottoII = {
     g,1~ %240
     g~
     g
-    g'2 g
+    g'2 f
     e h
     c e %245
     g r

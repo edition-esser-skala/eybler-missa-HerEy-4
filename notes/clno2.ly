@@ -148,7 +148,7 @@ CredoClarinoII = {
     R1
     r4 c8. c16 c4 c
     c r r2 %40
-    r1*4
+    R1*4
     g4 r r2 %45
     g4 r r2
     g'1
@@ -162,7 +162,7 @@ CredoClarinoII = {
     \time 6/8 \tempoEtIncarnatus \newSpacingSection
       R2.*27 %81
     r4 r8 c4.\f
-    \tempoPassus \mvTrr c16[\ff-\markup \remark "staccato [assai]" r32. c64 c16 r32. c64 c16 r32. c64] c16[ r32. c64 c16 r32. c64 c16 r32. c64]
+    \tempoPassus \mvTrr c16[\ff-\markup \remark "staccato assai" r32. c64 c16 r32. c64 c16 r32. c64] c16[ r32. c64 c16 r32. c64 c16 r32. c64]
     \tempoEtSepultus g16 r r8 r r4 r8
     R2.*4 \noBreak %88
     R2.\fermata \bar "||"
@@ -183,7 +183,7 @@ CredoClarinoII = {
     g4 r g r
     g r r2
     R1*19 %153
-    c4\f r r2
+    c4\fE r r2
     R1*3 %157
     e1
     c2 r

@@ -287,8 +287,8 @@ CredoOboeII = {
     gis8 r r r4 r8
     r gis gis a( cis) r %65
     r gis gis a( cis) r
-    r a a a4.
-    cis\cresc d8 r r
+    r a a a4.\cresc
+    cis d8\! r r
     R2.*4 %72
     r4 r8 cis4.(\fz
     ais8) r r r4 r8
@@ -306,27 +306,27 @@ CredoOboeII = {
     R2.\fermata \bar "||"
     \key c \major \time 2/2 \tempoEtResurrexit \newSpacingSection
       r2 r4 g(\f %90
-    \scriptOut d8)-! r h'4( \scriptOut g8)-! r d'4(
-    \scriptOut h8)-! r g'4( \scriptOut d8)-! r h'4\fz
-    a g2 e4
-    d c a2
-    g8 r g4( \scriptOut d8)-! r \scriptOut h'4( %95
-    g8)-! r d'4( \scriptOut h8)-! r h'4\fz
+    d8) r h'4( g8) r d'4(
+    h8) r g'4( d8) r h'4\fz
     a g e2
-    a,4 r d2~
+    d4 c a2
+    g8 r g4( d8) r h'4( %95
+    g8) r d'4( h8) r h'4\fz
+    a g e2
+    a,4 r d,2~
     d4 r r2
-    r g,4.( h8) %100
-    d-! r r4 r2
+    r g4.( h8 %100
+    \scriptOut d)-! r r4 r2
     r d,4.( g8)
-    h-! r r4 r2
+    h r r4 r2
     R1*4 %107
     \appoggiatura { g16[ a h] } c2.\ff h8-! a-!
     g( a) g-! f-! e( f) e-! d-!
     c4 r r2 %110
     r g'4.-! g8-!
-    c2^\tenuto r
+    c2_\tenuto r
     r c4.-! c8-!
-    f2^\tenuto r
+    f2_\tenuto r
     R1 %115
     c4-! r r2
     f4-! r r2
@@ -345,12 +345,12 @@ CredoOboeII = {
     h~ %135
     h4 r r2
     R1*11 %147
-    r2 as4\f r
+    r2 as4\fE r
     h! r d r
     h!1~\fz %150
     h4 r r2
     R1*2
-    g2\f e!
+    g2 e!
     c1 %155
     a'2 f
     d1
@@ -399,8 +399,8 @@ CredoOboeII = {
     g~
     g %205
     a~\fz
-    a~
-    a~
+    a
+    a
     a
     gis %210
     a
@@ -425,8 +425,8 @@ CredoOboeII = {
     a'2 e %230
     f f
     g1~
-    g
-    g2 a
+    g~
+    g2 a~
     a a~ %235
     a a~
     a a
@@ -459,7 +459,7 @@ CredoOboeII = {
     e cis
     r d~ %265
     d h
-    r c~
+    r c!~
     c d~
     d e~
     e f~ %270

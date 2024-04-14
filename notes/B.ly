@@ -498,7 +498,7 @@ CredoBasso = {
     c'4 c, r c'8 c
     h4 h8 h h4. h8
     c4 r c,\p c %10
-    a^\critnote c g4. g8
+    a c g4. g8
     c4 r r2
     h4\f d h g
     c4. d8 e4 r
@@ -515,7 +515,7 @@ CredoBasso = {
     g' g r2 %25
     e c4 e
     g4. g8 g4 r
-    f2 e
+    f!2 e
     d f4 a
     f f g g %30
     a4. g8 f4. e8
@@ -539,12 +539,12 @@ CredoBasso = {
     c'2\fz a4 a
     f2 a4 r %50
     r g g2
-    c,4^\critnote r r2
+    e4 r r2
     R1 \noBreak
     R\fermata \bar "||"
     \key a \major \time 6/8 \tempoEtIncarnatus \newSpacingSection
       R2.*2 %56
-    r4 r8 r a'\p cis,
+    r4 r8 r a\p cis,
     e8.([ gis16)] h8 a4 r8
     R2.
     r4 a8 cis8. h16 e,8 %60
@@ -554,22 +554,22 @@ CredoBasso = {
     r e cis16([ a')] cis8.([ a16)] d([ h)]
     e,4 r8 r a cis, %65
     e16([ gis)] h8 r cis,8. e16 a h
-    cis8 a e' cis a e
-    cis4.\crescE d8 r r
+    cis8 a e' cis a e\cresc
+    cis4. d8 r r
     r r d\p dis4 dis8
     cis4.~ cis4 cis8 %70
     fis,4 r8 r fis' fis
-    fis4 fis8 h4-> gis8
+    fis4 fis8 h4^> gis8
     eis r gis cis4.
     e,8 fis g fis dis r
     r4 fis8 gis4 gis8 %75
     gis4 h8 c a r
     gis!4. g
-    fis f
+    fis! f
     R2.*4 %82
     \tempoPassus R2.
     \tempoEtSepultus r4 r8 r g\pp g
-    g4.( as4->) g8 %85
+    g4.( as4^>) g8 %85
     c,4 r8 r4 r8
     R2.*2 \noBreak
     R2.\fermata \bar "||"
@@ -602,7 +602,7 @@ CredoBasso = {
     g
     c4 r r2 %120
     R1*4
-    r2 c, %125
+    r2 c,\f %125
     as'2. as4
     g2 f
     des'1
@@ -632,7 +632,7 @@ CredoBasso = {
     g1
     c,2 r
     R1*2 %156
-    g'2\f g
+    g'2 g
     e g4 e
     a2 c
     d,2. d4 %160
@@ -810,9 +810,9 @@ CredoBassoLyrics = \lyricmode {
   pro -- pter nos
   ho -- mi -- nes et
   pro -- pter no -- stram sa --
-  lu -- tem de --
-  scen -- %45
-  dit, de --
+  lu -- tem de
+  coe -- %45
+  lis, de --
   scen -- dit de
   coe -- lis, de
   coe -- lis, de
@@ -988,9 +988,9 @@ CredoBassoLyrics = \lyricmode {
   o -- rum,
   et
   vi -- %240
+  tam, et
+  vi --
   tam ven --
-  tu --
-  ri, ven --
   tu -- ri
   sae -- cu -- %245
   li,
@@ -1016,9 +1016,9 @@ CredoBassoLyrics = \lyricmode {
   a --
   men,  et
   vi -- %275
-  tam \xE ven --
-  tu --
-  ri, \x ven --
+  tam ex --
+  pe --
+  cto ven --
   tu -- ri
   sae -- %280
   _
@@ -1282,7 +1282,7 @@ AgnusBasso = {
     as2 g4 r
     r2 fis'8.\p fis16 fis8 fis
     g4 g8 r fis8. fis16 fis8 fis
-    g4 g8 r r e4-> e8
+    g4 g8 r r e4^> e8
     f\p f f4 b, r %10
     R1*2
     a'4\mf b f b,
@@ -1292,7 +1292,7 @@ AgnusBasso = {
     ges'2 f4 r
     r2 e8.\p e16 e8 e
     f4 f8 r e8. e16 e8 e
-    f4 f8 r r d!4-> d8 %20
+    f4 f8 r r d!4^> d8 %20
     es\p es es4 as, r
     R1*2
     g'4\mf as es as,

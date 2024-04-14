@@ -152,9 +152,9 @@ CredoTimpani = {
     c r r2\fermata \bar "||"
     \time 6/8 \tempoEtIncarnatus \newSpacingSection
       R2.*27 %81
-    c2.\p\cresc\startTrillSpan
+    \after 4. \f c2.\p\cresc\startTrillSpan
     \tempoPassus \mvTrr c16[\ff\stopTrillSpan-\markup \remark "staccato assai" r32. c64 c16 r32. c64 c16 r32. c64] c16[ r32. c64 c16 r32. c64 c16 r32. c64]
-    \tempoEtSepultus g2.\pp\startTrillSpan~
+    \tempoEtSepultus g2.\ppp\startTrillSpan~
     g %85
     c8\stopTrillSpan r r r4 r8
     R2.*2 \noBreak %88
@@ -168,7 +168,7 @@ CredoTimpani = {
     r c4.-! c8-!
     c4-! r r2
     R1*3 %117
-    g4-!\f r r2
+    g4-! r r2
     g4-! r r2
     c4-! r r2 %120
     R1*11 %131
@@ -186,7 +186,7 @@ CredoTimpani = {
     g~
     g4\stopTrillSpan r r2
     R1*9 %153
-    c4\f r r2
+    c4\fE r r2
     R1*3 %157
     g1\startTrillSpan
     c2\stopTrillSpan r
@@ -199,7 +199,7 @@ CredoTimpani = {
     g1\startTrillSpan
     c2\stopTrillSpan r
     R1*12 %191
-    c1\startTrillSpan
+    c1~\startTrillSpan
     c2\stopTrillSpan r
     R1*18 %211
     g1~\ff\startTrillSpan
@@ -207,8 +207,8 @@ CredoTimpani = {
     c2\stopTrillSpan r
     R1*25 %239
     g2 r4 \tuplet 3/2 4 { g8 g g } %240
-    g2\startTrillSpan g
-    g\stopTrillSpan r4 \tuplet 3/2 4 { g8 g g }
+    g2 g
+    g r4 \tuplet 3/2 4 { g8 g g }
     g2 g
     c g
     c1\startTrillSpan %245

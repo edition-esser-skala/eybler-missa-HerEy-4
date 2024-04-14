@@ -184,8 +184,8 @@ CredoCornoI = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoCredo
-    c'1\f
-    d
+    \pa c'1\f
+    d \pd
     f4 e d2
     c4 c8. c16 c4 c
     c2 d %5
@@ -195,7 +195,7 @@ CredoCornoI = {
     d1
     e4 r r2 %10
     R1*2
-    d1\f
+    d1\fE
     e4. d8 c4 g'~
     g f2 e4 %15
     d r r2
@@ -233,7 +233,7 @@ CredoCornoI = {
     c4 r r2\fermata \bar "||"
     \time 6/8 \tempoEtIncarnatus \newSpacingSection
       R2.*27 %81
-    c4.\p\crescE es\f
+    c4.\p es\f
     \tempoPassus fis2.\ff
     \tempoEtSepultus g4.\p f
     es d %85
@@ -245,13 +245,13 @@ CredoCornoI = {
     \pa g2 e
     c4 \pd r r2 %110
     r c'4.-! c8-!
-    e2^\tenuto r
+    e2^\tenutoE r
     r e4.-! e8-!
-    f2^\tenuto r
+    f2^\tenutoE r
     R1*3 %117
-    e4-! r r2
-    d4-! r r2
-    c4-! r r2 %120
+    e4 r r2
+    d4 r r2
+    c4 r r2 %120
     R1*11 %131
     d1~\f
     d~
@@ -288,7 +288,7 @@ CredoCornoI = {
     R1*2
     r2 e~ %190
     e e
-    e1
+    e1~
     e
     R1*2 %195
     e2 e4. e8

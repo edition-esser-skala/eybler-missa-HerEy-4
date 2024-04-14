@@ -556,13 +556,13 @@ CredoSoprano = {
     h8 r r r4 r8
     r h d cis16([ fis)] e8 r %65
     e8. h16 d gis, a([ cis)] e8 r
-    e,16([ a)] a([ cis)] cis e g4.~
-    g\cresc fis8 r fis,\p
+    e,16([ a)] a([ cis)] cis e g4.~\cresc
+    g fis8 r fis,\p
     a4.~ a8[ gis!] fis
     cis'([ h)] a gis8.([ a16)] gis8 %70
     fis4 r8 r4 r8
     R2.*3
-    r4 r8 f'4-> d8 %75
+    r4 r8 f'4^> d8 %75
     h r gis! a4( f'8)
     e r r cis!4.
     d h!
@@ -570,12 +570,12 @@ CredoSoprano = {
     R2.*3 %82
     \tempoPassus R2.
     \tempoEtSepultus r4 r8 r g\pp g
-    g4.( as4)-> g8 %85
+    g4.( as4)^> g8 %85
     c,4 r8 r4 r8
     R2.*2 \noBreak
     R2.\fermata \bar "||"
     \key c \major \time 2/2 \tempoEtResurrexit R1*5 %94
-    g'2\fE h4. g8 %95
+    g'2\f h4. g8 %95
     d'2 d
     c a4 a
     fis2 d
@@ -602,7 +602,7 @@ CredoSoprano = {
     g
     c,4 r r2 %120
     R1*4
-    r2 c, %125
+    r2 c,\f %125
     as'2. as4
     g2 f
     des'1
@@ -632,7 +632,7 @@ CredoSoprano = {
     g1
     c,2 r
     R1*2 %156
-    g'2\f g
+    g'2 g
     g' e4 e
     c2 a
     f'2. d4 %160
@@ -729,7 +729,7 @@ CredoSoprano = {
     d2.( c4)
     h2 g'~
     g a,
-    r f'~ %265
+    r f'!~ %265
     f g,
     r e'
     a, f'
@@ -752,7 +752,7 @@ CredoSoprano = {
     a~ %285
     a
     f2 d
-    g1\ff
+    g!1\ff
     h,
     c2 r %290
     d1
@@ -827,7 +827,7 @@ CredoSopranoLyrics = \lyricmode {
   est,
   ex Ma -- ri -- a, %65
   Vir -- gi -- ne Ma -- ri -- a
-  de Spi -- ri -- tu San --
+  de __ Spi -- ri -- tu San --
   cto, et
   ho -- mo,
   ho -- mo fa -- ctus %70
@@ -984,9 +984,9 @@ CredoSopranoLyrics = \lyricmode {
   o -- rum,
   et
   vi -- %240
+  tam, et
+  vi --
   tam ven --
-  tu --
-  ri, ven --
   tu -- ri
   sae -- cu -- %245
   li,
@@ -1008,9 +1008,9 @@ CredoSopranoLyrics = \lyricmode {
   a --
   men, et
   vi -- %275
-  tam ven --
-  tu --
-  ri, ven --
+  tam ex --
+  pe --
+  cto ven --
   tu -- ri
   sae -- %280
   _
@@ -1173,8 +1173,8 @@ BenedictusSoprano = {
     f e a a16([ g)] f([ e)] d([ c)]
     e8.([ g16)] f([ d)] c4 r8
     R2.*4 %26
-    r8 b!8.->\pE a16 a8 g r
-    r c8.-> b16 b8 a f'
+    r8 b!8.^>\pE a16 a8 g r
+    r c8.^> b16 b8 a f'
     e c f16([ a)] g8. b,16 a8
     g8.([ b16)] d([ g)] f8([ e)] g, %30
     f'4. e8 r g
@@ -1273,7 +1273,7 @@ AgnusSoprano = {
     c'2 h4 r
     r2 a8.\p a16 a8 a
     c4 b8 r es,8. es16 d([ fis)] a([ c)]
-    a4 b8 r r des4-> b8
+    a4 b8 r r des4^> b8
     f\p ges ges([ f)] f4 r %10
     R1*2
     ges4.\mf f8 f8.([ es16)] des4
@@ -1283,7 +1283,7 @@ AgnusSoprano = {
     e,2 f4 r
     r2 g!8.\p g16 g8 g
     b4 as8 r des,8. des16 c([ e)] g([ b)]
-    g4 as8 r r ces4-> as8 %20
+    g4 as8 r r ces4^> as8 %20
     es\p fes fes([ es)] es4 r
     R1*2
     des'4.\mf c8 c8.([ b16)] as4

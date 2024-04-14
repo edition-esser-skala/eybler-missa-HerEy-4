@@ -558,13 +558,13 @@ CredoTenore = {
     r h a16([ cis)] e8.([ cis16)] fis([ d)]
     h4 r8 r cis e %65
     gis,16([ h)] d8 r a8. h16 cis d
-    e8 cis a e a cis
-    e4.\cresc d8 r r
+    e8 cis a e a cis\cresc
+    e4. d8 r r
     r r a\p c4 a8
     a8([ gis!)] fis eis([ gis)] h %70
     a4 r8 r4 r8
     R2.
-    r4 r8 e'!4-> cis8
+    r4 r8 e'!4^> cis8
     ais r cis fis4.
     a,8 h c h gis! r %75
     r4 r8 c4.
@@ -572,15 +572,22 @@ CredoTenore = {
     a, d
     g,4 r8 r4 r8
     R2.*3 %82
-    \tempoPassus R2.
-    \tempoEtSepultus r4 r8 r g\pp g
-    g4.( as4->) g8 %85
-    c,4 r8 r4 r8
+    << \context Voice = "Tenore" {
+      \tempoPassus \voiceOne R2.
+      \tempoEtSepultus r4 r8 r g\pp g
+      g4.( as4^>) g8 %85
+      c,4 \oneVoice
+    } \\ {
+      \tiny \mvTr es'2.\ff-\markup \remark "trb 2"
+      es4.\p d
+      c h!
+      c4
+    } >> r8 r4 r8
     R2.*2 \noBreak
     R2.\fermata \bar "||"
     \key c \major \time 2/2 \tempoEtResurrexit \newSpacingSection
       R1*5 %94
-    g'2\f h4. g8 %95
+    g2\f h4. g8 %95
     d'2 d
     c a4 a
     fis2 d
@@ -601,22 +608,36 @@ CredoTenore = {
     c c
     r a
     c c4 c %115
-    c1
-    f
-    e(^\critnote
-    d1)
-    c4 r r2 %120
+    << \context Voice = "Tenore" {
+      \voiceOne c1
+      f
+      e
+      d1
+      c4 \oneVoice
+    } \\ {
+      \tiny a4 r r2
+      a4 r r2
+      c4 r r2
+      h4 r r2
+      c4
+    } >> r r2 %120
     R1*4
-    r2 c, %125
+    r2 c,\f %125
     as'2. as4
     g2 f
     des'1
     c2 h!
     c g %130
     es' c
-    g'1~
-    g2. g,4
-    g2 r
+    << \context Voice = "Tenore" {
+      \voiceOne g'1~
+      g2. g,4
+      g2 \oneVoice
+    } \\ {
+      \tiny g1~
+      g
+      g4 r
+    } >> r2
     R1*2 %136
     g2\p g
     g'1
@@ -637,7 +658,7 @@ CredoTenore = {
     g1
     c,2 r
     R1*2 %156
-    g2\f g
+    g2 g
     h h4 h
     c2 e
     d2. d4 %160
@@ -692,7 +713,7 @@ CredoTenore = {
     e e
     e2. e4 %210
     e2 e
-    g!1~\ffE
+    g!1~\ff
     g2 g
     e r
     r e %215
@@ -743,7 +764,7 @@ CredoTenore = {
     e cis
     r d~ %265
     d h
-    r c~
+    r c!~
     c d~
     d e~
     e f~ %270
@@ -764,13 +785,21 @@ CredoTenore = {
     d e %285
     f( a)
     d, f
-    e1\ff(
-    d)
-    c2 r %290
-    h1
-    c2 r
-    d1
-    c2 r\fermata \bar "|." %294 finis
+    e1\ff
+    d
+    c2 << \context Voice = "Tenore" {
+      \voiceOne r %290
+      h1
+      c2 r
+      d1
+      c2 \oneVoice
+    } \\ {
+      \tiny c2 %290
+      r h
+      r c
+      r h
+      c4 r
+    } >> r2\fermata \bar "|." %294 finis
   }
 }
 
@@ -818,9 +847,9 @@ CredoTenoreLyrics = \lyricmode {
   pro -- pter nos
   ho -- mi -- nes et
   pro -- pter no -- stram sa --
-  lu -- tem de --
-  scen -- %45
-  dit, de --
+  lu -- tem de
+  coe -- %45
+  lis, de --
   scen -- dit de
   coe -- lis,
   de
@@ -880,7 +909,7 @@ CredoTenoreLyrics = \lyricmode {
   De --
   i
   Pa --
-
+  _
   tris. %120
 
   Et %125
@@ -997,9 +1026,9 @@ CredoTenoreLyrics = \lyricmode {
   o -- rum,
   et
   vi -- %240
+  tam, et
+  vi --
   tam ven --
-  tu --
-  ri, ven --
   tu -- ri
   sae -- cu -- %245
   li,
@@ -1028,9 +1057,9 @@ CredoTenoreLyrics = \lyricmode {
   a --
   men, et
   vi -- %275
-  tam \xE ven --
-  tu --
-  ri, \x ven --
+  tam ex --
+  pe --
+  cto ven --
   tu -- ri
   sae -- %280
   _
@@ -1041,7 +1070,7 @@ CredoTenoreLyrics = \lyricmode {
   sae --
   cu -- li,
   a --
-
+  _
   men, %290
   a --
   men,
@@ -1296,7 +1325,7 @@ AgnusTenore = {
     c'2 d4 r
     r2 c8.\p c16 d([ c)] b([ a)]
     a8.([ b16)] g8 r a8. a16 a8 a
-    c4 b8 r r b4-> des8
+    c4 b8 r r b4^> des8
     c\p es a,4 b r %10
     R1*2
     c4\mf des a b
@@ -1306,7 +1335,7 @@ AgnusTenore = {
     b2 c4 r
     r2 b8.\p b16 c([ b)] as([ g)]
     g8.([ as16)] f8 r g8. g16 g8 g
-    b4 as8 r r as4-> ces8 %20
+    b4 as8 r r as4^> ces8 %20
     b\p des g,4 as r
     R1*2
     b4\mf as g as

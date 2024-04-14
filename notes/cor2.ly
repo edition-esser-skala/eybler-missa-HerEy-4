@@ -195,7 +195,7 @@ CredoCornoII = {
     g'1
     c4 r r2 %10
     R1*2
-    g1\f
+    g1\fE
     c4. g8 e4 e'~
     e d2 c4 %15
     g r r2
@@ -233,7 +233,7 @@ CredoCornoII = {
     e r r2\fermata \bar "||"
     \time 6/8 \tempoEtIncarnatus \newSpacingSection
       R2.*27 %81
-    c4.\p\crescE c'\f
+    c4.\p c'\f
     \tempoPassus es2.\ff
     \tempoEtSepultus es4.\p d
     c h! %85
@@ -245,13 +245,13 @@ CredoCornoII = {
     g'2 e
     c4 r r2 %110
     r e4.-! e8-!
-    c'2_\tenuto r
+    c'2_\tenutoE r
     r c4.-! c8-!
-    c2_\tenuto r
+    c2_\tenutoE r
     R1*3 %117
-    c4-! r r2
-    g4-! r r2
-    e4-! r r2 %120
+    c4 r r2
+    g4 r r2
+    e4 r r2 %120
     R1*11 %131
     g1~\f
     g~
@@ -259,7 +259,7 @@ CredoCornoII = {
     g~ %135
     g4 r r2
     R1*17 %153
-    c1\f
+    c1~\f
     c %155
     d
     g,
@@ -269,7 +269,7 @@ CredoCornoII = {
     g,
     c2 e~
     e d
-    c \once \tieDashed c~
+    c c~
     c g %165
     c r
     R1*3
@@ -278,7 +278,7 @@ CredoCornoII = {
     d2 r
     R1
     g,
-    c %175
+    c! %175
     R1*2
     g1
     c
@@ -288,7 +288,7 @@ CredoCornoII = {
     R1*2
     r2 e~ %190
     e e
-    c'1
+    c'1~
     c
     R1*2 %195
     e,2 e4. e8

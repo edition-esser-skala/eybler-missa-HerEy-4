@@ -522,7 +522,7 @@ CredoOrgano = {
     a, a' c a f c' a f
     c' g e g c, g' e c
     h g h d h d g h
-    c c, e g c\p r r4 %10
+    c c, e g c r r4 %10
     R1
     c,8\f c' g e c g' e c
     h g' d h g d' h g
@@ -540,7 +540,7 @@ CredoOrgano = {
     g, h d g h d h f %25
     e c' g e c g' e c
     g h d g h d h g
-    f d' a f e cis' a e
+    f! d' a f e cis' a e
     d f' d a f a f e
     d f d c! b g' d b %30
     a a' a, g f f' f, e
@@ -568,34 +568,37 @@ CredoOrgano = {
     a c e a f d g g, \noBreak
     c4 c' r2\fermata \bar "||"
     \key a \major \time 6/8 \newSpacingSection \tempoEtIncarnatus
-      R2.*2 %56
-    r4 r8 r \mvTr a\p-\pizz-\markup \remark "Org. serato" cis,
+      R2.*2_\markup \remark "Organo serrato" %56
+    r4 r8 r \mvTr a\pE-\pizz cis,
     e r e a r r
     R2.
-    r4 a8 e r e %60
+    r8 r a e r e %60
     a r r r e e
     e r r r a a
     a r r r4 r8
     r e cis a a' d,
     e r r r a cis, %65
     e r r a, a' a
-    a r a e' cis a
-    e\cresc cis a d\! r r
+    a r a e' cis a\cresc
+    e cis a d\! r r
     R2.
     r4 \mvTr cis8(\p-\arco cis') r cis,( %70
-    fis,) fis'(-\markup \remark "sempre legato" e! d cis h)
-    a( gis fis eis gis h)
+    fis,) fis'([^\markup \remark "sempre legato e piano" e!] d_[ cis h])
+    a( gis fis) eis( gis h)
     d( cis h) ais( cis e!)
     g( fis e) dis( fis a,)
     c( h a) gis!( h d) %75
-    f( e d) c( a a')
-    gis!( e fis) g( b g)
+    f( e d) c( a) a'(
+    gis! e fis) g( b g)
     fis!( d e) f( as f)
     e( c d) es( c d)
-    es(\decresc-\unisonoE d des) c( h b) %80
+    es(\decresc d des) c( h b) %80
     a!4.:64\pp a:
-    a8:\cresc a: a: a:\f a: a:
-    \tempoPassus \mvTrr as16[\ff-\markup \remark "staccato assai" r32. as64 as16 r32. as64 as16 r32. as64] as16[ r32. as64 as16 r32. as64 as16 r32. as64]
+    \once \override TextSpanner.style = #'trill
+      \once \override TextSpanner.bound-details.left.text = \markup \remark "tremolo"
+      \once \override TextSpanner.bound-details.right.text = \markup \remark "staccato assai"
+      a8:\cresc\startTextSpan a: a: a:\f a: a: \noBreak
+    \tempoPassus as16[\stopTextSpan\ff r32. \hA as64 as16 r32. \hA as64 as16 r32. \hA as64] as16[ r32. \hA as64 as16 r32. \hA as64 as16 r32. \hA as64]
     \tempoEtSepultus g16 r r8 r r4 r8
     R2. %85
     c2.~\p
@@ -603,12 +606,12 @@ CredoOrgano = {
     c8 r r c\pp r r \noBreak
     c4.~ c8 r r\fermata \bar "||"
     \key c \major \time 2/2 \newSpacingSection \tempoEtResurrexit
-      r2 r4 \mvTr g'(\f-\solo-\unisonoE \noBreak %90
+      r2 r4 \mvTr g'(\f-\solo \noBreak %90
     \scriptOut d8-!) r h'4( \scriptOut g8-!) r d'4(
     \scriptOut h8-!) r g'4( \scriptOut d8-!) r g,,4\fz
     a h c cis
     d e fis fis,
-    g8-\tuttiE r g'4(-\unisonoE \scriptOut d8-!) r h'4( %95
+    g8-\tuttiE r g'4( \scriptOut d8-!) r h'4( %95
     \scriptOut g8-!) r d'4( \scriptOut h8-!) r g,4\fz
     a h c cis
     d e fis d
@@ -634,7 +637,7 @@ CredoOrgano = {
     g4-! r r2
     g,4-! r r2
     c4-! r r2 %120
-    r \mvTr c4.-!\f-\markup \remark "staccato" -\unisonoE c8-!
+    r c4.-!\f^\markup \remark "staccato" c8-!
     c4-! r r2
     r c4.-! c8-!
     c4-! r r2
@@ -645,11 +648,11 @@ CredoOrgano = {
     \scriptOut c4-!) r h!4.-! h8-!
     c2 g %130
     es2.\trill d8 c
-    g4 r r g'16( a h c)
+    g4 r r g'16( a! h c)
     d2 r4 h16( c d es)
     f2.\fz d4
     h g d h %135
-    \mvTr g\p-\markup \remark "staccato" r g r
+    g\p r g r
     g r g r
     g r g r
     g r g r
@@ -658,17 +661,17 @@ CredoOrgano = {
     g r g r
     g r g r
     g r h!\cresc r
-    d\f r f r %145
+    d r f\f r %145
     h,! r as' r
     f r d' r
-    h! r f' r
-    d r h! r
+    h r f' r
+    d r h r
     as r f r %150
-    d r h! r
+    d r h r
     c r r2
     R1
-    c4\f d e! c
-    f g a f %155
+    c4-\tutti d e! c
+    f g a! f %155
     d e f d
     g a h g
     e f g e
@@ -686,7 +689,7 @@ CredoOrgano = {
     h d g h %170
     e, g a g
     fis d fis a
-    c a fis d
+    c a fis c
     h d g h
     c, e g c %175
     d, fis a d
@@ -725,7 +728,7 @@ CredoOrgano = {
     h a g f
     e gis h e %210
     a, c e a
-    g,!\ff h d g
+    g,! h d g
     h d h g
     c c, e g
     c c, gis gis' %215
@@ -769,7 +772,7 @@ CredoOrgano = {
     a a' g g,
     fis a d fis
     g, g' e c %255
-    f f' e e,
+    f! f' e e,
     d d' c c,
     h d g h
     c g e g
@@ -795,7 +798,7 @@ CredoOrgano = {
     h h' b b,
     a c a f %280
     d' a' fis d
-    g d h g
+    g d h! g
     e' h' gis e
     a\cresc a, g! g'
     f f, e e' %285
@@ -820,13 +823,13 @@ CredoBassFigures = \figuremode {
   <8 3>1
   <6>
   r
-  <6>
+  q
   r %10
   r
   r
-  <6>
-  r4. <6>8 q2
-  <7>4 <6 5> <\t \t> <6 4> %15
+  q
+  r4. q8 q2
+  <7>4 <6 5>4. \once \bassFigureExtendersOn q8 <6 4>4 %15
   r2 <6>8 <4\+> <6> <6\\>
   r1
   <7!>
@@ -843,18 +846,18 @@ CredoBassFigures = \figuremode {
   r1
   r2 <6> %30
   <_+> <6>
-  <6-> <_->
+  <6->4. \once \bassFigureExtendersOn q8 <_->2
   <_-> <6>
-  <6>1
-  r2 <7 _!> %35
-  r4 \bo <[6 _-]>2 \bassFigureExtendersOn <6 _->8 \bc <[6 _-]>
-  r4 \bo q2 <6 _->8 \bc <[6 _-]> \bassFigureExtendersOff
-  <6->1
+  <6>4. \once \bassFigureExtendersOn q8 r2
+  r <7 _!> %35
+  r1
+  r
+  <6->
   <6 4>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff <7- 3>4
   r1 %40
   r
   <_+>
-  <6>4 <6\\> \bo <[4]>8 <3> <7> \bc <[6]>
+  <6>4 <6\\>2.
   <6 4!>4 <5 3>2 \bassFigureExtendersOn q8 q \bassFigureExtendersOff
   <7>1 %45
   r
@@ -864,29 +867,29 @@ CredoBassFigures = \figuremode {
   r %50
   r
   r
-  r2 <6 5>
+  r2 <[6 5]>
   r1
   r2.*2 %56
-  r2 r8 <6>
-  r4 <7>8 r4.
+  r2.
+  r4 \bo <[7 _ _]>2
   r2.
   r4. <8 6>8. <7 5>16 <5 3>8 %60
   r2.
   <7>
   r
   r4 <6>4. q8
-  r2 r8 q %65
-  r2.
+  r2. %65
+  r
   r4. <6 _!> \bassFigureExtendersOn
   q4 q8 \bassFigureExtendersOff r4.
   r2.
-  r4 <6 4>8 <7 5 _+>4 <\t \t \t>8 %70
+  r4 <6 4>8 <5 _+>4. %70
   r2.
   <6>4. <7>
   <4 2\+> <6 5!>
   <2\+>8 <\t> <4\+ _!> <6 5!>4.
   <2\+>8 <\t> <4\+ _!> <7! 5!>4. %75
-  <2>8 <\t> <4 _!> <6> <5 _!> <6! \t>
+  <2\+>8 <\t> <4\+ _!> <6> <5 _!> <6! \t>
   <6>4. <4\+ _->
   <6> <4! _->
   <6! _!> <\t \t>
@@ -902,22 +905,22 @@ CredoBassFigures = \figuremode {
   r
   r1 %90
   r
-  r2. <5>4
-  r <6> <6 5> <\t \t>
-  <_+> <6> q <5>
-  r1 %95
-  r2. <5>4
-  r <6> <6 5> <\t \t>
-  <_+> <6> q <5>
-  r2 <6>
-  q <6 4> %100
-  <6> <\t>
-  r <6>
-  <8 3>1 \bassFigureExtendersOn
-  q
-  q %105
-  q8 \bassFigureExtendersOff r2..
+  r
+  r2 <6 5>4 <\t \t>
+  <_+>1
+  r %95
+  r
+  r2 <6 5>4 <\t \t>
+  <_+>1
+  r
+  <6>2 <6 4> %100
   r1
+  r2 <6>
+  r1
+  r
+  r %105
+  r
+  r
   r
   r
   r %110
@@ -962,7 +965,7 @@ CredoBassFigures = \figuremode {
   q
   q %150
   q2 \bassFigureExtendersOff <6 5>
-  <_->1
+  \bc <[_- _ _]>1
   r
   r
   r %155
@@ -977,23 +980,23 @@ CredoBassFigures = \figuremode {
   r1
   r2 <6> %165
   r q
-  <5> <6>
-  \bo <[7] _+>1 \bassFigureExtendersOn
-  <7 _+>2. \bc <[7] _+>4 \bassFigureExtendersOff
+  <\fivehat> <6>
+  <_+>1 \bassFigureExtendersOn
+  q2. q4 \bassFigureExtendersOff
   <[6]>1 %170
   <6\\>
-  <6>
-  <\t>
-  <6>
+  <6>1 \bassFigureExtendersOn
+  q2. q4 \bassFigureExtendersOff
+  <6>1
   r %175
   <_+>
   r
   <[6]>
   r2 <5>
-  <6> <[_+]> %180
-  r1
+  <6>1 %180
   r
-  \bo <[6\\ _]>2 <3>
+  r
+  \bo <[6\\ _]>2 <5>
   \bc <[5\+ _+]>1
   r %185
   r
@@ -1006,9 +1009,9 @@ CredoBassFigures = \figuremode {
   r
   <3>2 <6>
   <[5\+] _+>1 %195
-  <6>
-  <\t>
-  r
+  <6> \bassFigureExtendersOn
+  q2. q4 \bassFigureExtendersOff
+  r1
   <_+>
   <5\+> %200
   r
@@ -1023,9 +1026,9 @@ CredoBassFigures = \figuremode {
   <_+>1 %210
   r
   r
-  <[6]>
   r
-  r2 <[6]> %215
+  r
+  r2 <6> %215
   r1
   r
   r
@@ -1035,9 +1038,9 @@ CredoBassFigures = \figuremode {
   r
   r2 <6\\>
   r1
-  <[6]> %225
+  r %225
   <6 [5]>
-  <\t>
+  r
   r
   <6>
   <_+> %230
@@ -1054,28 +1057,28 @@ CredoBassFigures = \figuremode {
   r
   <[7] 3>
   r
-  <[6]>2 <6 5>
-  <\t \t> <3> %245
+  <[6]>2 <6 5> \bassFigureExtendersOn
+  q4 q \bassFigureExtendersOff <3>2 %245
   r1
   <6>
-  r2 <6>
+  r2 q
   q q
-  q2 \bassFigureExtendersOn q4 \bassFigureExtendersOff <5> %250
+  q2 \once \bassFigureExtendersOn q4 <5> %250
   r1
   r2 <6>
   <6\\> <6>
-  q2 \bassFigureExtendersOn q4 \bassFigureExtendersOff <5>
+  q2 \once \bassFigureExtendersOn q4 <5>
   r2 <6> %255
-  r <6>
+  r q
   q q
-  q2 \bassFigureExtendersOn q4 \bassFigureExtendersOff <5>
+  q2 \once \bassFigureExtendersOn q4 <5>
   r1
   r2 <6> %260
   <6\\> <6>
-  q2 \bassFigureExtendersOn q4 \bassFigureExtendersOff <5>
+  q2 \once \bassFigureExtendersOn q4 <5>
   <3>2 <5>
   <6 5> <_+>
-  <6>2. \bassFigureExtendersOn q4 \bassFigureExtendersOff %265
+  <6>2. \once \bassFigureExtendersOn q4 %265
   <6 5>2 <3>
   <6>1
   r
@@ -1083,16 +1086,16 @@ CredoBassFigures = \figuremode {
   r2 <8 3> \bassFigureExtendersOn %270
   q4 q \bassFigureExtendersOff <8 6>4 <5 3>
   r1
-  <[6 5]>
+  \bo <[6 5]>
   r
-  <[6]> %275
+  <6> %275
   r
-  <[6]>
+  \bc <[6 _]>
   r
   <6 5>2 <4 2>
   <6>1 %280
   <7 _+>
-  <_!>
+  <[_!]>
   <7 _+>
   <3>2 <4\+>
   <6> <6\\> %285

@@ -261,63 +261,63 @@ CredoViolinoII = {
   \relative c' {
     \clef treble
     \key c \major \time 4/4 \tempoCredo
-    e'16\f f e d c d c h a8 f f8.(\trill e32 f)
-    f'16 g f e d e d c h8 g g8.(\trill fis32 g)
+    e'16\f f e d c d c h a8 f f8.\trill e32 f
+    f'16 g f e d e d c h8 g g8.\trill fis32 g
     d16 g h d e, g c e d8 c' g, h'
     c,16 d e f g f e d c h a g f e d c
-    a' g f e f a c f h,8 d d8.(\trill c32 d) %5
+    a' g f e f a c f h,8 d d8.\trill c32 d %5
     e16 d e f g f e d c h a g f e d c
-    f a c f a, c f a c8 a a8.(\trill g32 a)
-    g16 e c e g e c g e8 c' c8.(\trill h32 c)
-    d16 g fis e d c h a g8 f' f8.(\trill e32 f)
-    e16 c h a g f e d c8 r r4  %10
+    f a c f a, c f a c8 a a8.\trill g32 a
+    g16 e c e g e c g e8 c' c8.\trill h32 c
+    d16 g fis e d c h a g8 f' f8.\trill e32 f
+    e16 c h a g f e d c8 r r4 %10
     R1
-    c16\f d e f e f g a g8 e' e8.(\trill d32 e)
-    d16 c h a g a h c d8 f f8.(\trill e32 f)
-    e16 f g f e f d e c8 g g8.(\trill fis32 g)
-    c16 h c e d cis d f f8 g, g8.(\trill fis32 g) %15
-    h16 c d c h c a h g8 d d8.(\trill cis32 d)
-    h'16 c h a g a h c d8 g, g8.(\trill fis32 g)
-    h16 a h c d c d e f!8 f, f8.(\trill e32 f)
-    e16 g a h c d e f g8 e e8.(\trill d32 e)
-    d16 h g d h d g h d8 g g8.(\trill fis32 g) %20
-    g,16 e h e g e g h e8 c c8.(\trill h32 c)
+    c16\f d e f e f g a g8 e' e8.\trill d32 e
+    d16 c h a g a h c d8 f f8.\trill e32 f
+    e16 f g f e f d e c8 g g8.\trill fis32 g
+    c16 h c e d cis d f f8 g, g8.\trill fis32 g %15
+    h16 c d c h c a h g8 d d8.\trill cis32 d
+    h'16 c h a g a h c d8 g, g8.\trill fis32 g
+    h16 a h c d c d e f!8 f, f8.\trill e32 f
+    e16 g a h c d e f g8 e e8.\trill d32 e
+    d16 h g d h d g h d8 g g8.\trill fis32 g %20
+    g,16 e h e g e g h e8 c c8.\trill h32 c
     h16 g h d g h, d g h g d h a8 fis'
     g16 a h c d c h a g fis e d c h a g
-    e' c h a g f e d c8 e' e8.(\trill d32 e)
-    d16 e d c h c h a g8 g' g8.(\trill fis32 g) %25
-    c,16 h c d e d e f g8 c, c8.(\trill h32 c)
-    h16 a g a h a h c d8 g, g8.(\trill fis32 g)
-    a16 g f e d f a d cis8 e e8.(\trill d32 e)
-    f16 g a g f g e f d8 a a8.(\trill gis32 a)
-    f16 e d e f g e f d8 d' d8.(\trill cis32 d) %30
-    cis16 a e a cis d e cis d8 a a8.(\trill gis32 a)
-    f'16 g e f d e c d b8 g g8.(\trill fis32 g)
-    b16 g d g b g b d g8 g, g8.(\trill fis32 g)
-    e'16 f! d e c d b c a8 f f8.(\trill e32 f)
-    a16 f c f a f a d d,8 h' h8.(\trill a32 h) %35
-    c16 g e g c g c e g8 b, b8.(\trill a32 b)
-    a16 a, c f a c, f a c8 f f8.(\trill e32 f)
-    b,16 d, f b d f, b d f8 b, b8.(\trill a32 b)
-    a16 c f c a c a f c8 e' e8.(\trill d32 e)
+    e' c h a g f! e d c8 e' e8.\trill d32 e
+    d16 e d c h c h a g8 g' g8.\trill fis32 g %25
+    c,16 h c d e d e f g8 c, c8.\trill h32 c
+    h16 a g a h a h c d8 g, g8.\trill fis32 g
+    a16 g f e d f a d cis8 e e8.\trill d32 e
+    f16 g a g f g e f d8 a a8.\trill gis32 a
+    f16 e d e f g e f d8 d' d8.\trill cis32 d %30
+    cis16 a e a cis d e cis d8 a a8.\trill gis32 a
+    f'16 g e f d e c d b8 g g8.\trill fis32 g
+    b16 g d g b g b d g8 g, g8.\trill fis32 g
+    e'16 f! d e c d b c a8 f f8.\trill e32 f
+    a16 f c f a f a d d,8 h' h8.\trill a32 h %35
+    c16 g e g c g c e g8 b, b8.\trill a32 b
+    a16 a, c f a c, f a c8 f f8.\trill e32 f
+    b,16 d, f b d f, b d f8 b, b8.\trill a32 b
+    a16 c f c a c a f c8 e' e8.\trill d32 e
     f16 g a b c b a g f e d c b a g f %40
-    a b a g f g f e d8 d' d8.(\trill cis32 d)
-    cis16 e cis a e cis' a e cis8 cis' cis8.(\trill h32 cis)
+    a b a g f g f e d8 d' d8.\trill cis32 d
+    cis16 e cis a e cis' a e cis8 cis' cis8.\trill h32 cis
     d16 a cis d e a, cis e g a, f' d a f d d'
-    e, g c e d h g d h8 d' d8.(\trill c32 d)
-    h16 g d g h d f d h8 f f8.(\trill e32 f) %45
-    e16 g, c e g c, e g c8 e e8.(\trill d32 e)
-    f16 d h c d h f d h8 f'' f8.(\trill e32 f)
-    e16 e, g c e g, c e g8 g, g8.(\trill fis32 g)
-    c16 e a e c e c a e8 c' c8.(\trill h32 c)
-    a'16 f c f a f c a f8 a' a8.(\trill g32 a) %50
-    h,16 g d g h g h d f8 h, h8.(\trill a32 h)
+    e, g c e d h g d h8 d' d8.\trill c32 d
+    h16 g d g h d f d h8 f f8.\trill e32 f %45
+    e16 g, c e g c, e g c8 e e8.\trill d32 e
+    f16 d h c d h f d h8 f'' f8.\trill e32 f
+    e16 e, g c e g, c e g8 g, g8.\trill fis32 g
+    c16 e a e c e c a e8 c' c8.\trill h32 c
+    a'16 f c f a f c a f8 a' a8.\trillFlat g32 a %50
+    h,!16 g d g h g h d f8 h, h8.\trill a32 h
     c16 g a h c d e f g c, d e f g a h
     c h a g f e d c d8 c' g, h' \noBreak
     c4 <c, e, g,> r2\fermata \bar "||"
     \key a \major \time 6/8 \tempoEtIncarnatus \newSpacingSection
       R2.*2 %56
-    r4 r8 r \mvTr cis,\p-\pizz e
+    r4 r8 r \mvTr cis,\pE-\pizz e
     h r d cis r r
     R2.
     r4 cis8 e r h %60
@@ -327,8 +327,8 @@ CredoViolinoII = {
     r h a e' cis fis
     h, r r r cis e %65
     h r r r a cis
-    e cis e a cis, e
-    a\cresc cis e d r r
+    e cis e a cis,\cresc e
+    a cis e d r r
     r4 r8 r4 \mvTr a,8(\p-\arco
     fis') r a( gis) r eis( %70
     fis) r16 fis8-\markup \remark "sempre legato e piano" e! d cis h'16~
@@ -337,40 +337,45 @@ CredoViolinoII = {
     e g8 fis e dis fis a,16~
     a c8 h a gis! h d16~ %75
     d f8 e d c a a'16~
-    a gis8 e fis g b g16~
+    a gis!8 e fis g b g16~
     g fis!8 d e f as f16~
     f e8 c d es c d16~
-    d es8\decresc d des c h! b16 %80
+    d\decresc es8 d des c h! b16 %80
     a!4.:64\pp a:
     c8:\cresc c: es!: fis!:\f a: c:
-    \tempoPassus es16-!\ff[ r32 \tuplet 3/2 32 { h'!64 c d] }
+    \tempoPassus
+      es16-!\ff[ r32 \tuplet 3/2 32 { h'!64 c d] }
       es16-![ r32 \tuplet 3/2 32 { h,64 c d] }
-      \bp #4 #3 es16-![ r32 \tuplet 3/2 32 { \once \override DynamicTextSpanner.style = #'dashed-line h,64\sulG c d] }
-      es16-![ r32 \tuplet 3/2 32 { h64 c d] }
-      es16-![ r32 \tuplet 3/2 32 { h64 c d] }
-      es16-![ r32. c64]\!
-    \tempoEtSepultus g16 r r8 r r4 r8
+      \bp #4 #3 es16-![ r32
+        \once \override TextSpanner.style = #'line
+        \once \override TextSpanner.bound-details.left.text = \markup \remark "sul G"
+        \tuplet 3/2 32 { h,64_\startTextSpan c d] }
+      es16-![ r32 \tuplet 3/2 32 { h64 \hA c d] }
+      \hA es16-![ r32 \tuplet 3/2 32 { h64 \hA c d] }
+      \hA es16-![ r32. \hA c64] \noBreak
+    \tempoEtSepultus g16\stopTextSpan r r8 r r4 r8
     R2. %85
-    \mvTr g4.\p-\markup \remark "con sordino" as->
+    g4.\p^\conSord as->
     g as->
     g8 r r g\pp r r \noBreak
     g4.~ g8 r r\fermata \bar "||"
-    \key c \major \time 2/2 \tempoEtResurrexit r2 r4 \mvTr a'16(\f-\markup \remark "senza sordino" g fis g) \noBreak %90
+    \key c \major \time 2/2 \tempoEtResurrexit
+      r2^\senzaSord r4 a'16(\f g fis g) \noBreak %90
     d8-! r c'16( h a h) g8-! r e'16( d cis d)
     h8-! r a'16( g fis g) d8-! r h'32\fz c d8.
-    \tuplet 3/2 4 { c8( d c h[ c h] a h a g[ a g] }
-    \tuplet 3/2 4 { fis g fis e[ fis e] d e d c[ d c]) }
+    \tuplet 3/2 4 { c8( d c h[ c h] a h a g[ a g]) }
+    \tuplet 3/2 4 { fis( g fis e[ fis e] d e d c[ d c]) }
     h-! r a16( g fis g) d8-! r c'16( h a h) %95
     g8-! r e'16( d cis d) h8-! r h'32\fz c d8.
-    \tuplet 3/2 4 { c8( d c h[ c h] a[ h a] g a g }
-    \tuplet 3/2 4 { fis g fis e[ fis e] d[ e d] c d c) }
+    \tuplet 3/2 4 { c8( d c h[ c h] a[ h a] g a g) }
+    \tuplet 3/2 4 { fis( g fis e[ fis e] d[ e d] c d c) }
     h8-! r e16( d cis d) h8-! r a16( g fis g)
     c8-! r a16( g fis g) h8-! r a16( g fis g) %100
     h,8-! r e'16( d cis d) h8-! r a16( g fis g)
     e'8-! r a,16( g fis g) d'8-! r c16( h a h)
     g8-! r \tuplet 3/2 4 { h,( c h d[ e d] g a g) }
-    h-! r \tuplet 3/2 4 { d,( e d g[ a g] h c h) }
-    d-! r \tuplet 3/2 4 { g,( a g h[ c h] d e d) } %105
+    h-! r \tuplet 3/2 4 { d,( e d g[ a g] h^[ c h]) }
+    d-! r \tuplet 3/2 4 { g,_[( a g] h[ c h] d e d) } %105
     g-! r r4 r2
     R1
     \appoggiatura { g,16[ a h] } c2.\ff h8-! a-!
@@ -386,7 +391,7 @@ CredoViolinoII = {
     <c' e, g,>4 r r2
     <g' h, d, g,>4 r r2
     <e c e, g,>4 r r2 %120
-    r \mvTr c,4.-!\f-\markup \remark "staccato" c8-!
+    r c,4.-!\f^\markup \remark "staccato" c8-!
     c4-! r r2
     r c4.-! c8-!
     c4-! r r2
@@ -397,11 +402,11 @@ CredoViolinoII = {
     \scriptOut c4)-! r h!4. h8
     c2 g %130
     es2.\trill d8 c
-    g4 r r g'16( a h c)
+    g4 r r g'16( a! h c)
     d2 r4 h16( c d es)
     f2.\fz d4
     h g d h %135
-    \mvTr g4\p-\markup \remark "sempre staccato" r8 g g4 r8 g
+    g4\p^\markup \remark "sempre staccato" r8 g g4 r8 g
     g4 r8 g g4 r8 g
     g4 r8 g g4 r8 g
     g4 r8 g g4 r8 g
@@ -409,14 +414,14 @@ CredoViolinoII = {
     g4 r8 g g4 r8 g
     g4 r8 g g4 r8 g
     g4 r8 g g4 r8 g
-    g4 r8 g h!4\cresc r8 h
+    g4 r8 g\cresc h!4 r8 h
     d4\f r8 d f4 r8 f %145
     h,!4 r8 h as'4 r8 as
     f4 r8 f d'4 r8 d
-    h!4 r8 h f'4 r8 f
-    d4 r8 d h!4 r8 h
+    h4 r8 h f'4 r8 f
+    d4 r8 d h4 r8 h
     as4 r8 as f4 r8 f %150
-    d4 r8 d h!4 r8 h
+    d4 r8 d h4 r8 h
     c4 r r2
     R1
     e'!8\f f e d c d c h
@@ -477,7 +482,7 @@ CredoViolinoII = {
     e4 a a4.\trill gis16 a
     gis8 h e h gis h gis e %210
     c'4 a a4.\trill gis16 a
-    h8\ff g d g h g h d
+    h8 g d g h g h d
     g4 d d4.\trill c16 d
     e8 c h a g f e d
     c4 e' e4.\trill d16 e %215
@@ -488,11 +493,11 @@ CredoViolinoII = {
     g8 c e c g e c e %220
     g4 g' g4.\trill f16 g
     a8 c a f c a' f c
-    a4 a' a4.\trill f16 g
+    a4 a' g4.\trill f16 g
     f8 d a d f d a f
     d4 f f4.\trill e16 f %225
     e8 a cis a e cis a cis
-    e4 a' a4.\trill g16 a
+    e4 a' a4.\trillFlat g16 a
     f8 d a d f d a f
     d4 d' d4.\trill cis16 d
     cis8 a' e cis a e cis e %230
@@ -529,11 +534,11 @@ CredoViolinoII = {
     a8 fis' c a h g' e h
     c4 a' a4.\trill g16 a
     h,8 g h d g e h e
-    g4 a, a4.\trill g16 a
+    g4 a, a4.\trill gis16 a
     d8 f,! a d f d a d %265
-    f4 g, g4.\trill fis16 g
+    f4 g,! g4.\trill fis16 g
     c8 e, g c e c g c
-    a4 f' f4.\trill e16 f
+    a4 f'! f4.\trill e16 f
     h,8 g h d g e h e
     c4 a' a4.\trill gis16 a %270
     d8 c h a g f e d
