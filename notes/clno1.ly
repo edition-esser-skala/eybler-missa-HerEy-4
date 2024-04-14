@@ -243,7 +243,7 @@ SanctusClarinoI = {
     \clef treble
     \key c \major \time 3/4 \tempoSanctus
     R2.*14 \noBreak %14
-    r4 r\fermata \bar "||" %15
+    r2\fermata \bar "||" %15
     \twofourtime \time 2/4 \tempoPleni
       \partial 4 r4 \noBreak R2*7 %22
     g'4\f r8 g16 g

@@ -1035,7 +1035,7 @@ SanctusSoprano = {
     R2.
     \mvTrr d2(\pp^\tuttiE f8.[ e16)]
     e4 r r
-    g2~ g16[ f e f]
+    g2~ g16[( f e f])
     e4 r r %5
     a2 a4
     g c e
@@ -1043,10 +1043,10 @@ SanctusSoprano = {
     d8. h16 g4 r
     r h c %10
     d4. h8 g4
-    f'2 e4
+    f'2( e4)
     d r r
     R2. \noBreak
-    r4 r\fermata \bar "||" %15
+    r2\fermata \bar "||" %15
     \twofourtime \time 2/4 \tempoPleni
       \partial 4 r4 \noBreak R2 \noBreak
     g2\f
@@ -1081,12 +1081,12 @@ SanctusSoprano = {
     h,2
     c4 r
     c,8([\f e)] g([ c)]
-    e2(
-    d) %50
+    e2
+    d %50
     c4 r
     c,8([ e)] g([ c)]
-    e2(
-    d)
+    e2
+    d
     c4\fermata \bar "|." %55 finis
   }
 }
@@ -1101,9 +1101,9 @@ SanctusSopranoLyrics = \lyricmode {
   De -- us
   Sa -- ba -- oth,
   san -- ctus %10
-  Do -- mi -- nus
-  \xE Sa -- ba --
-  oth. \x
+  Do -- mi -- nus,
+  san --
+  ctus.
 
   Ple -- %17
   ni sunt
@@ -1138,11 +1138,11 @@ SanctusSopranoLyrics = \lyricmode {
   sis,
   in __ ex --
   cel --
-  %50
+  _ %50
   sis,
   in __ ex --
   cel --
-
+  _
   sis. %55 finis
 }
 

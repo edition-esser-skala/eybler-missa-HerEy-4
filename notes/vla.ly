@@ -625,7 +625,7 @@ SanctusViola = {
     c! g' e c
     f f, a a'
     g g, h d
-    f d e c
+    f! d e c
     h g h d %25
     f d e c
     h g h d

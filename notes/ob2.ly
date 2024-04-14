@@ -499,16 +499,16 @@ SanctusOboeII = {
     d2 c4\trill
     h8 r r4 r
     R2. \noBreak
-    r4 r\fermata \bar "||" %15
+    r2\fermata \bar "||" %15
     \twofourtime \time 2/4 \tempoPleni
-      \partial 4 r4 \noBreak r8 g\f a h \noBreak
+      \partial 4 r4 \noBreak r8 \mvDl g\f a h \noBreak
     c d e4~
     e e,
     d d'~
     d d, %20
     c c'
     d c
-    h h~
+    h h
     h c
     d h~ %25
     h c
@@ -525,7 +525,7 @@ SanctusOboeII = {
     c!8( g a d) %45
     h2\trill
     c4 r
-    c,8(\f e g c)
+    c,8\f e g c
     c2
     h %50
     c4 r

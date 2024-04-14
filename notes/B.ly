@@ -1052,10 +1052,10 @@ SanctusBasso = {
     g8. g,16 g4 r
     r g' g %10
     g4. g8 g4
-    h,2 c4
+    h,2( c4)
     g r r
     R2. \noBreak
-    r4 r\fermata \bar "||" %15
+    r2\fermata \bar "||" %15
     \twofourtime \time 2/4 \tempoPleni
       \partial 4 r4 \noBreak R2 \noBreak
     g'2\f
@@ -1110,9 +1110,9 @@ SanctusBassoLyrics = \lyricmode {
   De -- us
   Sa -- ba -- oth,
   san -- ctus %10
-  Do -- mi -- nus
-  Sa -- ba --
-  oth.
+  Do -- mi -- nus,
+  san --
+  ctus.
 
   Ple -- %16
   ni sunt

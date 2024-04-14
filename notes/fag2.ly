@@ -505,7 +505,7 @@ SanctusFagottoII = {
     d2 c4\trill
     h8 r r4 r
     R2. \noBreak
-    r4 r\fermata \bar "||" %15
+    r2\fermata \bar "||" %15
     \twofourtime \time 2/4 \tempoPleni
       \partial 4 r4 \noBreak r4 r8 g~\f \noBreak
     g f e d
@@ -524,7 +524,7 @@ SanctusFagottoII = {
     g e'8 c %30
     g4 r
     R2*9 %40
-    e'2\p
+    e'2\pE
     cis
     d
     h
@@ -532,8 +532,8 @@ SanctusFagottoII = {
     g2
     c4 r
     R2
-    \once \tieDashed g,~\f^\critnote
-    g %50
+    c,,2\f
+    g' %50
     c4 r
     c8( e g c)
     g2~

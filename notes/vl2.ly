@@ -578,7 +578,7 @@ SanctusViolinoII = {
     h4( d) r
     r r8 e( g c) %5
     c2-\dolce d16( c h\trill a)
-    g4~ g8 a16( g a g e c)
+    g4. a16( g a g e c)
     h8.([ d16 c8. e16 g8. c16)]
     h8( g, h d g h)
     d( h f d e c) %10
@@ -593,7 +593,7 @@ SanctusViolinoII = {
     g g e e cis cis e e
     a, a f f a a d d
     f f d d h h d d %20
-    g, g e e g g c c
+    g, g e e g g c! c
     a a f f d d d' d
     h h g, g h h d d
     f f d d e e c c
@@ -613,13 +613,13 @@ SanctusViolinoII = {
     h( c e g)
     g( f d h)
     g( f d h) %40
-    g( e'' g e)
-    cis?( a g e)
-    f( d' f d)
+    \kneeBeam g e''( g e)
+    cis( a g e)
+    f d'( f d)
     h( g f d)
     e( c' a a') %45
     g( h, d f,)
-    e16\fE e c c e e g g
+    e16\f e c c e e g g
     c c e, e g g c c
     e e c c g g e' e
     d d h h g g h h %50

@@ -493,24 +493,24 @@ SanctusOboeI = {
     \clef treble
     \key c \major \time 3/4 \tempoSanctus
     R2.*10 %10
-    r4 \once \slurDashed h'(\pp d)
+    r4 h'(\pp d)
     f2 e4\trill
     d8 r r4 r
     R2. \noBreak
-    r4 r\fermata \bar "||" %15
+    r2\fermata \bar "||" %15
     \twofourtime \time 2/4 \tempoPleni
-      \partial 4 r8 g,\f \noBreak a h c d \noBreak
+      \partial 4 \pa r8 g,\f \noBreak a h c d \pd \noBreak
     e f g4~
     g g,
     f f'~
     f f, %20
     e e'
-    d2
-    d4 d~
+    d2~
+    d4 d
     d c8 e
     g4 d~ %25
     d c8 e
-    d4 d~
+    g,4 d'~
     d c8 e
     g4 d~
     d c8 e %30
@@ -520,13 +520,13 @@ SanctusOboeI = {
     r e
     r f
     r d
-    e f8 d %45
-    h2\trill
-    c4 r
-    \once \slurDashed c,8(\fE e g c)
+    e( f8 d) %45
+    \pa h2\trill
+    c4 \pd r
+    \pa c,8\f e g c \pd
     e2
     d %50
-    c4 r
+    \pao c4 r
     e,8( g c e)
     g2~
     g

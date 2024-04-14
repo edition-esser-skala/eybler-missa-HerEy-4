@@ -1114,7 +1114,7 @@ SanctusOrgano = {
   \relative c {
     \clef bass
     \key c \major \time 3/4 \tempoSanctus
-    \mvTrr c8\pp-\pizz-\tuttiE r e r c r
+    \mvTrr c8\ppE-\solo ^\tweak TextScript.X-offset #0 ^\pizz r e r c r
     g r g' r r4
     c,8 r e r c r
     g r g' r r4
@@ -1126,11 +1126,11 @@ SanctusOrgano = {
     r g8 r c r %10
     g r r4 r
     r h,8 r c r
-    g r \clef "treble_8" r cis'(-\arco-\unisonoE d h)
+    g r \clef "treble_8" r cis'(-\arco d h)
     g r \clef bass r cis,( d h) \noBreak
     g2\fermata \bar "||" %15
     \twofourtime \time 2/4 \tempoPleni
-      \partial 4 r4 \noBreak r r8 \mvTr g'~\f-\soloE \noBreak
+      \partial 4 r4 \noBreak r r8 g'~\f \noBreak
     g f e d
     cis-\tutti e a cis,
     d a' f d
@@ -1138,7 +1138,7 @@ SanctusOrgano = {
     c! g' e c
     f f, fis fis'
     g g, h d
-    f d e c
+    f! d e c
     h g' h d %25
     f d e c
     h g, h d
@@ -1165,7 +1165,7 @@ SanctusOrgano = {
     c g' e c
     g c e g
     g, h d g %50
-    c, g'' e c
+    \kneeBeam c, g'' e c
     g c g e
     c g' e c
     g' d' h g
@@ -1181,24 +1181,24 @@ SanctusBassFigures = \figuremode {
   r %5
   r
   r
-  r4 \bo <[6 _]>2
-  r2.
-  r4 <7>2 %10
-  r2.
-  r4 \bc <[6 5]>2
+  r
+  r
+  r %10
+  r
+  r4 <[6 5]>2
   r2.
   r
   r %15
-  r4. \bo <[7 5 3]>8
+  r4. \bo <[7 5 _]>8
   <6 4> <8 6> <10 8> \bc <[6- 4 2]>
   <6 5>2
   r
-  <6 5> %20
+  q %20
   r
-  <6>4 <\t>
+  <6>4 <[\t]>
   <3>2 \bassFigureExtendersOn
   q8 q <6> r
-  <6>2 %25
+  q2 %25
   q8 q <6\!> r
   <6>2
   q8 q <6\!> r

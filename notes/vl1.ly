@@ -583,7 +583,7 @@ SanctusViolinoI = {
     g4( h,) r
     e,8( g c e g c) %5
     c2-\dolce d16( c h\trill a)
-    g4~ g8 a16( g a g e c)
+    g4. a16( g a g e c)
     h8.([ d16 c8. e16 g8. e16)]
     d8( h d h g d)
     h( d f h c e,) %10
@@ -591,14 +591,14 @@ SanctusViolinoI = {
     f( d g, f' e c')
     h( fis g cis, d h)
     g r r4 r \noBreak
-    r r\fermata \bar "||" %15
+    r2\fermata \bar "||" %15
     \twofourtime \time 2/4 \tempoPleni
       \partial 4 r8 g16\f g \noBreak a a h h c c d d \noBreak
-    e e f f g g b, b
+    e e f! f g g b, b
     a a cis cis e e a a
     f f d d a a f f
     d  d h' h d d g g %20
-    e e c c g g e e
+    e e c! c g g e e
     a a f f d d d' d
     h h g, g h h d d
     f f d d e e c c
@@ -618,9 +618,9 @@ SanctusViolinoI = {
     h( c e g)
     g( f d h)
     g( f d h) %40
-    g( e'' g e)
+    \kneeBeam g e''( g e)
     cis( a g e)
-    f( d' f d)
+    f d'( f d)
     h( g f d)
     e( c' a a') %45
     g( h, d f,)

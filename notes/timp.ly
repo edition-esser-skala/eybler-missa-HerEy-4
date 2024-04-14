@@ -240,17 +240,17 @@ SanctusTimpani = {
     \clef bass
     \key c \major \time 3/4 \tempoSanctus
     R2.
-    \mvTrr g2.\pp\startTrillSpan-\solo
+    g\pp\startTrillSpan
     c8\stopTrillSpan r r4 r
     g2.\startTrillSpan
     c8\stopTrillSpan r r4 r %5
     r c~\startTrillSpan c8\stopTrillSpan r
     r4 c~\startTrillSpan c8\stopTrillSpan r
     R2.*4 %11
-    g2\startTrillSpan c4\stopTrillSpan
-    g8 r r4 r
+    g2\startTrillSpan c4
+    g8\stopTrillSpan r r4 r
     R2.
-    r4 r\fermata \bar "||" %15
+    r2\fermata \bar "||" %15
     \twofourtime \time 2/4 \tempoPleni
       \partial 4 r4 \noBreak R2*7 %22
     g4\f r8 \tuplet 3/2 8 { g16 g g }

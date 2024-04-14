@@ -1098,7 +1098,7 @@ SanctusAlto = {
     d( d,) c
     h r r
     R2. \noBreak
-    r4 r\fermata \bar "||" %15
+    r2\fermata \bar "||" %15
     \twofourtime \time 2/4 \tempoPleni
       \partial 4 r4 \noBreak R2 \noBreak
     g'2\f

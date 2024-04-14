@@ -519,16 +519,16 @@ SanctusFagottoI = {
     f2 e4\trill
     d8 r r4 r
     R2. \noBreak
-    r4 r\fermata \bar "||" %15
+    r2\fermata \bar "||" %15
     \twofourtime \time 2/4 \tempoPleni
-      \partial 4 r4 \noBreak r8 g\f fis f \noBreak
-    e d c e
+      \partial 4 r4 \noBreak \pa r8 \mvDl g\f fis f \noBreak
+    e d c e \pd
     a,2~
     a
     g~ %20
     g
     a
-    g4 g~
+    \pa g4 g~
     g g
     g g~ %25
     g g
@@ -536,9 +536,9 @@ SanctusFagottoI = {
     g g
     g g~
     g g %30
-    g r
+    g \pd r
     R2*4 %35
-    r4 \mvTr g\pE-\dolce-\solo
+    r4 g-\dolce
     c2
     h8( c e g)
     g4( h,)

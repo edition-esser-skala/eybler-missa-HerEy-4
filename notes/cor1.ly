@@ -354,7 +354,7 @@ SanctusCornoI = {
     d2 e4
     d8 r r4 r
     R2. \noBreak
-    r4 r\fermata \bar "||" %15
+    r2\fermata \bar "||" %15
     \twofourtime \time 2/4 \tempoPleni
       \partial 4 r4 \noBreak R2*9 %24
     d4\f d8 d %25
