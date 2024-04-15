@@ -664,7 +664,7 @@ BenedictusViola = {
   \relative c' {
     \clef alto
     \key f \major \time 6/8 \tempoBenedictus
-    \partial 8 c8\p c4 c8 c4 a8
+    \partial 8 c8\pE^\conSord c4 c8 c4 a8
     c4 c8 a4 c8
     f,( b d) f4.
     r8 c c c4.~
@@ -677,26 +677,31 @@ BenedictusViola = {
     c4. d
     h c
     g8 g' g g4.\sfp
-    r8 a\cresc a g4 r8
+    r8 a\cresc a g4\! r8
     r h,(\p d) r c( e) %15
     r h( d) r c( e)
     g e g c, f a~
     a c, a' d, g g
-    << { \oneVoice g4.~ g4 f8 } \\ { s8 s4\cresc s4 s8\! } >>
+    g4.~\cresc g4 f8
     r e\p g g4 g8\f %20
     c, e f c c' c
     c r r r16 c,,( e g c e)
     g8( h, d) c( f e)
-    a, a'( g) g( f) <d f>(
-    <f a>4\fz) <e g>8 <d h'>4(\fz <c c'>8) %25
+    a,-! a'( g) g( f) << {
+      f(
+      a4 g8) h4 c8 %25
+    } \\ {
+      d,8(
+      f4\fz e8) d4\fz c8 %25
+    } >>
     a'8.(\p f16 d f) e8 r r
-    r c c c4 r8
+    r c\p c c4 r8
     r c c c4 c8
     c2.
     r8 d d c4 r8 %30
-    r4 r8 r c( e)
-    f16( e d c h d) c( d e\cresc f g a)
-    b!(\f g e c g' e) c( f e\pE g d a)
+    r4 r8 r c(\p e)
+    f16( e d c h d) c(\cresc d e f g a)
+    b!(\f g e c g' e) c( f e\p g d a)
     c( g c e g e) f8 c a
     f4.~ f8 f' f %35
     c c c c r r
@@ -705,20 +710,25 @@ BenedictusViola = {
     f4. g
     e f %40
     c8 c' c c4.\sfp
-    r8 d,\cresc d c4 r8
+    r8 d,\cresc d c4\! r8
     r e(\p g) r f( a)
     r e( g) r f( a)
     c c, f~ f b, d'~ %45
     d d, g~ g c, c~
-    c g'\cresc c c4 b8
+    c\cresc g' c c4 b8
     r e,\p e f4 f8\f
     c a c f c f
-    <a f c>\fzE r r r16 f,( a c f a) %50
+    <a f c> r r r16 f,( a c f a) %50
     g8 e g c, b' a
-    r \once \slurDashed d,( c') c( b) <g b>(
-    <b d>4)\fz <a c>8 <g b>4(\fz <f a>8)
+    r d, c' c( b) << {
+      b(
+      d4 c8) b4( a8)
+    } \\ {
+      g8(
+      b4\fz a8) g4(\fz f8)
+    } >>
     d4 e16 g f4.~
-    f~ f16 a,(\decresc c f a c,) %55
+    f~\decresc f16 a,( c f a c,) %55
     f(\p a c f, a c) f8 r\fermata \bar "|." %56 finis
   }
 }

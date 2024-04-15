@@ -1162,7 +1162,7 @@ BenedictusBasso = {
     \partial 8 r8 r4 r8 r \mvTr c\p^\tuttiE d
     c4. f8 r es
     d d' b a a, b
-    c([ d)] e f f f
+    c([ d)] e! f f f
     f16([ g)] c,8 r r g' b %5
     b16([ a)] f8 r r r f
     b,\sfp b b f' f a
@@ -1172,40 +1172,40 @@ BenedictusBasso = {
     f4.~ f8 a d,
     e4.~ e8 g c,
     f8. f16 e8 h'8.\fz h16 c8
-    f,4\cresc d8 g4 r8
+    f,4\cresc d8 g4\! r8
     f4.\p e %15
     f4.( e8) g e
     c4. f8 r f
     d4. g8 r g
-    g g\cresc f e c' f,
-    g4\pE g8 c,4 b'!8\f %20
+    g\cresc g f e c' f,
+    g4\p g8 c,4 b'!8\f %20
     a g f e a fis
     g4 g8 c,4 r8
     R2.*4 %26
-    r8 e\p f c' c, r
+    r8 e f c' c, r
     r a' e f f a
     b b a e e f
-    b,4 g8 c4 c'8 %30
+    b,4 g8 c4 c'8\p %30
     g4. c8 r c,
     g'4. c,8 r r
-    r4 r8 r c\p d
+    r4 r8 r c d
     c4. f8 r es
     d d' b a a, b %35
-    c([ e)] f c r r
+    c([ e!)] f c r r
     r e16([ f)] g([ a)] a8 g r
     r a16([ g)] f([ e)] g8 f a
     b4.~ b8 d g,
     a4.~ a8 c f, %40
     b8. b16 a8 e8.\fz e16 f8
-    b4\cresc g8 c4 r8
+    b4\cresc g8 c4\! r8
     e,([\p g)] c f,([ a)] c
     e,([ g)] c f, a c
     a4. b8 r b %45
     h4. c8 r c,
-    c' h\cresc b a a, b
+    c'\cresc h b a a, b
     c([\p e)] g f r a\f
     f c f a f a
-    c4\fzE c,8 f4 r8 %50
+    c4\fz c,8 f4 r8 %50
     R2.
     r8 r d' d8.([ b16)] g8
     r e f cis'4\fz d8

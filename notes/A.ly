@@ -1220,18 +1220,18 @@ BenedictusAlto = {
     g4. g4 g8
     g4. f8 c c
     a'4. g8 r g
-    g g\cresc g g4 a16 a
+    g\cresc g g g4 a16 a
     g4\p g8 g4 g8\f %20
     a c c c c a
     g4 h8 c4 r8
     R2.*4 %26
-    r8 g8.\pE-\parenthesize^> f16 f8 e r
+    r8 g8.^> f16 f8 e r
     r a8.^> g16 g8 f f
     g g a b8. g16 f8
-    d([ g)] b a([ g)] g %30
+    d([ g)] b a([ g)] g\p %30
     h4. c8 r c
     f,4. e8 r r
-    r4 r8 r g\p f
+    r4 r8 r g f
     e4. f8 r c
     d f f f c' b %35
     a([ g)] f e dis16([ e)] g([ e)]
@@ -1240,12 +1240,12 @@ BenedictusAlto = {
     d4.~ d16[ e] fis([ g)] a([ b)]
     c,4.~ c16[ d] e[( f)] g([ a)] %40
     g8. g16 f8 g8.\fz g16 a8
-    b4\cresc b8 a([ g)] r
+    b4\cresc b8 a([ g)]\! r
     b4.\p a
     b a8 c a
     f4.~ f8 f f %45
     g4. g8 r g
-    g g\cresc c, c'4 b16 g
+    g\cresc g c, c'4 b16 g
     e8([\p g)] e f r c\f
     c f a f a c
     c4\fz b8 a4 r8 %50

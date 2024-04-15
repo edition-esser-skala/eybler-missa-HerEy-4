@@ -538,60 +538,61 @@ BenedictusOboeI = {
   \relative c' {
     \clef treble
     \key f \major \time 6/8 \tempoBenedictus
-    \partial 8 r8 R2.*2
-    r4 \once \tieDashed f'8~\p f16 a( g f e d)
+    \partial 8 r8 R2.
+    \pa R
+    r4 f'8~\p f16( a g f e d) \pd
     c4 b8\trill a r r
     r g g g r r %5
     r a a a r r
-    f'8.\sfp e16 d8 c r r
+    f'8.\fp e16 d8 c r r
     R2.
-    r8 g c~ c h r
-    r g f'~ f e g~ %10
+    r8 \pa g c~ c h \pd r
+    r \pa g f'~ f e g~ %10
     g f e f4.~
     f8 e d e4.
-    d8. h16 c8 g'8.\sfp f16 e8
-    a4\cresc f8 e( d) r
+    d8. h16 c8 g'8.\fp f16 e8 \pd
+    a4(\fz f8 e d) r
     R2.*2 %16
-    r8 \appoggiatura c32 b!16(\pE a b c) a8 r r
-    r \appoggiatura d32 \once \slurDashed c16( h c d) h8 g h
-    d( e\cresc f) g r r
-    r4 r8 r4 c,8\f %20
-    f g a~ a16 g( f e d c)
-    e8 r r r4 c16( e)
-    \once \slurDashed g4( f8) \appoggiatura f16 \once \slurDashed e8( d c)
-    a d( e) e( f) \once \slurDashed f(
-    a4)\fz g8 \once \slurDashed h4(\fz c8) %25
-    r4 r8 r4 g16(\p e)
+    r8 \appoggiatura c32 b!16( a b c) a8 r r
+    r \appoggiatura d32 c16 h c d \pa h8 g h \pd
+    d(\cresc e f) g\! r r
+    r4 r8 r4 \pa c,8\f %20
+    f g a~ a16 g f e d c
+    e8 \pd r r r4 \pa c16( e)
+    g4 f8 \grace f16 e8( d c)
+    a( d e) \pd e([ f)] f(
+    a4\fz g8) h4(\fz c8) %25
+    r4 r8 r4 \mvDl g16(\p e)
     c4.~ c4 a'16( f)
     c4.~ c4 f8
     e4 f8 g4 a16 f
-    d4 g8 f( e) r %30
+    d4 g8 f e r %30
     R2.
-    r4 r8 r4 c8\f
-    c'4( b8) \appoggiatura b16 \once \slurDashed a8( g\p f)
-    g4( \grace b16 a8) f r r
-    r r f~ f16 a( g f e d) %35
+    r4 r8 r4 c8(\f
+    c'4) b8 \grace b16 a8( g\p f)
+    g4( \grace b16 a8 f) r \pa r
+    r r f~ f16( a g f e d) \pd %35
     c8( b a) g r r
     r c f~ f e r
-    r c g'~ g f c
+    r \pa c g'~ g f c
     d4.~ d8 b' d,
     c4.~ c8 a' f %40
-    e4 f8 g4\sfp a8
-    b4\cresc a8 f( e) r
-    b4.\pE a
+    e4 f8 g4\sfp a8 \pd
+    b4(\fz g8 f e) r
+    b4.\p a
     b a
-    r8 \appoggiatura f'32 es16( d es f) d8 r r %45
-    r \appoggiatura g32 f16( e f g) \once \slurDashed e8( g e)
-    c( d\cresc e) f r r
-    r4 r8 r4 f,16(\f a)
+    r8 \appoggiatura f'32 es16 d es f d8 r r %45
+    r \appoggiatura g32 f16 e f g e8( g e)
+    c(\cresc d e) f\! r r
+    r4 r8 r4 f,16\f a
     c4. f
-    c8\fzE r r r4 f16( a) %50
-    \once \slurDashed c4( b8) \appoggiatura b16 \once \slurDashed a8( g f)
-    d \once \slurDashed g( a) a( b) b(
-    d4)\fz c8 b4(\fz a8)
+    c8 r r r4 f16( a) %50
+    c4 b8 \grace b16 a8( g f)
+    \pao d g( a) a([ b)] b(
+    d4\fz c8) b4(\fz a8)
     g4( e8) f r r
     r4 r8 f4.~\p %55
-    \once \tieDashed f~ f8 r\fermata \bar "|." %56 finis
+    f~ f8 r\fermata \bar "|." %56 finis
   }
 }
 

@@ -635,7 +635,7 @@ BenedictusViolinoII = {
   \relative c' {
     \clef treble
     \key f \major \time 6/8 \tempoBenedictus
-    \partial 8 f8\p g( e g) f( e f)
+    \partial 8 f8(\pE^\conSord g e g f e f)
     e4 e8 f( c a)
     b16( d f b f d') c( f e d c b)
     a( e f a c, g') f( a, c f a, f')
@@ -647,26 +647,26 @@ BenedictusViolinoII = {
     g,4.~ g16 h,( c g' e' c) %10
     a4.~ a16 h( cis d e f)
     g,4.~ g16 a( h c d e)
-    h( d h g e' c) d(\sfpE h g d c e)
-    a(\cresc a, d f a f) e8( d) r
+    h( d h g e' c) d(\sfp h g d c e)
+    a(\cresc a, d f a f) e8( d)\! r
     r16 d(\p cis d h g) r g'( fis g e c) %15
     cis( d e d h g) fis'( g a g e c)
     b!( g' e g b g) a( f c a c f)
     c( a' fis a c a) h( g, h d g d)
-    h( d c\crescE e d f) g( e c e f a)
-    g(\pE e g c h d,) h( d c e e\f g) %20
+    h(\cresc d c e d f) g( e c e f a)
+    g(\pE e g c h d,) h( d c e) e(\f g) %20
     f( c g' c, a' c,) a'( g f e a, a')
     g8 r r r4 c,16( e)
     g4.~ g8( h c)
     r a( cis) cis( d) d(
-    f,4)\fz e8 f'4(\fz e8) %25
-    d,4(\p h16 d) c8( e g)
-    b,( g' f) f( e) a16([-> f)]
-    c4( g'8) g( f16 c f a)
+    f,4\fz e8) f'4(\fz e8) %25
+    d,4\p h16( d) c8( e) g(->
+    b,)\pE g'( f) f( e) a16([-> f]
+    c4) g'8 g f16( c f a)
     fis( g e c f a) b( g c, g' a f)
     d8.( g16 b d) a8( g) r %30
-    h,16(\< c d e f fis)\! a(\> g f e d c)\!
-    h( c d e f g) e( f g\crescE a b a)
+    h,16(\p\< c d e f fis) a(\> g f e d c)
+    h(\! c d e f g) e(\cresc f g a b a)
     g(\f e g e c g') f( a, c\p e a, f')
     e( c e g e c) f( c a c f a,)
     b( d f b f d') c( f e d c b) %35
@@ -676,18 +676,18 @@ BenedictusViolinoII = {
     d4.~ d16 e( fis g a b)
     c,4.~ c16 d( e f g a) %40
     e( g e g a f) g(\sfp e c g' f a)
-    b(\crescE d, g b d b) a8( g) r
+    b(\cresc d, g b d b) a8( g)\! r
     r16 g'8\p e c a' f c16
-    g'8.( a32 g f[ e d c)] a'8( f) c~
-    c16( a c a c es) d( b f d f b) %45
+    g'8.( a32 g f[ e d c)] a'8( f c)~
+    c16( a f a c es) d( b f d f b) %45
     d( h g h d f) e( c g e g c)
-    e( e, f\cresc d g e) f(\trill e f c d g)
-    e(\p g b d c b) a8 r16 a,(\f c f
-    a8) r16 a( f c a8) r16 f'( a c)
-    <f a,>8\fzE r r r4 f,16( a) %50
-    c4( b8) \appoggiatura b16 a8( g f)
-    d d'( fis,) fis( g) g'(
-    b,4)\fz a8 e'4(\fz f8)
+    e(\cresc e, f d g e) f(\trill e f c d g)
+    e(\p g b d c b) a8 r16 a,(\f c f)
+    a8 r16 a( f c) a8 r16 f'( a c)
+    <f a,>8 r r r4 f,16( a) %50
+    c4( b8 \grace b16 a8 g f)
+    d( d' fis,) fis([ g)] g'(
+    b,4\fz a8) e'4(\fz f8)
     g,8.( a16 b g) a( a, c f a c,)
     f(\decresc a c f, a c) <f a,>4.~ %55
     q4.~\p q8 r\fermata \bar "|." %56 finis

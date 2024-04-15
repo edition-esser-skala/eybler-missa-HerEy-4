@@ -543,34 +543,34 @@ BenedictusOboeII = {
     \partial 8 r8 R2.
     r4 r8 r r f~\p
     f b d c16( f e d c b)
-    a4 g8 f r r
+    a4 g8\trill f r r
     r e e e r r %5
     r f f f r r
-    d'8.\sfp c16 b8 a r r
+    d'8.\fp c16 b8 a r r
     R2.
     r8 g e~ e d r
     r g d'~ d c g %10
     a4.~ a8 f' a,
     g4.~ g8 e' g,
     g2.
-    a4\cresc d8 c( h) r
+    a4(\fz d8 c h) r
     R2.*2 %16
-    r8 g\p g f r r
+    r8 g g f r r
     r fis fis g h d
-    h( c\cresc d) e r r
+    h(\cresc c d) e\! r r
     r4 r8 r r c~\f %20
     c e f c4.~
     c8 r r r4 c16( e)
     d4. g,8( h c)
-    r a( cis) cis( d) d(
-    f4)\fz e8 d4(\fz c8) %25
+    r a( cis) cis([ d)] d(
+    f4\fz e8) d4(\fz c8) %25
     R2.*2
     r4 r8 r4 f,8\p
     g4 a8 b4 a8
-    g4 b8 a( g) r %30
+    g4 b8 a g r %30
     R2.
-    r4 r8 r4 c,8\f
-    c'4.~ c4 a8\p
+    r4 r8 r4 c,8(\f
+    c'4.~) c4 a8\p
     c4.( a8) r f~
     f b d c16( f e d c b) %35
     a8( g f) e r r
@@ -579,18 +579,18 @@ BenedictusOboeII = {
     c b a b4.~
     b8 a g a c c %40
     c4. c\sfp
-    d4\cresc b8 a( g) r
+    d4(\fz b8 a g) r
     g4.\p f
     g f
     r8 c' c b r r %45
     r d d c( e c)
-    << { \oneVoice \once \slurDashed g4( c8) c r r } \\ { s8 s4\cresc s4 s8\! } >>
+    g4(\cresc c8) c\! r r
     r4 r8 r4 f,8\f
     a4. a
-    a8\fzE r r r4 f16( a) %50
-    c4.~ \once \slurDashed c8( e f)
-    r d( fis) fis( g) g(
-    b4)\fzE a8 g4(\fzE f8)
+    a8 r r r4 f16( a) %50
+    c4.~ c8( e f)
+    r d( fis) fis([ g)] g(
+    b4\fz a8) g4(\fz f8)
     d( b g) a r r
     r4 r8 a4.~\p %55
     a~ a8 r\fermata \bar "|." %56 finis

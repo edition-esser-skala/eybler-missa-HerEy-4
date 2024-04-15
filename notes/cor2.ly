@@ -386,7 +386,7 @@ BenedictusCornoII = {
     c4.~ c8 r r
     R2.*3 %6
     c4.~\sfp c8 r r
-    r g' c g r r
+    r g'\p c g r r
     R2.*5 %13
     r4 r8 r d'\p d
     d2.~ %15
@@ -395,23 +395,23 @@ BenedictusCornoII = {
     g4 r8 r4 r8
     r4 r8 g,4\mf r8
     R2. %20
-    g4.~\f g8 r r
+    g4.~\mf g8 r r
     R2.
-    d''4. g,8 r r
+    d''4.\f g,8 r r
     R2.
-    c4(\fzE g8) r4 r8 %25
+    c4( g8) r4 r8 %25
     R2.
     g4\p c8 c( g) r
     e4 g8 g( c) r
     r4 r8 g4 c8
-    r4 d8 c( g) r %30
+    r4 d8( c g) r %30
     R2.*2
-    g4.(\f c8) r r
-    g4.\p( e8) c c
+    g4.\f c8 r r
+    g4.\p e8 c c
     c4.~ c8 r r %35
-    r g'( c) g r r
+    r g' c g r r
     R2.*4 %40
-    r4 r8 \once \slurDashed g4\sfp( c8)
+    r4 r8 g4\sfp c8
     r4 r8 r g,\p g
     g2.~
     g4.~ g4 r8
@@ -419,11 +419,11 @@ BenedictusCornoII = {
     c4 r8 r4 r8
     r4 r8 c4\f r8
     R2.
-    e\fz
+    e\f
     c'4\fz g8 e r r %50
     g4. c8 r r
     R2.
-    r4 g8 d'4(\fz c8)
+    r4 g8 d'4\fz c8
     d r r r4 r8
     r4 r8 c,4.~\p %55
     c~ c8 r\fermata \bar "|." %56 finis

@@ -1213,26 +1213,26 @@ BenedictusTenore = {
     c4. d
     h c8 r c
     h8. d16 c8 d8.\fz d16 c8
-    c8([\cresc f)] f e([ d)] r
+    c8([\cresc f)] f e([ d)]\! r
     h4\p d16([ h)] g'8([ e)] c %15
     h4 d16([ h)] c8 g c
     e4. f8 f f
     fis4. g8 r g,
-    h c\cresc d e8.([ c16)] a f'
+    h\cresc c d e8.([ c16)] a f'
     e4\p h8 h([ c)] g'16([\f e)] %20
     c8 c c c c c
     c8.([ e16]) d[( f]) e4 r8
     R2.*3 %25
-    r4 r8 r r g16\p e
+    r4 r8 r r g16 e
     c4. c8 r a'16 f
     c4. c8 r c
     c c c c8. c16 c8
-    b8([ d)] d c4 e8 %30
+    b8([ d)] d c4 e8\p %30
     d4. e8 r e
     d4( h8) c r r
-    r4 r8 r c\p a
+    r4 r8 r c a
     c4. a8 r a
-    b b b c^\critnote f, f %35
+    b b b c f, f %35
     e([ c')] c c r r
     r g'16([ f)] e([ f)] c8 c r
     r c16([ e)] f([ g)] e8 f f
@@ -1244,7 +1244,7 @@ BenedictusTenore = {
     c4. c4 c8
     c4. b8 d d %45
     d4. c8 r e
-    e f\cresc g f c d
+    e\cresc f g f c d
     c4\p c8 c r c\f
     c c c c c c
     f4\fz e8 f4 r8 %50

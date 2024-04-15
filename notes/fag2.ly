@@ -544,41 +544,41 @@ SanctusFagottoII = {
 
 BenedictusFagottoII = {
   \relative c {
-    \clef bass
+    \clef "treble_8"
     \key f \major \time 6/8 \tempoBenedictus
     \partial 8 r8 R2.
     r4 r8 r4 f8~\p
     f b d c16( f e d c b)
-    a4 g8 f r r
-    r c c c r r %5
+    a4 g8\trill f r r
+    \clef bass r c c c r r %5
     r f f f r r
-    b,,4.\sfp f'8 r r
+    b,,4.\fp f'8 r r
     R2.
     r8 c' e g g, r
     r h g c c' e, %10
     f4. d
     e c
-    f4 e8 h\sfp h' c
-    f,\cresc a d c( h) r
+    f4 e8 h\fp h' c
+    f,\fz a( d c h) r
     h4.\p c %15
     h c8 r r
     r g g f r r
     r a a g r h~
-    h( c\cresc d) e r r
+    h(\cresc c d) e\! r r
     r4 r8 r r b!\f %20
     a g f e a fis
     g r r r4 c,8
-    h4. \once \slurDashed c8( d e)
-    f a( cis) cis( d) d(
-    f4)\fz e8 d4(\fz c8) %25
+    h4. c8 d e
+    f( a cis) cis([ d)] d(
+    f4\fz e8) d4(\fz c8) %25
     a4\p h8 c r r
     R2.
-    r4 r8 r4 a8
+    r4 r8 r4 a8\p
     b4 a8 e4 f8
     b,4 g8 c4 r8 %30
     R2.*2
     e8(\f c e) f( c d)
-    c4.( f8) r f~
+    c4.( f8) r \clef "treble_8" f~
     f b d c16( f e d c b) %35
     a8 e f c r r
     r e f c' c, r
@@ -586,18 +586,18 @@ BenedictusFagottoII = {
     b4. g
     a f %40
     b4 a8 e4\sfp f8
-    b,\cresc g b c c' r
+    \clef bass b,\fz g b c c' r
     g4.\p f
     g f
-    r8 c' c b r r %45
+    \clef "treble_8" r8 c' c b r r %45
     r d d c( g' e)
-    c( d\cresc e) f r r
-    r4 r8 r4 a,8\f
+    c(\cresc d e) f\! r r
+    \clef bass r4 r8 r4 a,8\f
     f4. f,
-    c'8\fzE r r r4 f8 %50
-    e4.( f8 g a)
-    b4 a8 a( b) g(
-    b4)\fz a8 g4(\fz f8)
+    c'8 r r r4 f8 %50
+    e4. f8( g a)
+    b4 a8 a([ b)] g(
+    b4\fz a8) g4(\fz f8)
     b4 c8 f, r r
     r4 r8 f4.~\p %55
     f~ f8 r\fermata \bar "|." %56 finis

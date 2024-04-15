@@ -1163,24 +1163,24 @@ BenedictusSoprano = {
     a,4.~ a16[ h] cis([ d)] e([ f)]
     g,4.~ g16[ a] h([ c)] d([ e)]
     d8. h16 c8 g'8.\fz f16 e8
-    a4\cresc f16([ d)] c8([ h)] r
+    a4\cresc f16([ d)] c8([ h)]\! r
     d4\p h16([ g)] c8([ e)] g %15
     d4 h16([ g)] g'8 e c
     b4. a8 r a
     c4. h8 r g
-    d' e\cresc f g8.([ e16)] f d
+    d'\cresc e f g8.([ e16)] f d
     c4\p d8 d([ e)] c\f %20
     f e a a16([ g)] f([ e)] d([ c)]
     e8.([ g16)] f([ d)] c4 r8
     R2.*4 %26
-    r8 b!8.^>\pE a16 a8 g r
+    r8 b!8.^> a16 a8 g r
     r c8.^> b16 b8 a f'
     e c f16([ a)] g8. b,16 a8
-    g8.([ b16)] d([ g)] f8([ e)] g, %30
+    g8.([ b16)] d([ g)] f8([ e)] g,\p %30
     f'4. e8 r g
     h,4( d8) c r r
-    r4 r8 r e,\p f
-    g4(\grace b16 a8) f r f
+    r4 r8 r e, f
+    g4(\grace b!16 a8) f r f
     f b d f c d %35
     c([ b)] a g r r
     r b16([ a)] g([ f)] f8 e r
@@ -1188,12 +1188,12 @@ BenedictusSoprano = {
     c[ b a] b4.~
     b8[ a g] a4 c8 %40
     e,8. g16 f8 c'8.\fz b16 a8
-    g8.([\crescE b16)] d([ g)] f8([ e)] r
+    g8.([\cresc b16)] d([ g)] f8([ e)]\! r
     g4\p e16([ c)] c8([ f)] c
     g'4 e16([ c)] c8 f f,
     es'4. d8 r d %45
     f4. e8 r g
-    c, d\crescE e f4 d16 b
+    c,\cresc d e f4 d16 b
     g8.([\p d'16)] c([ b)] a8 r c,\f
     f a c a c f
     a4\fz g8 f4 r8 %50

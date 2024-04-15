@@ -563,60 +563,61 @@ SanctusFagottoI = {
 
 BenedictusFagottoI = {
   \relative c {
-    \clef bass
+    \clef "treble_8"
     \key f \major \time 6/8 \tempoBenedictus
-    \partial 8 r8 R2.*2
-    \clef "treble_8" r4 f'8~\p f16 a( g f e d)
+    \partial 8 r8 R2.
+    \pa R
+    r4 f'8~\p f16( a g f e d) \pd
     c4 b8\trill a r r
     \clef bass r c c c r r %5
     r c c c r r
-    b,4.\sfp f'8 r r
-    r4 r8 r h16( c e c)
+    b,4.\fp f'8 r r
+    \pa r4 r8 r h16( c e c)
     g4.~ g8 cis16( d f d)
-    g,4.~ g8 r c %10
+    g,4.~ g8 r c \pd %10
     c4. d
     h c
-    h8. d16 c8 d4\sfp c8~
-    c\crescE f f e( d) r
+    \pa h8. d16 c8 d4\fp c8~
+    c\fz f( f e d) \pd r
     d4.\p e %15
     d e8 r r
     r \appoggiatura c32 b!16( a b c) a8 r r
-    r \appoggiatura d32 c16( h c d) h8 r d~
-    d( e\cresc f) g r r
-    r4 r8 r4 \once \slurDashed g16(\f e) %20
-    c4.~ c4 a'8
+    r \appoggiatura d32 c16 h c d h8 r d~
+    d(\cresc e f) g\! r r
+    r4 r8 r4 \mvDl g16\f e %20
+    \pa c4.~ c4 a'8 \pd
     g r r r16 c,,( e g c e)
-    \once \slurDashed g4( f8) \appoggiatura f16 e8( d c)
-    a d( e) e( f) f(
-    a4)\fz g8 f4(\fz e8) %25
-    f4\p d8 c r g'16( e)
+    \pa g4 f8 \appoggiatura f16 e8 d c \pd
+    a( d e) e([ f)] f(
+    a4\fz g8) f4(\fz e8) %25
+    f4\p d8 \pao c r g'16(\p e)
     c4.~ c4 a'16( f)
     c4.~ c4 c8
     c2.
-    d4 d8 c4 r8 %30
+    \partCombineChords d4 d8 c4 \pd r8 %30
     R2.
-    r4 r8 r4 c,8\f
-    c'( e g) f( e\p f)
-    e4.( f8) r r
-    \clef "treble_8" r4 f8~ f16 a( g f e d) %35
+    r4 r8 r4 c,8(\f
+    c' e g) f( e\p f)
+    e4.( f8) r \clef "treble_8" \pa r
+    r4 f8~ f16( a g f e d) %35
     c4 c8 c dis16( e g e)
     c4.~ c8 dis16( e g e)
-    c4.~ c8 c f
+    c4.~ c8 c f \pd
     f4. g
     e f4 a8 %40
     g4 f8 c4.\sfp
-    \clef bass b4\cresc d8 c c, r
+    \pa \clef bass \mvDl b4\fz d8 c c, \pd r
     b'4.\p a
     b a
-    \clef "treble_8" r8 \appoggiatura f'32 es16( d es f) d8 r r %45
-    r \appoggiatura g32 f16( e f g) e8 r e
-    e( f\cresc g) a r r
-    \clef bass r4 r8 r4 a,8\f
+    \clef "treble_8" r8 \appoggiatura f'32 es16 d es f d8 r r %45
+    r \appoggiatura g32 f16 e f g e8 r e
+    e(\cresc f g) a\! r r
+    \clef bass r4 r8 r4 \pao a,8\f
     f'4. f,
-    c'8\fzE r r r16 f,( a c f a) %50
+    c'8 r r r16 f,( a c f a) %50
     c,8( e g) f( e f)
-    d4 fis8 fis( g) b,(
-    d4)\fz c8 e4(\fz f8)
+    d4 fis8 fis([ g)] b,(
+    d4\fz c8) e4(\fz f8)
     g4 e8 f r r
     r4 r8 c4.~\p %55
     c~ c8 r\fermata \bar "|." %56 finis
