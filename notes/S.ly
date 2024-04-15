@@ -1267,17 +1267,17 @@ AgnusSoprano = {
     \key c \minor \time 4/4 \autoBeamOff \tempoAgnus
     R1
     \mvTrr as'4.\mf^\tuttiE g8 g8.([ f16)] es4
-    r r8 g\pE c4 h8 r
+    r r8 g c4 h8 r
     r4 r8 g f'4 es8 r
     r4 r8 g,\f es4 c %5
     c'2 h4 r
     r2 a8.\p a16 a8 a
-    c4 b8 r es,8. es16 d([ fis)] a([ c)]
+    c4^> b8 r es,8. es16 d([ fis)] a([ c)]
     a4 b8 r r des4^> b8
     f\p ges ges([ f)] f4 r %10
     R1*2
     ges4.\mf f8 f8.([ es16)] des4
-    r r8 f\pE b4 a8 r
+    r r8 f b4 a8 r
     r4 r8 f es'4 des8 r %15
     r4 r8 f,\f des4 b'
     e,2 f4 r
@@ -1287,10 +1287,10 @@ AgnusSoprano = {
     es\p fes fes([ es)] es4 r
     R1*2
     des'4.\mf c8 c8.([ b16)] as4
-    r r8 c\pE des4 c8 r %25
-    r4 r8 c des4\cresc c8 r
+    r r8 c des4 c8 r %25
+    r4 r8 c\cresc des4 c8 r
     r2 r4 r8 c\f \noBreak
-    es4 fis, \appoggiatura a16 g8 g r4 \bar "||"
+    es4 fis, \appoggiatura a16 g8 g r4 \bar "|"
     \key c \major \time 3/4 \tempoDona \newSpacingSection
       R2. \noBreak
     f2\p f4 %30
@@ -1314,7 +1314,7 @@ AgnusSoprano = {
     g,2(\p f4)
     e r r
     R2. %50
-    R\fermata \bar "|." %51 FINIS
+    R\fermata \bar "|." %51 finis
   }
 }
 
@@ -1326,8 +1326,8 @@ AgnusSopranoLyrics = \lyricmode {
   mun -- di:
   Mi -- se -- re -- re
   no -- bis, mi -- se -- re -- re
-  no -- bis, \xE mi -- se --
-  re -- re no -- bis. \x %10
+  no -- bis, no -- bis
+  mi -- se -- re -- re. %10
 
   A -- gnus De -- i, %13
   qui tol -- lis,
@@ -1336,8 +1336,8 @@ AgnusSopranoLyrics = \lyricmode {
   mun -- di:
   Mi -- se -- re -- re
   no -- bis, mi -- se -- re -- re
-  no -- bis, mi -- se -- %20
-  re -- re no -- bis.
+  no -- bis, no -- bis %20
+  mi -- se -- re -- re.
 
   A -- gnus De -- i, %24
   qui tol -- lis, %25
@@ -1364,5 +1364,5 @@ AgnusSopranoLyrics = \lyricmode {
   no --
   bis
   pa --
-  cem. %49 FINIS
+  cem. %49 finis
 }

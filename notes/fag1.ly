@@ -629,40 +629,40 @@ AgnusFagottoI = {
     \clef bass
     \key c \minor \time 4/4 \tempoAgnus
     R1
-    r2 r4 r8 \mvTr g'\pE-\dolce(
-    es'4) f16( es d c) c4( h8) f'(
+    r2 r4 r8 g'\pE(
+    es'4) f16( es d c) c4( h8) \noBeam f'(
     as4) g16( f es d) f4( es8) r
     R1 %5
-    c2\fz d4 r
-    d4\p cis16( d cis d) es4(-> d8) r
-    r4 r8 r16 d a'8.(\fp g16 fis es! d c)
-    c4( b8) r b4.\fz r8
+    c2\f \once \partCombineChords d4 r
+    d4(\p cis16 d cis d) es4(-> d8) r
+    \pa r4 r8 r16 d a'8.(\fp g16 fis es! d c)
+    c4( b8) r \pd b4.\fz r8
     r2 d!4\pE b~ %10
     b8 h~-> h16 c( d es) d8 b a c
     b r r4 r2
     r r4 r8 f(
-    des'4) es16( des c b ) b4( a8) es'(
+    des'4) es16( des c b ) b4( a8) \noBeam es'(
     ges4) f16( es des c) es4( des8) r %15
     R1
-    b2\fz c4 r
-    \mvTr c4\pE-\dolce h16( c h c) des4(-> c8) r
-    r4 r8 r16 c g'8.(\fp f16 e des c b)
-    b4( as8) r as4.\fz r8 %20
+    b2\f \once \partCombineChords c4 r
+    c4\pE h16( c h c) des4(-> c8) r
+    \pa r4 r8 r16 c g'8.(\fz f16 e des c b)
+    b4( as8) r \pd as4.\fz r8 %20
     r2 c!4\pE es
     des8 f,4 des'8 c4 b8 g
     as r r4 r2
-    r r4 r8 as(
-    c4) b16( as g f) f4( e8) b'( %25
-    des4) c16(\cresc b as g) b4( as8) r
+    r r4 r8 as(\p
+    c4) b16( as g f) f4( e8) \noBeam b'(\cresc %25
+    des4) c16( b as g) b4( as8)\! r
     d2\f es~ \noBreak
-    es4 c g r \bar "||"
+    es4 c g r \bar "|"
     \key c \major \time 3/4 \tempoDona \newSpacingSection
       R2.*8 %36
     r4 d'\p h
     g2.\f
     g4 r r
     R2. %40
-    r4 e'\pE\crescE c
+    r4 e' c
     g2\f g'4
     f a, d
     f2 h,4
@@ -672,6 +672,6 @@ AgnusFagottoI = {
     g4 r r
     R2.
     r4 g g %50
-    g r r\fermata \bar "|." %51 FINIS
+    g r r\fermata \bar "|." %51 finis
   }
 }

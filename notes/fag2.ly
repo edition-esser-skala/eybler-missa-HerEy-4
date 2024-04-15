@@ -609,7 +609,7 @@ AgnusFagottoII = {
     \clef bass
     \key c \minor \time 4/4 \tempoAgnus
     R1*5 %5
-    as2\fz g4 r
+    as!2\f g4 r
     R1
     d''4\p cis16( d cis d) es4(-> d8) r
     r2 e,4.\fz r8
@@ -617,29 +617,29 @@ AgnusFagottoII = {
     es c f f,
     b8 r r4 r2
     R1*4 %16
-    ges2\fz f4 r
+    ges2\f f4 r
     R1
-    \mvTr c''4\pE-\dolce h16( c h c) des4(-> c8) r
+    c''4\pE h16( c h c) des4(-> c8) r
     r2 d,!4.\fz r8 %20
     r2 as4\pE c!
     des b es es,
     as8 r r4 r2
     R1*3 %26
     f'2\f es \noBreak
-    as, g4 r \bar "||"
+    as,! g4 r \bar "|"
     \key c \major \time 3/4 \tempoDona \newSpacingSection
       R2.*8 %36
     r4 g'\p g
     h,2.\f
     c4 r r
     R2. %40
-    r4 c'\pE\cresc g
+    r4 c' g
     e2.\f
     f2 d4
     g2 g,4
     c r r %45
     R2.*4
     r4 c\p c %50
-    c r r\fermata \bar "|." %51 FINIS
+    c r r\fermata \bar "|." %51 finis
   }
 }

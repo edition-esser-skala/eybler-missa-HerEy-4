@@ -602,35 +602,35 @@ AgnusOboeII = {
     \clef treble
     \key c \minor \time 4/4 \tempoAgnus
     R1*5 %5
-    fis2\fz g4 r
+    fis2\f g4 r
     R1*2
     r2 g4.\fz r8
     r2 r8 b4\pE f8 %10
     es4 g f4. es8
     d r r4 r2
     R1*4 %16
-    e2\fz f4 r
+    e2\f f4 r
     R1*2
     r2 f4.\fz r8 %20
     r2 r8 as4\pE as8~
     as des4 f8 es as, g b
     as r r4 r2
     R1*3 %26
-    h2\f \once \tieDashed c~ \noBreak
-    c h4 r \bar "||"
+    h2\f c \noBreak
+    c h4 r \bar "|"
     \key c \major \time 3/4 \tempoDona \newSpacingSection
       R2.*8 %36
     r4 g\p h
     d2.\f
     c4 r r
     R2. %40
-    r4 g\pE\cresc c
+    r4 g c
     e\f c cis
     d a f
     d2 f4
     e r r %45
     R2.*4
     r4 c\p c %50
-    c r r\fermata \bar "|." %51 FINIS
+    c r r\fermata \bar "|." %51 finis
   }
 }

@@ -701,31 +701,31 @@ AgnusViolinoII = {
     c8.\p d16 es8-! f-! fis4( g8) r
     R1
     r8 g h,16( c f es) d8.( f16 as8) r
-    r d, h16( d es f) d4( es16) r32 c'\f c16.([\trill h64 c)]
+    r d, h16( d es f) d4( es16) r32 c'\f c16.[\trill h64 c]
     es4 c8-! g-! es16.-! g32-! d16.-! g32-! c,16.-! g'32-! b,!16.-! g'32-! %5
-    as,8-! r16. h32-! c16.-! d32-! es16.-! c32-! h8 <g'' h, d, g,> r4
-    d,4\p cis16( d cis d) es4(-> d8) r
-    r c( b g) c8.(-> a16 a'8) r
-    d,4 e16(\cresc fis g a) b4(\fz g8) r
+    as,!8-! r16. h32-! c16.-! d32-! es16.-! c32-! h8 <g'' h, d, g,> r4
+    d,4(\p cis16 d cis d) es4(-> d8) r
+    r c( b g) c8.( a16 a'8) r
+    d,4(\cresc e16 fis g a) b4(\fz g8) r
     r a,4->\p c8 b4 r %10
     R1
-    b8. c16 des8-! es-! e4( f8) r
+    b8.\p c16 des8-! es-! e4( f8) r
     R1
     r8 f a,16( b es des) c8.( es16 ges8) r
-    r c, a16( c des es) c4( des16) r32 b'\f b16.([\trill a64 b)] %15
+    r c, a16( c des es) c4( des16) r32 b'\f b16._[\trill a64 b] %15
     des4 b8-! f-! des16.-! f32-! c16.-! f32-! b,16.-! f'32-! as,!16.-! f'32-!
     e8-! r16. a,32-! b16.-! c32-! des16.-! b32-! a8 <c f a> r4
-    r8 f(\p g as) b8.(-\parenthesize-> g16 b8) r
-    r c,4( as8) g4(-\parenthesize-> g'8) r
-    c,4 d!16(\cresc e f g) as4(\fz f8) r %20
+    r8 f(\p g as) b8.( g16 b8) r
+    r c,4( as8) g4( g'8) r
+    c,4\cresc d!16( e f g) as4(\fz f8) r %20
     r g,4->\p b8 as4 r
     R1
-    as8. b16 c8-! des-! d4( es8) r
+    as8.\p b16 c8-! des-! d4( es8) r
     R1
-    r8 c c c b4. r8 %25
-    r b\cresc b b g4( as8) \once \slurDashed f'(\fE
-    as4) g16( f es d!) g4 f16( es d c) \noBreak
-    h( c es d) f( es d c) h g'(\p fis g) fis( g a f) \bar "||"
+    r8 c\p c c b4. r8 %25
+    r b\cresc b b g4( as8) \once \slurDashed f'(\f
+    as4) g16( f es! d!) g4 f16( es d c) \noBreak
+    h( c es d) f( es d c) h( g'\p fis g) fis( g a f) \bar "|"
     \key c \major \time 3/4 \tempoDona \newSpacingSection
       e8 g4 c8( e g) \noBreak
     g f4 d8( h f) %30
@@ -739,16 +739,16 @@ AgnusViolinoII = {
     f\f d4 g, f'8
     e g,4 e c8
     d\p g,4 d' f8 %40
-    e c4\cresc e g8
+    e c4\cresc e g8~
     g\f b4 g8( e b)
     a( cis d e f a)
     a( g e f d h)
-    c4 r r %45
+    c!4 r r %45
     r <d g,>\mf q
     <e g,> r r
     r <d g,>\p q
     <e g,> q q
     q2.~ %50
-    q4 r r\fermata \bar "|." %51 FINIS
+    q4 r r\fermata \bar "|." %51 finis
   }
 }

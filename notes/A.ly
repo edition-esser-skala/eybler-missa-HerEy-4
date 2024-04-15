@@ -1319,7 +1319,7 @@ AgnusAlto = {
     \key c \minor \time 4/4 \autoBeamOff \tempoAgnus
     R1
     \mvTrr f4\mf^\tuttiE es d c
-    r r8 g'\pE as4 as8 r
+    r r8 g' as4 as8 r
     r4 r8 g h4 c8 r
     r4 r8 g\f es4 c %5
     fis2 g4 r
@@ -1329,20 +1329,20 @@ AgnusAlto = {
     a,\p c es4 d! r %10
     R1*2
     es4\mf des c b
-    r r8 f'\pE ges4 ges8 r
+    r r8 f' ges4 ges8 r
     r4 r8 f a4 b8 r %15
     r4 r8 f\f des4 b
     b'2 a4 r
     r2 des,8.\p des16 c8 c
     c4 c8 r b8. b16 c8 c
     c8.([ e16)] f8 r r f4^> f8 %20
-    g,\pE b des4 c! r
+    g,\p b des4 c! r
     R1*2
     es4\mf es des c
-    r r8 c\pE des4 c8 r %25
-    r4 r8 c des4\cresc c8 f\f
+    r r8 c des4 c8 r %25
+    r4 r8 c\cresc des4 c8 f\f
     as4 h, c es \noBreak
-    r8 es d c h d r4 \bar "||"
+    r8 es d c h d r4 \bar "|"
     \key c \major \time 3/4 \tempoDona \newSpacingSection
       R2. \noBreak
     d2\p d4 %30
@@ -1355,7 +1355,7 @@ AgnusAlto = {
     g g r
     d'2.\f
     c4 r r
-    d,2.\pE %40
+    d,2.\p %40
     c4 r r
     c2\f cis4
     d( a') f
@@ -1366,7 +1366,7 @@ AgnusAlto = {
     h,2.\p
     c4 r r
     R2. %50
-    R\fermata \bar "|." %51 FINIS
+    R\fermata \bar "|." %51 finis
   }
 }
 
@@ -1378,8 +1378,8 @@ AgnusAltoLyrics = \lyricmode {
   mun -- di:
   Mi -- se -- re -- re
   no -- bis, mi -- se -- re -- re
-  no -- bis, \xE mi -- se --
-  re -- re no -- bis. \x %10
+  no -- bis, no -- bis
+  mi -- se -- re -- re. %10
 
   A -- gnus De -- i, %13
   qui tol -- lis,
@@ -1388,8 +1388,8 @@ AgnusAltoLyrics = \lyricmode {
   mun -- di:
   Mi -- se -- re -- re
   no -- bis, mi -- se -- re -- re
-  no -- bis, mi -- se -- %20
-  re -- re no -- bis.
+  no -- bis, no -- bis %20
+  mi -- se -- re -- re.
 
   A -- gnus De -- i, %24
   qui tol -- lis, %25
@@ -1416,5 +1416,5 @@ AgnusAltoLyrics = \lyricmode {
   no --
   bis
   pa --
-  cem. %49 FINIS
+  cem. %49 finis
 }

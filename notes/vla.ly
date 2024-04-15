@@ -740,39 +740,39 @@ AgnusViola = {
     c,8.\p d16 es8-! f-! fis4( g8) r
     R1
     r8 g( g') g as8.( f16 d8) r
-    r f( g) g \once \slurDashed g8.( h,16 c) r32 c'\f c16.([\trill h64 c)]
+    r f( g) g g8.( h,16 c) r32 c'\f c16.[\trill h64 c]
     es4 c8-! g-! es16.-! g32-! d16.-! g32-! c,16.-! g'32-! b,!16.-! g'32-! %5
-    as,8 as4 as8 g g' r4
-    r8 d,(\p c' b) a8.(-> b16 c8) r
+    as,!8 as4 as8 g g' r4
+    r8 d,(\p c' b) a8.( b16 c8) r
     r a( g b) a4(-> c8) r
-    r c( b\cresc a) g8.(\fzE b16 des8) r
+    r c(\cresc b a) g8.(\fz b16 des8) r
     r c4->\p a8 b4 r %10
     R1
-    b8. c16 des8-! es-! e4( f8) r
+    b8.\p c16 des8-! es-! e4( f8) r
     R1
-    r8 \slurDashed f,( f') f ges8.( es16 c8) r
-    r es( f) f f8.( a,16 b) \slurSolid r32 b'\f b16.([\trill a64 b)] %15
+    r8 f, f' f ges8.( es16 c8) r
+    r es( f) f f8.( a,16 b) r32 b'\f b16.[\trill a64 b] %15
     des4 b8-! f-! des16.-! f32-! c16.-! f32-! b,16.-! f'32-! as,!16.-! f'32-!
     ges,8 ges4 ges8 f f' r4
-    r8 c,(\p b' as) g8.(-> b16 g8) r
-    r b( as f) b8.->( g16 b8) r
-    r b( as\cresc g) f8.(\fz as16 ces8) r %20
+    r8 c,(\p b' as) g8.( b16 g8) r
+    r b( as f) b8.( g16 b8) r
+    r b(\cresc as g) f8.(\fz as16 \once \stemUp ces8) r %20
     r b4->\p g8 as4 r
     R1
-    as8. b16 c8-! des-! d4( es8) r
+    as8.\p b16 c8-! des-! d4( es8) r
     R1
-    r8 f, f f g4. r8 %25
+    r8 f,\p f f g4. r8 %25
     r g'\cresc g g e4( f8) r
     r d!\f f as r c, es g \noBreak
-    r c,, c' c, d4 r \bar "||"
+    r c,, c' c, d4 r \bar "|"
     \key c \major \time 3/4 \tempoDona \newSpacingSection
-      e'4(\p c g) \noBreak
-    d'( h g) %30
-    e'( c g)
-    d'( h g)
-    e'( c g)
+      e'4(\p c) g \noBreak
+    d'( h) g %30
+    e'( c) g
+    d'( h) g
+    e'( c) g
     a( c e)
-    f d a'~ %35
+    f( d a')~ %35
     a a, a'
     g g, g'
     g,\f g' g,~
@@ -781,13 +781,13 @@ AgnusViola = {
     g g'\cresc e
     c\f e g
     f a, a'
-    h, d f
+    h,! d f
     e r r %45
     r h\mf h
     c r r
     r h\p h
     c <c c,> q
     q2.~ %50
-    q4 r r\fermata \bar "|." %51 FINIS
+    q4 r r\fermata \bar "|." %51 finis
   }
 }

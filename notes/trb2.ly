@@ -53,3 +53,34 @@ BenedictusTromboneII = {
     r4 r8 r r\fermata \bar "|." %56 finis
   }
 }
+
+AgnusTromboneII = {
+  \relative c' {
+    \clef tenor
+    \key c \minor \time 4/4 \tempoAgnus
+    R1*3
+    r2 r4 r8 c\f
+    es4 c8-! g-! es-! d-! c-! b'!-! %5
+    as!2\fz g4 r
+    R1*8 %14
+    r2 r4 r8 b\f %15
+    des4 b8-! f-! des-! c-! b-! as'!-!
+    ges2\fz f4 r
+    R1*9 %26
+    d'!4\f h c es \noBreak
+    c2 h4 r \bar "|"
+    \key c \major \time 3/4 \tempoDona \newSpacingSection
+      R2.*9 %37
+    g2.\f
+    c4 r r
+    R2.*2 %41
+    c2\f cis4
+    d4 r r
+    g,2.
+    e4 r r %45
+    R2.*3
+    r4 c\p c
+    c r r %50
+    R2.\fermata \bar "|." %51 finis
+  }
+}

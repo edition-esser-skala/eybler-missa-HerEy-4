@@ -705,32 +705,32 @@ AgnusViolinoI = {
     \key c \minor \time 4/4 \tempoAgnus
     c8.\p d16 es8-! f-! fis4( g8) r
     r2 r4 r8 g(
-    es'4) f16( es d c) c4( h8) f'(
-    as4) g16( f es d) f4( es16) r32 c\f c16.([\trill h64 c)]
+    es'4) f16( es d c) c4( h8) \noBeam f'(
+    as4) g16( f es d) f4( es16) r32 c\f c16.[\trill h64 c]
     es4 c8-! g-! es16.-! g32-! d16.-! g32-! c,16.-! g'32-! b,!16.-! g'32-! %5
-    as,16.-! h'32-! c16.-! d32-! es16.-! h32-! c16.-! fis,32-! g8 <g' h, d, g,> r4
-    d4\p cis16( d cis d) es4(-> d8) r
-    d,4 cis16( d cis d) es4(-\parenthesize-> d8) r
-    d'4 e16(\cresc fis g a) b8.(\fz g16) e(\decresc cis b g)
-    f8\p ges4->( f16 es) d!4 r %10
+    as,!16.-! h'32-! c16.-! d32-! es16.-! h32-! c16.-! fis,32-! g8 <g' h, d, g,> r4
+    d4(\p cis16 d cis d) es4(-> d8) r
+    d,4( cis16 d cis d) es4(-> d8) r
+    d'4(\cresc e16 fis g a) b8.(\fz g16 e\decresc cis b g)
+    f8(\p ges4-> f16 es) d!4 r %10
     R1
-    b8. c16 des8-! es-! e4( f8) r
+    b8.\p c16 des8-! es-! e4( f8) r
     r2 r4 r8 f(
-    des'4) es16( des c b) b4( a8) es'(
-    ges4) f16( es des c) es4( des16) r32 b\f b16.([\trill a64 b)] %15
+    des'4) es16( des c b) b4( a8) \noBeam es'(
+    ges4) f16( es des c) es4( des16) r32 b\f b16._[\trill a64 b] %15
     des4 b8-! f-! des16.-! f32-! c16.-! f32-! b,16.-! f'32-! as,!16.-! f'32-!
     e16.-! a32-! b16.-! c32-! des16.-! a32-! b16.-! e,32-! f8 <f c' f> r4
     c'4\p h16( c h c) des4(-> c8) r
     c,4 h16( c h c) des4(-> c8) r
-    c'4 d!16(\cresc e f g) as8.(\fz f16) d(\decresc h as f) %20
-    es8\p fes4(-> es16 des) c!4 r
+    c'4\cresc d!16( e f g) as8.(\fz f16) d(\decresc h as! f) %20
+    es8(\p fes4-> es16 des) c!4 r
     R1
-    as8. b16 c8-! des-! d4( es8) r
-    r2 r4 r8 as(
-    c4) b16( as g f) f4( e8) b'( %25
-    des4) c16(\crescE b as g) b4( as8) f'(\f
-    as4) g16( f es d) g4 f16( es d c) \noBreak
-    h( c es d) f( es d c) h g(\p fis g) fis( g a f) \bar "||"
+    as8.\p b16 c8-! des-! d4( es8) r
+    r2 r4 r8 as(\p
+    c4) b16( as g f) f4( e8) \noBeam b'(\cresc %25
+    des4) c16( b as g) b4( as8) \noBeam f'(\f
+    as4) g16( f es! d) g4 f16( es d c) \noBreak
+    h( c es d) f( es d c) h( g\p fis g) fis( g a f) \bar "|"
     \key c \major \time 3/4 \tempoDona \newSpacingSection
       e8 g4 c8( e g) \noBreak
     g f4 d8( h f) %30
@@ -747,13 +747,14 @@ AgnusViolinoI = {
     e g4\cresc c e8
     g\f b4 g8( e b)
     a( cis d e f a)
-    a( g e f d h)
-    c-! e(\mf h c e, a) %45
+    a(
+       g e f d h)
+    c!-! e(\mf h c e, a) %45
     g4 r r
     r8 e'(\p h c e, a)
     g4 r r
-    r8 g,\< c e g c\!
-    e4.\> c8( g e)\! %50
-    c4 r r\fermata \bar "|." %51 FINIS
+    r8 g,\< c e g c
+    e4.\> c8( g e) %50
+    c4\! r r\fermata \bar "|." %51 finis
   }
 }

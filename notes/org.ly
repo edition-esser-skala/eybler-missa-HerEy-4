@@ -1295,7 +1295,7 @@ BenedictusOrgano = {
 }
 
 BenedictusBassFigures = \figuremode {
-  r8 <6>2.
+  r8 \bo <[6 _ _]>2.
   r2.
   <6>4. q
   r2.
@@ -1348,7 +1348,7 @@ BenedictusBassFigures = \figuremode {
   <6>4 <5> <6>8 q
   q4 <7 5 _+>8 <\t \t \t> <5 3>4
   r8 <7> <5> r <7> <5>
-  <6>4 <7>8 r4.
+  <6>4 \bc <[7 _ _]>8 r4.
   r2. %55
   r4. r4 %56 finis
 }
@@ -1360,31 +1360,31 @@ AgnusOrgano = {
     \mvTr c8.\p-\solo d16 es8-! f-! fis4( g8) r
     R1
     r8 c,( d es) f f, r4
-    r8 h( d g) c, c' r16. c32\f c16.([\trill h64 c)]
+    r8 h( d g) c, c' r16. c32\f c16.[\trill h64 c]
     es4 c8-! g-! es-! d-! c-! b-! %5
-    as as'4 as8 g g, r4
+    as! as'4 as8 g g, r4
     r8 b'!(\p a g) fis fis, r4
     r8 g( b d) fis, fis' r4
-    r8 g, g'\cresc f e\fz e, r e'
+    r8 g,\cresc g' f e\fz e, r e'
     f4\p f, b r %10
     R1
     b8. c16 des8-! es-! e4( f8) r
     R1
     r8 b,( c des) es es, r4
-    r8 a( c f) b, b' r16. b32\f b16.([\trill a64 b)] %15
+    r8 a( c f) b, b' r16. b32\f b16.[\trill a64 b] %15
     des4 b8-! f-! des-! c-! b-! as-!
     ges ges'4 ges8 f f, r4
     r8 as'!(\p g f) e e, r4
     r8 f( as c) e, e' r4
-    r8 f,\cresc f' es d!\fzE d, r d' %20
-    es4\pE es, as r
+    r8 f,\cresc f' es d!\fz d, r d'\p %20
+    es4 es, as r
     R1
-    as8. b16 c8-! des-! d4( es8) r
+    as8.\p b16 c8-! des-! d4( es8) r
     R1
-    r8 as as as g4. r8 %25
+    r8 as\p as as g4. r8 %25
     r8 e\cresc e e f4. r8
     r \mvTr h,\f-\tutti d! f r es g c \noBreak
-    as,2 g4 r \bar "||"
+    as,!2 g4 r \bar "|"
     \key c \major \time 3/4 \tempoDona \newSpacingSection
       \mvTr c4\p-\solo e g \noBreak
     h, d g %30
@@ -1408,60 +1408,60 @@ AgnusOrgano = {
     r g,\p g
     c g' e
     c2.~ %50
-    c4 r r\fermata \bar "|." %51 FINIS
+    c4 r r\fermata \bar "|." %51 finis
   }
 }
 
 AgnusBassFigures = \figuremode {
   r1
   r
-  r4 <6!>8 <6> <6 5 3>4 <\t 4! \t>
-  <7>8 <\t> <6!> <\t> <9 4>4 <8 3>
+  r4 \bo <[6! _ _]>8 <6> <6 5 3>4 <\t 4! \t>
+  <7>8 <\t> <6!>4 <7! 4> <8 3>
   <6>1 %5
   <6\\>2 <_!>
-  r8 <6> <6\\> <_-> <7 _!>4 <6 \t>
-  <9! 4>8 <\t \t> <6> <\t> <7 _!>4 <6 \t>
-  <9! 4>8 <\t \t> <8 3> <\t \t> <7->4. <\t>8
-  <8 5 _!>8 \bassFigureExtendersOn <9- 7 _!> q <8 5 _!> \bassFigureExtendersOff <_!>2 %10
+  r8 <6> <6\\>4 <7 _!> <6 \t>
+  <9! 4>8 <\t \t> <6>4 <7 _!> <6 \t>
+  <9! 4>8 <\t \t> <8 3> <\t \t> <7->2
+  <8 5 _!>8 \bassFigureExtendersOn <9- 7 _!> <9- 7 _!> <8 7 _!> \bassFigureExtendersOff <_!>2 %10
   r1
   r
   r
   r8 <_-> <6!> <6> <6 5 _->4 <\t 4! \t>
-  <7->8 <\t> <6!> <\t> <9 4> <\t \t> <8 _->4 %15
+  <7->8 <\t> <6!>4 <7! 4> <8 _-> %15
   <6>1
   <6! 5->2 <_!>
   r8 <6> <6!> <_-> <7->4 <6>
-  <9 4>8 <\t \t> <6> <\t> <7->4 <6>
+  <9 4>8 <\t \t> <6>4 <7-> <6>
   <9 4>8 <\t \t> <8 3> <\t \t> <7->4. <\t>8 %20
-  <8 5 3>8 \bassFigureExtendersOn <9- 7- 3> q <8 5 3> \bassFigureExtendersOff <_!>2
+  <8 5>8 <9- 7-> <\t \t> <8 \t> <_!>2
   r1
   r
   r
   r8 <6>4. <7 5->4 <6! 4> %25
-  <7- 5>8 <\t \t> <6 \t>4 <7! 6- 4> <8 5 3>
-  r8 <7> <6!> <4! 3> r <6>4 \bassFigureExtendersOn q8 \bassFigureExtendersOff
+  <7- 5>8 <\t \t> <6 \t>4 <7! 6- 4> \bc <[8 5 3]>
+  r8 <7>2 <6>4.
   <6\\>2 <_!>
   r2.
-  <6 5> %30
+  \bo <[6 5]> %30
   r
-  <6 5>
-  r
+  <6>2 <7>4
+  r2.
   r2 <4\+ 2>4
   <6>2 <6\\>4 %35
   <4>4 <\t>8 <3> <7> <6>
   <6 4!>4 <5 3>2
   <6 5>2.
   r
-  <6>2 <5>4 %40
+  <6>2 \bc <[5 _]>4 %40
   r2.
   <6>2 <6\\ 5->4
   <6>2.
-  <_!>
+  <7 _!>
   r %45
-  r4 <8> <7>
+  r
+  r
+  r4 <7>2
   r2.
-  r4 <8> <7>
-  <5 3>2. \bassFigureExtendersOn
-  q %50
-  q4 \bassFigureExtendersOff r r %51 FINIS
+  r %50
+  r %51 finis
 }

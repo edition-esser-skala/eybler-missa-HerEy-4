@@ -1276,30 +1276,30 @@ AgnusBasso = {
     \key c \minor \time 4/4 \autoBeamOff \tempoAgnus
     R1
     \mvTrr h'4\mf^\tuttiE c g c,
-    r r8 es\pE f4 f8 r
+    r r8 es f4 f8 r
     r4 r8 g c4 c,8 r
     r4 r8 g'\f es4 c %5
-    as2 g4 r
+    as!2 g4 r
     r2 fis'8.\p fis16 fis8 fis
     g4 g8 r fis8. fis16 fis8 fis
     g4 g8 r r e4^> e8
-    f\p f f4 b, r %10
+    f!\p f f4 b, r %10
     R1*2
     a'4\mf b f b,
-    r r8 des\pE es4 es8 r
+    r r8 des es4 es8 r
     r4 r8 f b4 b,8 r %15
     r4 r8 f'\f des4 b
     ges'2 f4 r
     r2 e8.\p e16 e8 e
     f4 f8 r e8. e16 e8 e
     f4 f8 r r d!4^> d8 %20
-    es\p es es4 as, r
+    es!\p es es4 as, r
     R1*2
     g'4\mf as es as,
-    r r8 c\pE des4 c8 r %25
-    r4 r8 c des4\cresc c8 r
-    r \mvTr h\f^\critnote d f r es! g c \noBreak
-    as,2 g4 r \bar "||"
+    r r8 c des4 c8 r %25
+    r4 r8 c\cresc des4 c8 r
+    r d\f f as r es g c \noBreak
+    as,!2 g4 r \bar "|"
     \key c \major \time 3/4 \tempoDona \newSpacingSection
       R2. \noBreak
     h2\p h4 %30
@@ -1312,18 +1312,18 @@ AgnusBasso = {
     g g r
     h2.\f
     c4 r r
-    h,2.\pE %40
+    h,2.\p %40
     c4 r r
-    e2\fE e4
+    e2\f e4
     f2 d4
     g2.
     c,4 r r %45
-    h'2.\mfE
+    h'2.\mf
     c4 r r
     g,2.\p
     c4 r r
     R2. %50
-    R\fermata \bar "|." %51 FINIS
+    R\fermata \bar "|." %51 finis
   }
 }
 
@@ -1335,8 +1335,8 @@ AgnusBassoLyrics = \lyricmode {
   mun -- di:
   Mi -- se -- re -- re
   no -- bis, mi -- se -- re -- re
-  no -- bis, mi -- se --
-  re -- re no -- bis. %10
+  no -- bis, no -- bis
+  mi -- se -- re -- re. %10
 
   A -- gnus De -- i, %13
   qui tol -- lis,
@@ -1345,8 +1345,8 @@ AgnusBassoLyrics = \lyricmode {
   mun -- di:
   Mi -- se -- re -- re
   no -- bis, mi -- se -- re -- re
-  no -- bis, mi -- se -- %20
-  re -- re no -- bis.
+  no -- bis, no -- bis %20
+  mi -- se -- re -- re.
 
   A -- gnus De -- i, %24
   qui tol -- lis, %25
@@ -1359,7 +1359,7 @@ AgnusBassoLyrics = \lyricmode {
   pa --
   cem,
   do -- na,
-  \xE do -- na \x %35
+  do -- na %35
   no -- bis
   pa -- cem,
   do --
@@ -1373,5 +1373,5 @@ AgnusBassoLyrics = \lyricmode {
   no --
   bis
   pa --
-  cem. %49 FINIS
+  cem. %49 finis
 }

@@ -1319,7 +1319,7 @@ AgnusTenore = {
     \key c \minor \time 4/4 \autoBeamOff \tempoAgnus
     R1
     \mvTrr d4\mf^\tuttiE es h c
-    r r8 c\pE d4 d8 r
+    r r8 c d4 d8 r
     r4 r8 h d4 c8 r
     r4 r8 g\f es4 c %5
     c'2 d4 r
@@ -1329,20 +1329,20 @@ AgnusTenore = {
     c\p es a,4 b r %10
     R1*2
     c4\mf des a b
-    r r8 b\pE c4 c8 r
+    r r8 b c4 c8 r
     r4 r8 a c4 b8 r %15
-    r4 r8 f\fE des'4 b
+    r4 r8 f\f des'4 b
     b2 c4 r
-    r2 b8.\p b16 c([ b)] as([ g)]
+    r2 b8.\p b16 c([ b)] as!([ g)]
     g8.([ as16)] f8 r g8. g16 g8 g
     b4 as8 r r as4^> ces8 %20
     b\p des g,4 as r
     R1*2
     b4\mf as g as
-    r r8 c\pE des4 c8 r %25
-    r4 r8 c des4\crescE c8 r
+    r r8 c des4 c8 r %25
+    r4 r8 c\cresc des4 c8 r
     r4 r8 d\f g4 c, \noBreak
-    r8 c d es g, h r4 \bar "||"
+    r8 c d es g, h r4 \bar "|"
     \key c \major \time 4/4 \tempoDona \newSpacingSection
       R2. \noBreak
     g2\p g4 %30
@@ -1366,7 +1366,7 @@ AgnusTenore = {
     f,2.\p
     e4 r r
     R2. %50
-    R\fermata \bar "|." %51 FINIS
+    R\fermata \bar "|." %51 finis
   }
 }
 
@@ -1378,8 +1378,8 @@ AgnusTenoreLyrics = \lyricmode {
   mun -- di:
   Mi -- se -- re -- re
   no -- bis, mi -- se -- re -- re
-  no -- bis, \xE mi -- se --
-  re -- re no -- bis. \x %10
+  no -- bis, no -- bis
+  mi -- se -- re -- re. %10
 
   A -- gnus De -- i, %13
   qui tol -- lis,
@@ -1388,8 +1388,8 @@ AgnusTenoreLyrics = \lyricmode {
   mun -- di:
   Mi -- se -- re -- re
   no -- bis, mi -- se -- re -- re
-  no -- bis, mi -- se -- %20
-  re -- re no -- bis.
+  no -- bis, no -- bis %20
+  mi -- se -- re -- re.
 
   A -- gnus De -- i, %24
   qui tol -- lis, %25
@@ -1416,5 +1416,5 @@ AgnusTenoreLyrics = \lyricmode {
   no --
   bis
   pa --
-  cem. %49 FINIS
+  cem. %49 finis
 }

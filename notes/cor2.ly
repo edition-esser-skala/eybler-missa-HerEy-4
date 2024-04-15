@@ -435,11 +435,11 @@ AgnusCornoII = {
     \clef treble
     \key c \major \time 4/4 \tempoAgnus
     R1*5 %5
-    c2\fz g'4 r
+    c2\f g'4 r
     R1*10 %16
-    b2\fz c4 r
+    b2\f c4 r
     R1*10 \noBreak %27
-    c,2\f g'4 r \bar "||"
+    c,2\f g'4 r \bar "|"
     \time 3/4 \tempoDona \newSpacingSection
       R2.*9 %37
     g2.\f

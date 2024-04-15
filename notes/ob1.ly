@@ -601,46 +601,46 @@ AgnusOboeI = {
     \clef treble
     \key c \minor \time 4/4 \tempoAgnus
     R1*2
-    r2 r4 r8 \mvTr f'(\pE-\dolceE
+    r2 r4 r8 f'(\pE
     as4) g16( f es d) f4( es8) r
     R1 %5
-    c2\fz h4 r
-    r4 r8. d16 a'8.(\fp g16 fis es! d c)
+    c2\f h4 r
+    r4 r8. d16 a'8..(\fp g32 fis16 es! d c)
     c4( b8) r r2
     r des4.\fz r8
-    r2 f4\pE e16( f b a) %10
-    a8.-> g16 f( es d c) b8-> d~ d16( c es a,)
+    r2 \pa f4\pE e16( f b a) %10
+    a8.(-> g16 f es d c) b8 d~-> d16( c es a,) \pd
     b8 r r4 r2
     R1
     r2 r4 r8 es(
     ges4) f16( es des c) es4( des8) r %15
     R1
-    b2\fz a4 r
-    r r8. c16 g'8.(\fp f16 e des c b!)
-    b4( as8) r r2
+    b2\f a4 r
+    r r8. c16 g'!8.(\fz f16 e des c b!)
+    \once \slurDashed b4( as8) r r2
     r ces4.\fz r8 %20
-    r2 \mvTr es4~\pE es16( f g as)
-    e8 f~ f16 des' c b as c, es8~ es16( d des b)
-    as8 r r4 r2
-    r r4 r8 \once \slurDashed as(
-    c4) b16( as g f) \slurDashed f4( e8) b'( %25
-    des?4) \slurSolid c16(\cresc b as g) b4( as8) r
-    as'2\f g4 r \noBreak
-    fis,2 g4 r \bar "||"
+    r2 \pa es4~\pE es16( f g as)
+    e8 f~ f16( des' c b) as c, es8~-> es16( d des b)
+    as8 \pd r r4 r2
+    r r4 r8 as(\p
+    c4) b16( as g f) f4( e8) b'(\cresc %25
+    des4) c16( b as g) b4( as8)\! r
+    as'!2\f g4 g, \noBreak
+    fis2 g4 r \bar "|"
     \key c \major \time 3/4 \tempoDona \newSpacingSection
       R2.*8 %36
     r4 h\p d
     f2.\f
     e4 r r
     R2. %40
-    r4 c\pE\crescE e
+    r4 c e
     g2\f b4
     a8( cis, d e f a)
-    h,2 d4
-    c8 e(\mf h c e, a) %45
+    h,!2 d4
+    c8-! e(\mf h c e, a) %45
     g4 r r
     R2.*3
     r4 e\p e %50
-    e r r\fermata \bar "|." %51 FINIS
+    e r r\fermata \bar "|." %51 finis
   }
 }
