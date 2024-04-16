@@ -1,24 +1,19 @@
 \version "2.24.2"
 
 #(define option-movement-title-format "number-title")
-#(define option-print-all-bar-numbers #t)
+#(define option-print-all-bar-numbers #f)
 \include "ees.ly"
-\include "ees_articulate.ly"
+% \include "ees_articulate.ly"
 
 
 fzp  = \dynScript "fzp" ##f
+hA = \once \override Accidental.stencil = ##f
 perd = #(make-music
   'DecrescendoEvent
   'span-direction START
   'span-type 'text
   'span-text (markup (#:normal-text #:small "perd.")))
-sulG = #(make-music
-  'CrescendoEvent
-  'span-direction START
-  'span-type 'text
-  'span-text (markup (#:normal-text #:small "sul G"))
-)
-partialQuarter = \set Timing.measurePosition = #(ly:make-moment -1/4)
+trillFlat = \tweak self-alignment-X #CENTER ^\markup { { \teeny \raise #.5 \flat } \musicglyph #'"scripts.trill" }
 
 
 tempoKyrie = \tempoMarkup "Andante"
@@ -43,6 +38,8 @@ tempoAgnus = \tempoMarkup "Adagio"
 \include "notes/cor2.ly"
 \include "notes/clno1.ly"
 \include "notes/clno2.ly"
+\include "notes/trb1.ly"
+\include "notes/trb2.ly"
 \include "notes/timp.ly"
 \include "notes/vl1.ly"
 \include "notes/vl2.ly"

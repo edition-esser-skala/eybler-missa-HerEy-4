@@ -4,7 +4,7 @@ composer:
 title: Missa Sancti Mauritii
 id: HerEy 4
 genre: mass
-scoring: S, A, T, B (coro), 2 ob, 2 fag, 2 cor (C/F),\\2 clno (C), timp (C–G), 2 vl, vla, vlc, b, org
+scoring: S, A, T, B (coro), 2 ob, 2 fag, 2 cor (C/F),\\2 clno (C), 2 trb, timp (C–G), 2 vl, vla, vlc, b, org
 license: cc-by-sa-4.0
 sources:
   A1:
@@ -13,7 +13,7 @@ sources:
     date: 1825
     license: public domain
     principal: true
-    notes: full score; 11 pages
+    notes: full score, 91 pages; cor 1/2 are written on three separate pages
   B1:
     siglum: D-NATk
     shelfmark: NA/SP (E-20)
