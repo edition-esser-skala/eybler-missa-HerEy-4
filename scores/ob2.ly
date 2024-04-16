@@ -8,7 +8,7 @@
   \bookpart {
     \section "1" "Kyrie"
     \addTocEntry
-    \paper { indent = 2\cm }
+    \paper { indent = 2\cm systems-per-page = #7 }
     \score {
       <<
         \new Staff {

@@ -1,7 +1,7 @@
 \version "2.24.2"
 
 \include "../definitions.ly"
-#(define option-instrument-name (markup #:center-column ("vla" "1, 2")))
+#(define option-instrument-name "vla")
 \include "score_settings/one-staff.ly"
 
 \book {
@@ -12,7 +12,7 @@
     \score {
       <<
         \new Staff {
-          \set Staff.instrumentName = \markup \center-column { "Viola" "I, II" }
+          \set Staff.instrumentName = "Viole"
           \KyrieViola
         }
       >>
