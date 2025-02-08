@@ -3,6 +3,12 @@
 \include "../definitions.ly"
 \include "score_settings/full-score.ly"
 
+% for print
+% \paper {
+%   outer-margin = 1.7\cm
+%   inner-margin = 1.8\cm
+% }
+
 \paper {
   top-system-spacing.basic-distance = #15
   top-system-spacing.minimum-distance = #15
